@@ -3,21 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./media/images/icon.ico"> <!-- Icon -->
+    <link rel="stylesheet" href="./styles/styles.css" type="image/x-icon">
+    <title>Portafolio</title>
 </head>
 <body>
-    <h1>Mi portafolio</h1>
-    <h2>Santiago Sánchez Ruiz</h2>
-    <a href="historia_u_m2s1/mascotas.html">Mascotas</a><br>
-    <a href="https://github.com/SrLampi1001/historia_usuario_1">Historia de Usuario 1 Modulo 1</a><br>
-    <a href="https://github.com/SrLampi1001/historia_usuario_2">Historia Usuario 2 Modulo 1</a><br>
-    <a href="https://github.com/SrLampi1001/historia_usuario_3">Historia Usuario 3 Modulo 1</a><br>
-    <a href="https://github.com/SrLampi1001/taller1_riwi">Taller 1 Modulo 1</a><br>
-    <a href="https://github.com/SrLampi1001/taller2_riwi">Taller 2 Modulo 1</a><br>
-    <a href="https://github.com/SrLampi1001/Mini_proyecto_python">Mini proyectos Python Modulo 1</a><br>
-    <a href="https://github.com/nicogarzonhub/Mini_proyecto">Mini proyecto Pandas, Json y CSV Modulo 1</a></br>
-    <a href="https://github.com/SrLampi1001/taller_practico_gestion_notas">Taller práctico gestión de notas Modulo 1</a><br>
-    <a href="https://github.com/SrLampi1001/prueba_desempe-o_modulo_1">Prueba desempeño modulo 1</a><br>
-    <a href="https://github.com/SrLampi1001/kepler_page">HTML Historia M2 Kepler 22-B</a><br>
+    <div class="margin-container"> <!-- Container with margin on left and right -->
+        <header class="main-header"> <!-- Main header, re-appears when db-click -->
+            <nav class="header-nav"> <!-- Nav for semantic HTML purporses, mainly just inherits the header styles is contained -->
+                <ul class="nav-list"> <!-- List especifically for navs -->
+                    <li class="header-h1"><a href="./index.html" class="inherit-a">Mi portafolio</a></li>
+                    <li class="header-h2">Santiago Sánchez Ruiz</li>
+                    <li class="nav-item"><a href="tel:+57-313-225-1924" class="inherit-a phone-logo">3132251924</a></li>
+                    <li class="nav-item"><a href="mailto:sanchezsantiago1001@gmail.com" class="inherit-a email-logo">sanchezsantiago1001@gmail.com</a></li>
+                    <li class="nav-item"><a href="https://github.com/SrLampi1001" class="inherit-a github-logo">SrLampi1001</a></li>
+                </ul>            
+            </nav>
+        </header>
+        <aside class="fixed-left"> <!-- Aside for in-page navigation, Semantic HTML -->
+            <nav class="navbar">
+                <ul class="nav-bar">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-container"> <!-- Main container, with all the relevant information -->
+            <section class="card-container grid"> <!-- Section for showing the various proyects, currently all, in future will be separated into more specific subsections -->
+                <article class="card-article"> <!-- Article card for proyect -->
+                    <img src="./media/images/example.jp" alt="img" class="top-image"> <!-- Top image specifically for card containers -->
+                    <div class="card-body"> <!-- The body of the card, inspired on Bootstrap -->
+                        <h2 class="card-title"><a href="./historia_u_m2s1/mascotas.html" class="inherit-a">Mascotas</a></h2>
+                        <p class="card-text">
+                            Este proyecto es una simple página de HTML en la que se exponen mis habilidades más básicas para crear HTML y esitlar con CSS
+                        </p>
+                    </div>
+                </article>
+                <a href="https://github.com/SrLampi1001/historia_usuario_1">Historia de Usuario 1 Modulo 1</a><br>
+                <a href="https://github.com/SrLampi1001/historia_usuario_2">Historia Usuario 2 Modulo 1</a><br>
+                <a href="https://github.com/SrLampi1001/historia_usuario_3">Historia Usuario 3 Modulo 1</a><br>
+                <a href="https://github.com/SrLampi1001/taller1_riwi">Taller 1 Modulo 1</a><br>
+                <a href="https://github.com/SrLampi1001/taller2_riwi">Taller 2 Modulo 1</a><br>
+                <a href="https://github.com/SrLampi1001/Mini_proyecto_python">Mini proyectos Python Modulo 1</a><br>
+                <a href="https://github.com/nicogarzonhub/Mini_proyecto">Mini proyecto Pandas, Json y CSV Modulo 1</a></br>
+                <a href="https://github.com/SrLampi1001/taller_practico_gestion_notas">Taller práctico gestión de notas Modulo 1</a><br>
+                <a href="https://github.com/SrLampi1001/prueba_desempe-o_modulo_1">Prueba desempeño modulo 1</a><br>
+                <a href="https://github.com/SrLampi1001/kepler_page">HTML Historia M2 Kepler 22-B</a><br>
+            </section>
+        </main>
+        <footer class="main-footer"> <!-- Footer, semantic HTML -->
+            <!-- Pending for content -->
+        </footer>
+    </div>
+    <script src="./js/main.js"></script> <!-- Script for page funcionalities -->
 </body>
 </html>
