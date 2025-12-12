@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./media/images/icon.ico"> <!-- Icon -->
-    <link rel="stylesheet" href="./styles/styles.css" type="image/x-icon">
+    <link rel="icon" href="./media/images/icon.ico" type="image/x-icon"> <!-- Icon -->
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Portafolio</title>
 </head>
 <body>
-    <div class="margin-container"> <!-- Container with margin on left and right -->
+    <div class="padding-container"> <!-- Container with margin on left and right -->
         <header class="main-header"> <!-- Main header, re-appears when db-click -->
             <nav class="header-nav"> <!-- Nav for semantic HTML purporses, mainly just inherits the header styles is contained -->
                 <ul class="nav-list"> <!-- List especifically for navs -->
                     <li class="header-h1"><a href="./index.html" class="inherit-a">Mi portafolio</a></li>
-                    <li class="header-h2">Santiago Sánchez Ruiz</li>
+                    <li class="header-h2">Santiago</li>
                     <li class="nav-item"><a href="tel:+57-313-225-1924" class="inherit-a phone-logo">3132251924</a></li>
                     <li class="nav-item"><a href="mailto:sanchezsantiago1001@gmail.com" class="inherit-a email-logo">sanchezsantiago1001@gmail.com</a></li>
                     <li class="nav-item"><a href="https://github.com/SrLampi1001" class="inherit-a github-logo">SrLampi1001</a></li>
@@ -23,35 +23,78 @@
         <aside class="fixed-left"> <!-- Aside for in-page navigation, Semantic HTML -->
             <nav class="navbar">
                 <ul class="nav-bar">
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
+                    <li class="nav-item"><a href="#my-section" class="inherit-a">Acerca de mí</a></li>
+                    <li class="nav-item"><a href="#proyects-slider" class="inherit-a">Mis proyectos básicos</a></li>
+                    <li class="nav-item"><a href="#profesional-proyects" class="inherit-a">Mis proyectos profesionales</a></li>
+                    <li class="nav-item"><a href="#my-simple-applications" class="inherti-a">Mis aplicaciones</a></li>
+                    <li class="nav-item"><a href="#my-experience" class="inherit-a">Mi experiencia</a></li>
                 </ul>
             </nav>
         </aside>
         <main class="main-container"> <!-- Main container, with all the relevant information -->
+            <section id="my-section" class="card g-6-rows">
+                <img src="./media/images/example.png" alt="SrLampi1001" class="left-image">
+                <h2 class="card-title">Santiago Sánchez Ruiz</h2>
+                <p class="card-text">Nacimiento: 24/12/2005</p>
+                <p class="card-text">Programador, orientado en Riwi, especializado en Backend y aplicaciones web, con conocimiento en HAXE, lenguaje con transpilación disponible para todos los mayores lenguajes (C#, C++, Java, Javascript, Python, etc)</p>
+                <p class="card-text">Programador, orientado en Riwi, especializado en Backend y aplicaciones web, con conocimiento en HAXE, lenguaje con transpilación disponible para todos los mayores lenguajes (C#, C++, Java, Javascript, Python, etc)</p>
+            </section>
             <section class="card-container grid"> <!-- Section for showing the various proyects, currently all, in future will be separated into more specific subsections -->
                 <article class="card-article"> <!-- Article card for proyect -->
-                    <img src="./media/images/example.jp" alt="img" class="top-image"> <!-- Top image specifically for card containers -->
-                    <div class="card-body"> <!-- The body of the card, inspired on Bootstrap -->
-                        <h2 class="card-title"><a href="./historia_u_m2s1/mascotas.html" class="inherit-a">Mascotas</a></h2>
-                        <p class="card-text">
-                            Este proyecto es una simple página de HTML en la que se exponen mis habilidades más básicas para crear HTML y esitlar con CSS
-                        </p>
-                    </div>
+                    <img src="./media/images/example.png" alt="img" class="top-image"> <!-- Top image specifically for card containers -->
+                    <h2 class="card-title"><a href="./historia_u_m2s1/mascotas.html" class="inherit-a">Mascotas</a></h2>
+                    <p class="card-text">Este proyecto es una simple página de HTML en la que se exponen mis habilidades más básicas para crear HTML y esitlar con CSS</p>
                 </article>
-                <a href="https://github.com/SrLampi1001/historia_usuario_1">Historia de Usuario 1 Modulo 1</a><br>
-                <a href="https://github.com/SrLampi1001/historia_usuario_2">Historia Usuario 2 Modulo 1</a><br>
-                <a href="https://github.com/SrLampi1001/historia_usuario_3">Historia Usuario 3 Modulo 1</a><br>
-                <a href="https://github.com/SrLampi1001/taller1_riwi">Taller 1 Modulo 1</a><br>
-                <a href="https://github.com/SrLampi1001/taller2_riwi">Taller 2 Modulo 1</a><br>
-                <a href="https://github.com/SrLampi1001/Mini_proyecto_python">Mini proyectos Python Modulo 1</a><br>
-                <a href="https://github.com/nicogarzonhub/Mini_proyecto">Mini proyecto Pandas, Json y CSV Modulo 1</a></br>
-                <a href="https://github.com/SrLampi1001/taller_practico_gestion_notas">Taller práctico gestión de notas Modulo 1</a><br>
-                <a href="https://github.com/SrLampi1001/prueba_desempe-o_modulo_1">Prueba desempeño modulo 1</a><br>
-                <a href="https://github.com/SrLampi1001/kepler_page">HTML Historia M2 Kepler 22-B</a><br>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/historia_usuario_1">Historia de Usuario 1 Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles y condicionales, usando user input.</p>
+                </article>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/historia_usuario_2">Historia Usuario 2 Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, condicionales y funciones, usando user input.</p>
+                </article>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/historia_usuario_3">Historia Usuario 3 Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, condiciones, funciones y librerías como csv.</p>
+                </article>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/taller1_riwi">Taller 1 Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es una serie de varios programas (18) de python, para testear el conocimiento más básico de python, incluyendo funciones integradas para manejar strings.</p>
+                </article>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/taller2_riwi">Taller 2 Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es un simple programa de python que pone en prueba los conocimientos más básicos de control de errores, haciendo uso de user input</p>
+                </article>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/Mini_proyecto_python">Mini proyectos Python Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es una serie de 8 mini-proyectos que testean el conocimiento más básico de python, incluyendo librerías externas                            </p>
+                </article>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/nicogarzonhub/Mini_proyecto">Mini proyecto Pandas, Json y CSV Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es un simple programa de python que pone a prueba los conocimientos más básicos del manejo de la librearía Pandas, y json</p>
+                </article>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/taller_practico_gestion_notas">Taller práctico gestión de notas Modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es un simple programa de python que pone a prueba el conocimiento más básico de funciones, bucles, condicionales y control de errores</p>
+                </article>
+                <artcile class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/prueba_desempe-o_modulo_1">Prueba desempeño modulo 1</a></h2>
+                    <p class="card-text">Este proyecto es un simple programa de python que pone a prueba el conocimiento básico de funciones, bucles, condicionales, funciones de string y librerías como os.</p>
+                </artcile>
+                <article class="card-article">
+                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <h2 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/kepler_page">HTML Historia M2 Kepler 22-B</a></h2>
+                    <p class="card-text">Este proyecto es una simple página web que pone a prueba el uso de css y HTML sin empleo de ninguna librería, la página se envuelve al rededor de un mundo imaginario llamado kepler 22-B y su único ecosistema y civilización inteligente.</p>
+                </article>
             </section>
         </main>
         <footer class="main-footer"> <!-- Footer, semantic HTML -->

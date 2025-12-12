@@ -1,0 +1,81 @@
+@import url(vars.css);
+/* General */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/* Containers */
+    /* Headers */
+.main-header{
+    background-color: var(--dark-fancy-green-blue);
+}
+    /* Sections and articles */
+.card, .card-article{
+    background-color: var(--white-mist);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 10rem;
+}
+
+    /* Div & main*/
+.main-container{
+    display: grid;
+    gap: 2rem 0;        
+}
+.g-6-rows{
+    grid-template-rows: repeat(5, auto) 1fr;
+}
+.padding-container{
+    background-color: var(--dark-green-blue);
+    padding: 0 10%;
+}
+    /* Footer */
+
+/* Nav & a */
+    /* Nav-header */
+.header-nav{
+    background-color: inherit;
+}
+    /* Nav-bars */
+    
+    /* Links */
+
+/* Multimedia */
+    /* Images */
+.left-image{
+    grid-area: 1/1 /-1 / 6;
+    max-width: 100%;
+    max-height: 100%;
+}
+    /* Videos */
+
+    /* Iframes */
+
+/* Buttons  */
+    /* Real buttons */
+
+    /* Fake buttons */
+
+/* Text */
+    /* P & H */
+.card-title, .card-text{
+    grid-column: 1/ 12;
+}
+.left-image ~ .card-title, .left-image ~ .card-text{
+    grid-column: 6/12;
+}
+    /* Spans & i, strong and b */
+
+/* List*/
+    /* Unordered Lists */
+
+    /* Ordered Lists */
+
+/* Subclases */
+    /* Hover */
+
+    /* After */
+
+    /* Before */
