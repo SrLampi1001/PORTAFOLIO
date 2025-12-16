@@ -19,6 +19,7 @@
     --dark-grass-gray: #4c5958;
     --light-gray:#bfbfbf;
     --ocher-gray:#bfb78f;
+    --dark-gray:#171717;
     /* Red */
     --meat-red:#a62b1f;
     --dark-red:#8c1f28;
@@ -33,5 +34,6 @@
     --mustard-yellow: #f2a71b;
     --yellow: #f2cb05;
     /* Transparent */
-    --white-mist: #fff5;
+    --white-mist: #fff3;
+    --black-mist: #0003;
 }   
