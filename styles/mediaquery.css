@@ -9,7 +9,7 @@
     .g-4-rows{
         grid-template-columns: 1fr 1fr 1fr;
     }
-
+}
 @media (max-width: 900px) {
     :root{
         font-size: 13px;
@@ -54,5 +54,8 @@
     }
     .g-col-span-2{
         grid-column: span 1;
+    }
+    .g-col-span-3{
+        grid-column: span 2;
     }
 }
