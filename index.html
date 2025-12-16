@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./media/images/icon.ico" type="image/x-icon"> <!-- Icon -->
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mediaquery.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
             <nav class="header-nav"> <!-- Nav for semantic HTML purporses, mainly just inherits the header styles is contained -->
                 <ul class="nav-list flex-wrap justify-around align-items-center"> <!-- List especifically for navs -->
                     <li class="header-h1"><a href="./index.html" class="inherit-a">Mi portafolio</a></li>
-                    <li class="header-h2">Mi información:</li>
+                    <li class="header-h2">Mi información: </li>
                     <li class="nav-item phone-logo"><a href="tel:+57-313-225-1924" class="inherit-a">3132251924</a></li>
                     <li class="nav-item email-logo"><a href="mailto:sanchezsantiago1001@gmail.com" class="inherit-a">sanchezsantiago1001@gmail.com</a></li>
                     <li class="nav-item github-logo"><a href="https://github.com/SrLampi1001" class="inherit-a">SrLampi1001</a></li>
@@ -34,7 +35,7 @@
         <main class="main-container"> <!-- Main container, with all the relevant information -->
             <h2 class="section-title">¿Quién soy?</h2>
             <section id="my-section" class="card g-3-rows">
-                <img src="./media/images/example.png" alt="SrLampi1001" class="left-image">
+                <img src="./media/images/yo_prof_recortada.png" alt="SrLampi1001" class="left-image">
                 <h3 class="card-title">Santiago Sánchez Ruiz</h3>
                 <p class="card-text">Nacimiento: 24/12/2005</p>
                 <p class="card-text">Programador, orientado en Riwi, especializado en Backend y aplicaciones web, con conocimiento en HAXE, lenguaje con transpilación disponible para todos los mayores lenguajes (C#, C++, Java, Javascript, Python, etc)</p>
@@ -82,26 +83,38 @@
                     <p class="card-text">Este proyecto es un simple programa de python que pone a prueba los conocimientos más básicos del manejo de la librearía Pandas, y json</p>
                 </article>
                 <article class="card-article">
-                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <img src="./media/images/t_3-5.png" alt="img" class="top-image">
                     <h3 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/taller_practico_gestion_notas" target="_blank">Taller práctico gestión de notas Modulo 1</a></h3>
                     <p class="card-text">Este proyecto es un simple programa de python que pone a prueba el conocimiento más básico de funciones, bucles, condicionales y control de errores</p>
                 </article>
                 <artcile class="card-article">
-                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <img src="./media/images/p_d_m1.png" alt="img" class="top-image">
                     <h3 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/prueba_desempe-o_modulo_1" target="_blank">Prueba desempeño modulo 1</a></h3>
                     <p class="card-text">Este proyecto es un simple programa de python que pone a prueba el conocimiento básico de funciones, bucles, condicionales, funciones de string y librerías como os.</p>
                 </artcile>
-                <article class="card-article">
-                    <img src="./media/images/example.png" alt="img" class="top-image">
-                    <h3 class="card-title"><a class="inherit-a" href="https://github.com/SrLampi1001/kepler_page" target="_blank">HTML Historia M2 Kepler 22-B</a></h3>
+                <article class="card-article g-col-span-2">
+                    <img src="./media/images/kepler_22b.png" alt="img" class="top-image">
+                    <h3 class="card-title"><a class="inherit-a" href="https://srlampi1001.github.io/kepler_page/" target="_blank">HTML Historia M2 Kepler 22-B</a></h3>
                     <p class="card-text">Este proyecto es una simple página web que pone a prueba el uso de css y HTML sin empleo de ninguna librería, la página se envuelve al rededor de un mundo imaginario llamado kepler 22-B y su único ecosistema y civilización inteligente.</p>
                 </article>
                 <article class="card-article g-col-span-2">
-                    <img src="./media/images/example.png" alt="img" class="top-image">
+                    <img src="./media/images/flashsports.png" alt="img" class="top-image">
                     <h3 class="card-title"><a href="https://tren-estellar-riwi.github.io/flashports/" class="inherit-a" target="_blank">Flashports</a></h3>
                     <p class="card-text">Este proyecto es una simple página web que pone a prueba el uso de css y HTML, así como el empleo de la libreria bootstrap</p>
                     <p class="card-text">La página se llama flashsports y simula una página de eventos deportivos, en los que se puede inscribir y sugerir nuevos eventos, contiene un dashboard administrativo</p>
                 </article>
+            </section>
+            <h2 class="section-title">Mis proyectos profesionales</h2>
+            <section class="card-container g-4-rows" id="profesional-proyects">
+
+            </section>
+            <h2 class="section-title">Mis aplicaciones (Simples)</h2>
+            <section id="my-simple-aplications" class="card-container g-4-rows">
+
+            </section>
+            <h2 class="section-title">Mi experiencia</h2>
+            <section id="my-experience" class="card-container g-4-rows">
+
             </section>
         </main>
         <footer class="main-footer"> <!-- Footer, semantic HTML -->

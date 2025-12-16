@@ -1,0 +1,58 @@
+@import url(vars.css);
+@media (max-width: 1200px) {
+    :root{
+        font-size: 14px;
+    }
+    .g-6-rows{
+        grid-template-columns: repeat(3, auto) 1fr;
+    }
+    .g-4-rows{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+@media (max-width: 900px) {
+    :root{
+        font-size: 13px;
+    }
+    .aside-left-container aside::before{
+        font-size: 2rem;
+        content: "✽";
+        border: 1px solid #000;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+        background-color: var(--white-mist);
+        display: block !important;
+    }
+    .aside-left-container aside *{
+        display: none;
+    }
+    .aside-left-container aside:hover *{
+        display: block;
+    }
+    .aside-left-container aside{
+        top: 0;
+        max-width: max-content;
+        background-color: var(--dark-gray);
+        border-radius: 1rem;
+    }
+    .g-4-rows{
+        grid-template-columns: 1fr 1fr;
+    }
+    .g-6-rows{
+        grid-template-columns: auto auto 1fr;
+    }
+}
+@media (max-width: 600px) {
+    :root{
+        font-size: 12px;
+    }
+    .g-6-rows{
+        grid-template-columns: 1fr 1fr;
+    }
+    .g-4-rows{
+        grid-template-columns: 1fr;
+    }
+    .g-col-span-2{
+        grid-column: span 1;
+    }
+}
