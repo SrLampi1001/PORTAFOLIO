@@ -104,7 +104,9 @@
     .flex-nowrap{
         display: flex;
         flex-wrap: nowrap;
+        height: 100%;
     }
+    
     .flex-column{
         flex-direction: column;
     }
@@ -130,7 +132,16 @@
         align-items: baseline;
     }
     /* Footer */
-
+    .f-log-container{
+        width: 30%;
+        flex-basis: 30%;
+        text-align: center;
+        padding: 1rem;
+    }
+    .main-footer{
+        height: 10rem;
+        overflow: hidden;
+    }
 /* Nav & a */
     /* Nav-header */
 .header-nav{
