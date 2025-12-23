@@ -1,5 +1,6 @@
 /* This is a temporal archive to display correctly the page while the styles are being worked on, later, the clases will be separated by resolutions, and there will be less general type of styles, as the page will follow a set type of design */
 @import url(vars.css);
+@import url(jsclasses.css);
 /* General */
 *{
     box-sizing: border-box;

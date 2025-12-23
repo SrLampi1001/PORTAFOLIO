@@ -1,0 +1,24 @@
+/* Class to hide content inside the DOM */
+.hidden{
+    display: none;
+}
+/* Classes to select content */
+.alternative-content{
+    display: hidden;
+}
+/* Max three elements and more */
+.max-one-element > *:nth-child(n+3){
+    display: none;
+}
+.max-two-elements > *:nth-child(n+4){
+    display: none;
+}
+.max-three-elements > *:nth-child(n+5){
+    display: none;
+}
+.max-four-elements > *:nth-child(n+6){
+    display: none;
+}
+.max-five-elements > *:nth-child(n+7){
+    display: none;
+}
