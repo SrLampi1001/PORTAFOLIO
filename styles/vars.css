@@ -20,6 +20,7 @@
     --light-gray:#bfbfbf;
     --ocher-gray:#bfb78f;
     --dark-gray:#171717;
+    --darkest-gray:#111;
     /* Red */
     --meat-red:#a62b1f;
     --dark-red:#8c1f28;
@@ -36,4 +37,8 @@
     /* Transparent */
     --white-mist: #fff3;
     --black-mist: #0003;
+    /* Icons */
+    --ugly-cat-icon: url(../media/images/icons/front.png);
+    /* Fonts */
+
 }   
