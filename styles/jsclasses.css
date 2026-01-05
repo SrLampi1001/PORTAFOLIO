@@ -22,3 +22,18 @@
 .max-five-elements > *:nth-child(n+7){
     display: none;
 }
+.max-six-elements > *:nth-child(n+8){
+    display: none;
+}
+.max-seven-elements > *:nth-child(n+9){
+    display: none;
+}
+.max-eight-elements > *:nth-child(n+10){
+    display: none;
+}
+.max-nine-elements > *:nth-child(n+11){
+    display: none;
+}
+.max-ten-elements > *:nth-child(n+12){
+    display: none;
+}

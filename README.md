@@ -45,7 +45,6 @@ Currently, there are only 2 modules done. This README and index.html will be upd
 # Changes and Updates  
 ## Next Changes:  
 - The styles.css, mediaquery.css and vars.css are to be changed and/or deleted. A new styling will be implemented, following a set styling method
-- The media folder will be updated, there will be more types of media, the media inside will be optimized and subcategories will be created
 - An Admin dashboard will be created
 - The page will receive responsive with JS
 - New subpages for mascotas.html and index.html are expected to be created
@@ -53,10 +52,13 @@ Currently, there are only 2 modules done. This README and index.html will be upd
 - Create a Logo
 - add videos into the page
 - Create JS basic funtions, create Jsclasses for JS use only
-## Update changelog
-- README updated, now will include expected changes and changelog.
-- subpages/js/mascotasMain.js archive created  
-- Button classes created
-- jsclasses.css archive created (temporal archive, expected to be deleted on masive style folder update)
-- media folder organized
-- mascotas folder deleted and integrated into subpages.
+## Working Changes
+- JS modularization
+- JS DOM modification functions
+    - More Content charge
+        - Scalar content charging -> two to three, three to four, etc (create bottom for hidding back)
+    - Diferent content switch
+    - Language change
+    - Dark/Light mode
+- styles.min.css creation
+## Update Changelog
