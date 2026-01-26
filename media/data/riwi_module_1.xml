@@ -5,7 +5,7 @@
     <description>This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles y condicionales, usando user input.</description_es>
     <images>
-        <image type="thumbnail">/media/images/screenshots/h_u_1_m1.png</image>
+        <image type="thumbnail">./media/images/screenshots/h_u_1_m1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -37,7 +37,7 @@
     <description>This project is a simple Python program created to test the most basic conditional, functions and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, funciones y condicionales, usando user input</description_es>.
     <images>
-        <image type="thumbnail">/media/images/screenshots/h_u_2_m1.png</image>
+        <image type="thumbnail">./media/images/screenshots/h_u_2_m1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -63,7 +63,7 @@
     <description>This project is a simple Python program created to test basic conditional, functions, loop  and libraries knowledge, libraries like csv.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, condiciones, funciones y librerías como csv.</description_es>
     <images>
-        <image type="thumbnail">/media/images/screenshots/h_u_3_m1.png</image>
+        <image type="thumbnail">./media/images/screenshots/h_u_3_m1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -119,7 +119,7 @@
     <description>This project is a series of various python program (18), to test the most basic python knowledge, including python string funtions and methods</description>
     <description_es>Este proyecto es una serie de varios programas (18) de python, para testear el conocimiento más básico de python, incluyendo funciones integradas para manejar strings.</description_es>
     <images>
-        <image type="thumbnail">/media/images/screenshots/t_1.png</image>
+        <image type="thumbnail">./media/images/screenshots/t_1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -132,6 +132,189 @@
             <details_es>Este componente maneja el procesamiento de datos</details_es>
         </component>
         <component>
+            <name>REAMDE.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</riwi_module>
+<riwi_module>
+    <module_name>Assignment 2</module_name>
+    <module_name_es>Taller 2</module_name_es>
+    <description>This project is a simple python program testing the erorr managment basic knowledge</description>
+    <description_es>Este proyecto es un simple programa de python que pone en prueba los conocimientos básicos de control de errores, haciendo uso del user input</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/t_2.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url>https://github.com/SrLampi1001/taller2_riwi</url>
+    <components>
+        <component>
+            <name>taller2.py</name>
+            <type>Script</type>
+            <details>This component handles data procesing</details>
+            <details_es>Este componente maneja el procesamiento de datos</details_es>
+        </component>
+        <component>
+            <name>REAMDE.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</riwi_module>
+<riwi_module>
+    <module_name>Mini python projects</module_name>
+    <module_name_es>Mini proyectos python</module_name_es>
+    <description>These are a series of 10 small projects testing python basic knowledge, including external libraries</description>
+    <description_es>Este proyecto es una serie de 8 mini proyectos de python que testean el conocimiento básico, incluyendo librerías externas</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/mini_proyectos_m1.png</image>
+    </images>
+    <version>0.2</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url>https://github.com/SrLampi1001/Mini_proyecto_python</url>
+    <components>
+        <component>
+            <name>calculadora.py</name>
+            <type>Script</type>
+            <details>This component handles a string input for basic calculations</details>
+            <details_es>Este componente maneja un input de cadenas de texto para calculos básicos</details_es>
+        </component>
+        <component>
+            <name>gestor_tareas_diarias.py</name>
+            <type>Script</type>
+            <details>This component creates "tasks" and manages their CRUD operations</details>
+            <details_es>Este componente crea "tareas" y maneja sus operaciones CRUD</details_es>
+        </component>
+        <component>
+        <component>
+            <name>sistema_biblioteca.py</name>
+            <type>Script</type>
+            <details>This component handles the CRUD for a simulated library sistem</details>
+            <details_es>Este componente maneja el CRUD de un sistema de biblioteca simulado</details_es>
+        </component>
+        <component>
+            <name>REAMDE.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</riwi_module>
+<riwi_module>
+    <module_name>Mini project Pandas, JSON & CSV</module_name>
+    <module_name_es>Mini proyecto Pandas, JSON y CSV</module_name_es>
+    <description>This project is a simple Python program that tests the most basic knowledge of using the Pandas library and JSON.
+    This project includes a simulated student database in JSON format and an Excel file to handle user student input.
+    </description>
+    <description_es>Este proyecto es un simple programa de python que pone a prueba los conocimientos más básicos del manejo de la librearía Pandas, y JSON.
+    Este proyecto incluye una base de datos simulada de estudiantes en formato JSON y un archivo de Excel para manejar la entrada de estudiantes por parte del usuario.
+    </description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/t_3.png</image>
+    </images>
+    <version>0.5</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <author>Nicolas Garzón</author>
+    <url>https://github.com/nicogarzonhub/Mini_proyecto</url>
+    <components>
+        <component>
+            <name>estudiantes.json</name>
+            <type>JSON</type>
+            <details>This component contains the studens simulated database</details>
+            <details_es>Este componente contiene la base de datos simulada de estudiantes</details_es>
+        </component>
+        <component>
+            <name>lista_estudiantes.xlsx</name>
+            <type>Excel</type>
+            <details>This component handles the user students input</details>
+            <details_es>Este componente maneja el input del usuario para estudiantes</details_es>
+        </component>
+        <component>
+        <component>
+            <name>mini_proyecto_json.py</name>
+            <type>Script</type>
+            <details>This component handles the data procesing and an "interface" for calculations</details>
+            <details_es>Este componente maneja el procesamiento de datos y una "interfas" para realizar calculos</details_es>
+        </component>
+        <component>
+            <name>REAMDE.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</riwi_module>
+<riwi_module>
+    <module_name>Practical Assignment grades managment</module_name>
+    <module_name_es>Talles práctico gestion de notas</module_name_es>
+    <description>This project is a simple Python program that creates a program executed in the terminal for grades processing, including various functionalities like adding, removing, updating and visualizing grades.
+    </description>
+    <description_es>Este proyecto es un simple programa de python que crea un programa ejecutado en la terminal para el procesamiento de notas, incluyendo varias funcionalidades como agregar, eliminar, actualizar y visualizar notas.
+    </description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/t_3-5.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url>https://github.com/SrLampi1001/taller_practico_gestion_notas</url>
+    <components>
+        <component>
+            <name>taller_practico_sistema_notas.py</name>
+            <type>script</type>
+            <details>This component handles data procesing and input</details>
+            <details_es>Este componente maneja la entrada y procesamiento de datos</details_es>
+        </component>
+        <component>
+            <name>REAMDE.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</riwi_module>
+<riwi_module>
+    <module_name>Assesment Test</module_name>
+    <module_name_es>Prueba de desempeño</module_name_es>
+    <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage.
+    </description>
+    <description_es>Este es un proyecto de prueba creado para evaluar todo el conocimiento adquirido durante los proyectos previos de este módulo, incluyendo el manejo de la entrada del usuario, control de errores, procesamiento de datos y uso de librerías externas.
+    </description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/p_d_m1.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url>https://github.com/SrLampi1001/prueba_desempe-o_modulo_1</url>
+    <components>
+        <component>
+            <name>app.py</name>
+            <type>script</type>
+            <details>This component handles data procesing, core of the application</details>
+            <details_es>Este componente maneja el procesamiento de datos, es el centro de la aplicacion</details_es>
+        </component>
+        <component>
+        <component>
+            <name>input_validation.py</name>
+            <type>script</type>
+            <details>This component handles data input and verification</details>
+            <details_es>Este componente maneja la entrada y verificacion de datos</details_es>
+        </component>
+        <component>
+            <name>register.py</name>
+            <type>script</type>
+            <details>This component handles the inventory CRUD</details>
+            <details_es>Este componente maneja el crudo del inventario</details_es>
+        </component>
+        <component>
+            <name>selling_and_reports.py</name>
+            <type>script</type>
+            <details>This component handles the selling logic and the clients CRUD</details>
+            <details_es>Este componente maneja la lógica de ventas y el CRUD de clientes</details_es>
+        </component>
             <name>REAMDE.md</name>
             <type>Markdown</type>
             <details>This component contains instructions and information about the project.</details>
