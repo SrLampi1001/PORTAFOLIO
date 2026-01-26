@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riwi_module>
+    <module_name>User history 1</module_name>
+    <module_name_es>Historia de usuario 1</module_name_es>
+    <description>This project corresponds to the portfolio and mascotas page first version, using basic HTML and CSS to deploy a web page inside GitHub</description>
+    <description_es>Este proyecto corresponse a la primera versión del portafolio, usando HTML y CSS básicos para desplegar una página usando GitHub.</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/mascotas.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/d0b668bae4a5a1e6721943d590fd24be10dca960</url>
+    <url type="page-link">https://srlampi1001.github.io/PORTAFOLIO/subpages/mascotas.html</url>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is the portfolio webpage.</details>
+            <details_es>Este componente es la página web del portafolio</details_es>
+        </component>
+        <component>
+            <name>historia_u_m2s1/</name>
+            <type>Folder</type>
+            <details>This component contains the mascotas.html first version</details>
+            <details_es>Este componente contiene la primera versión de mascotas</details_es>
+            <component>
+                <name>mascotas.html</name>
+                <type>HTML</type>
+                <details>This component is the mascotas webpage.</details>
+                <details_es>Este componente es la página web de mascotas</details_es>
+            </component>
+            <component>
+                <name>masoctas.css</name>
+                <type>CSS</type>
+                <details>This component contains the styles for the mascotas webpage.</details>
+                <details_es>Este componente contiene los estilos para la página web de mascotas</details_es>
+            </component>
+            <component>
+                <name>media/</name>
+                <type>Folder</type>
+                <details>This component contains the images used in the mascotas webpage.</details>
+                <details_es>Este componente contiene las imágenes usadas en la página web de mascotas</details_es>
+                <contents>
+                dog.jpg, front.jpg, horse.jpg, iguana.jpg
+                </contents>
+            </component>
+        </component>
+        <component>
+            <name>REAMDE.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</riwi_module>
+<riwi_module>
+    <module_name>User history 1</module_name>
+    <module_name_es>Historia de usuario 1</module_name_es>
+    <description>This project corresponds to the portfolio and mascotas page first version, using basic HTML and CSS to deploy a web page inside GitHub</description>
+    <description_es>Este proyecto corresponse a la primera versión del portafolio, usando HTML y CSS básicos para desplegar una página usando GitHub.</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/mascotas.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/d0b668bae4a5a1e6721943d590fd24be10dca960</url>
+    <url type="page-link">https://srlampi1001.github.io/PORTAFOLIO/subpages/mascotas.html</url>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is the portfolio webpage.</details>
+            <details_es>Este componente es la página web del portafolio</details_es>
+        </component>
+        <component>
+            <name>historia_u_m2s1/</name>
+            <type>Folder</type>
+            <details>This component contains the mascotas.html first version</details>
+            <details_es>Este componente contiene la primera versión de mascotas</details_es>
+            <component>
+                <name>mascotas.html</name>
+                <type>HTML</type>
+                <details>This component is the mascotas webpage.</details>
+                <details_es>Este componente es la página web de mascotas</details_es>
+            </component>
+            <component>
+                <name>masoctas.css</name>
+                <type>CSS</type>
+                <details>This component contains the styles for the mascotas webpage.</details>
+                <details_es>Este componente contiene los estilos para la página web de mascotas</details_es>
+            </component>
+            <component>
+                <name>media/</name>
+                <type>Folder</type>
+                <details>This component contains the images used in the mascotas webpage.</details>
+                <details_es>Este componente contiene las imágenes usadas en la página web de mascotas</details_es>
+                <contents>
+                dog.jpg, front.jpg, horse.jpg, iguana.jpg
+                </contents>
+            </component>
+        </component>
+        <component>
+            <name>REAMDE.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</riwi_module>
