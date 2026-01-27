@@ -90,7 +90,7 @@
         </component>
         <component>
             <name>input_validation.py</name>
-            <type>script</type>
+            <type>Script</type>
             <details>This component validates if the type of data to a given variable is a valid type</details>
             <details_es>Este componente valida si el tipo de dato dado a una variable es válido</details_es>
         </component>
@@ -259,7 +259,7 @@
     <components>
         <component>
             <name>taller_practico_sistema_notas.py</name>
-            <type>script</type>
+            <type>Script</type>
             <details>This component handles data procesing and input</details>
             <details_es>Este componente maneja la entrada y procesamiento de datos</details_es>
         </component>
@@ -285,25 +285,25 @@
     <components>
         <component>
             <name>app.py</name>
-            <type>script</type>
+            <type>Script</type>
             <details>This component handles data procesing, core of the application</details>
             <details_es>Este componente maneja el procesamiento de datos, es el centro de la aplicacion</details_es>
         </component>
         <component>
             <name>input_validation.py</name>
-            <type>script</type>
+            <type>Script</type>
             <details>This component handles data input and verification</details>
             <details_es>Este componente maneja la entrada y verificacion de datos</details_es>
         </component>
         <component>
             <name>register.py</name>
-            <type>script</type>
+            <type>Script</type>
             <details>This component handles the inventory CRUD</details>
             <details_es>Este componente maneja el crudo del inventario</details_es>
         </component>
         <component>
             <name>selling_and_reports.py</name>
-            <type>script</type>
+            <type>Script</type>
             <details>This component handles the selling logic and the clients CRUD</details>
             <details_es>Este componente maneja la lógica de ventas y el CRUD de clientes</details_es>
         </component>
