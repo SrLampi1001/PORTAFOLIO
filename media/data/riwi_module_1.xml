@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<module_1>
 <riwi_module>
-    <module_name>User history 1</module_name>
+    <module_name>User story 1</module_name>
     <module_name_es>Historia de usuario 1</module_name_es>
     <description>This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles y condicionales, usando user input.</description_es>
@@ -32,7 +33,7 @@
     </components>
 </riwi_module>
 <riwi_module>
-    </module_name>User history 2</module_name>
+    <module_name>User story 2</module_name>
     <module_name_es>Historia de usuario 2</module_name_es>
     <description>This project is a simple Python program created to test the most basic conditional, functions and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, funciones y condicionales, usando user input</description_es>.
@@ -58,7 +59,7 @@
     </components>
 </riwi_module>
 <riwi_module>
-    <module_name>User history 3</module_name>
+    <module_name>User Story 3</module_name>
     <module_name_es>Historia de usuario 3</module_name_es>
     <description>This project is a simple Python program created to test basic conditional, functions, loop  and libraries knowledge, libraries like csv.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, condiciones, funciones y librerías como csv.</description_es>
@@ -190,7 +191,6 @@
             <details_es>Este componente crea "tareas" y maneja sus operaciones CRUD</details_es>
         </component>
         <component>
-        <component>
             <name>sistema_biblioteca.py</name>
             <type>Script</type>
             <details>This component handles the CRUD for a simulated library sistem</details>
@@ -205,14 +205,12 @@
     </components>
 </riwi_module>
 <riwi_module>
-    <module_name>Mini project Pandas, JSON & CSV</module_name>
+    <module_name>Mini project Pandas, JSON &amp; CSV</module_name>
     <module_name_es>Mini proyecto Pandas, JSON y CSV</module_name_es>
     <description>This project is a simple Python program that tests the most basic knowledge of using the Pandas library and JSON.
-    This project includes a simulated student database in JSON format and an Excel file to handle user student input.
-    </description>
+    This project includes a simulated student database in JSON format and an Excel file to handle user student input. </description>
     <description_es>Este proyecto es un simple programa de python que pone a prueba los conocimientos más básicos del manejo de la librearía Pandas, y JSON.
-    Este proyecto incluye una base de datos simulada de estudiantes en formato JSON y un archivo de Excel para manejar la entrada de estudiantes por parte del usuario.
-    </description_es>
+    Este proyecto incluye una base de datos simulada de estudiantes en formato JSON y un archivo de Excel para manejar la entrada de estudiantes por parte del usuario. </description_es>
     <images>
         <image type="thumbnail">./media/images/screenshots/t_3.png</image>
     </images>
@@ -234,7 +232,6 @@
             <details_es>Este componente maneja el input del usuario para estudiantes</details_es>
         </component>
         <component>
-        <component>
             <name>mini_proyecto_json.py</name>
             <type>Script</type>
             <details>This component handles the data procesing and an "interface" for calculations</details>
@@ -251,10 +248,8 @@
 <riwi_module>
     <module_name>Practical Assignment grades managment</module_name>
     <module_name_es>Talles práctico gestion de notas</module_name_es>
-    <description>This project is a simple Python program that creates a program executed in the terminal for grades processing, including various functionalities like adding, removing, updating and visualizing grades.
-    </description>
-    <description_es>Este proyecto es un simple programa de python que crea un programa ejecutado en la terminal para el procesamiento de notas, incluyendo varias funcionalidades como agregar, eliminar, actualizar y visualizar notas.
-    </description_es>
+    <description>This project is a simple Python program that creates a program executed in the terminal for grades processing, including various functionalities like adding, removing, updating and visualizing grades. </description>
+    <description_es>Este proyecto es un simple programa de python que crea un programa ejecutado en la terminal para el procesamiento de notas, incluyendo varias funcionalidades como agregar, eliminar, actualizar y visualizar notas. </description_es>
     <images>
         <image type="thumbnail">./media/images/screenshots/t_3-5.png</image>
     </images>
@@ -279,10 +274,8 @@
 <riwi_module>
     <module_name>Assesment Test</module_name>
     <module_name_es>Prueba de desempeño</module_name_es>
-    <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage.
-    </description>
-    <description_es>Este es un proyecto de prueba creado para evaluar todo el conocimiento adquirido durante los proyectos previos de este módulo, incluyendo el manejo de la entrada del usuario, control de errores, procesamiento de datos y uso de librerías externas.
-    </description_es>
+    <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage. </description>
+    <description_es>Este es un proyecto de prueba creado para evaluar todo el conocimiento adquirido durante los proyectos previos de este módulo, incluyendo el manejo de la entrada del usuario, control de errores, procesamiento de datos y uso de librerías externas. </description_es>
     <images>
         <image type="thumbnail">./media/images/screenshots/p_d_m1.png</image>
     </images>
@@ -296,7 +289,6 @@
             <details>This component handles data procesing, core of the application</details>
             <details_es>Este componente maneja el procesamiento de datos, es el centro de la aplicacion</details_es>
         </component>
-        <component>
         <component>
             <name>input_validation.py</name>
             <type>script</type>
@@ -315,6 +307,7 @@
             <details>This component handles the selling logic and the clients CRUD</details>
             <details_es>Este componente maneja la lógica de ventas y el CRUD de clientes</details_es>
         </component>
+        <component>
             <name>REAMDE.md</name>
             <type>Markdown</type>
             <details>This component contains instructions and information about the project.</details>
@@ -322,3 +315,4 @@
         </component>
     </components>
 </riwi_module>
+</module_1>
