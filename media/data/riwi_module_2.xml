@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_2>
-<riwi_module>   
-    <module_name>User Story 1</module_name>
-    <module_name_es>Historia de usuario 1</module_name_es>
+<project>   
+    <project_name>User Story 1</project_name>
+    <project_name_es>Historia de usuario 1</project_name_es>
     <description>This project corresponds to the portfolio and mascotas page first version, using basic HTML and CSS to deploy a web page inside GitHub</description>
     <description_es>Este proyecto corresponse a la primera versión del portafolio, usando HTML y CSS básicos para desplegar una página usando GitHub.</description_es>
     <images>
@@ -49,18 +49,18 @@
             </contents>
         </component>
         <component>
-            <name>REAMDE.md</name>
+            <name>README.md</name>
             <type>Markdown</type>
             <details>This component contains instructions and information about the project.</details>
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
-    <module_name>User story 2</module_name>
-    <module_name_es>Historia de usuario 2</module_name_es>
+</project>
+<project>
+    <project_name>User story 2</project_name>
+    <project_name_es>Historia de usuario 2</project_name_es>
     <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
-    <description_es>Este proyecto corresponse a la segunda versión del protafolio y la página mascotas, usando flex y grid.</description_es>
+    <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
         <image type="thumbnail">./media/images/screenshots/h_u_2_m2.png</image>
     </images>
@@ -147,18 +147,18 @@
             </contents>
         </component>
         <component>
-            <name>REAMDE.md</name>
+            <name>README.md</name>
             <type>Markdown</type>
             <details>This component contains instructions and information about the project.</details>
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
-    <module_name>User story 2</module_name>
-    <module_name_es>Historia de usuario 2</module_name_es>
+</project>
+<project>
+    <project_name>User story 3</project_name>
+    <project_name_es>Historia de usuario 3</project_name_es>
     <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
-    <description_es>Este proyecto corresponse a la segunda versión del protafolio y la página mascotas, usando flex y grid.</description_es>
+    <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
         <image type="thumbnail">./media/images/screenshots/h_u_3_m2.png</image>
     </images>
@@ -282,26 +282,179 @@
             </contents>
         </component>
         <component>
-            <name>REAMDE.md</name>
+            <name>README.md</name>
             <type>Markdown</type>
             <details>This component contains instructions and information about the project.</details>
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
-    <module_name>User story 2</module_name>
-    <module_name_es>Historia de usuario 2</module_name_es>
-    <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
-    <description_es>Este proyecto corresponse a la segunda versión del protafolio y la página mascotas, usando flex y grid.</description_es>
+</project>
+<project status="incomplete">
+    <project_name>Kepler 22b</project_name>
+    <project_name_es>Kepler 22b</project_name_es>
+    <description>This project is a webpage dedicated to the lore of Kepler 22b, a fictional planet and it's history, world culture and living beigns, using javascript, css and HTML</description>
+    <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_3_m2.png</image>
+        <image type="thumbnail">./media/images/screenshots/kepler_22b.png</image>
     </images>
     <version>BETA 1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <author>Juan Diego Mazo </author>
+    <author>Juan Diego Mazo</author>
     <author>Juliana Sofia Valencia</author>
     <url type="code-link">https://github.com/SrLampi1001/kepler_page</url>
     <url type="page-link">https://srlampi1001.github.io/kepler_page/</url>
-</riwi_module>
+    <components>
+        <component>
+            <name>multimedia/</name>
+            <type>Folder</type>
+            <details>This folder contains all the folders with their respective type of multimedia, including images, videos and audios</details>
+            <details_es>Esta carpeta contiene todas las carpetas con sus respectivos tipos de contenido multimedia, incluyendo imagenes, videos y audios</details_es>
+            <contents>
+                <component>
+                    <name>audios/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the mp3 and audio type of archives</details>
+                    <details_es>Esta carpeta contiene todos los mp3 y tipos de archivo de audio</details_es>
+                    <contents>
+                        <component>
+                            <name>underwater_ambience.mp3</name>
+                            <type>Audio</type>
+                            <details>This component is an underwater ambience souds audio, used for testing</details>
+                            <details_es>Este componente es un audio de sonido ambiental en agua, usado para tests</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>images/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all images used in the html archives</details>
+                    <details_es>Esta carpeta contiene todas las imagenes usadas en los archivos html</details_es>
+                    <contents>
+                        1.jpg, ChatGPT Image 4 dic 2025, 16_28_23.png, img-example.jpg, kepler.jpg, kepler_22b.jpg
+                    </contents>
+                </component>
+                <component>
+                    <name>videos/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the videos used in the html archives</details>
+                    <details_es>Esta carpeta contiene todos los videos usados en los archivos html</details_es>
+                    <contents>
+                        215697_small.mp4, kepler_rotating.webm, vxxdy-tcyx8.mp4
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>This folder contains the styles css archives for all the html archives</details>
+            <details_es>Esta carpeta contiene los archivos de estilos css para todos los archivos html</details_es>
+            <contents>
+                <component>
+                    <name>authors.css</name>
+                    <type>CSS</type>
+                    <details>This component handles the styles and classes specially made for the authors.html archive</details>
+                    <details_es>Este componente maneja los estilos y clases especialmente hechas para el archivo authors.html</details_es>
+                </component>
+                <component>
+                    <name>courts.css</name>
+                    <type>CSS</type>
+                    <details>This component handles all the styles and classes specially made for the court html archives, like limbo-court.html</details>
+                    <details_es>Este componente maneja todos los estilos y clases hechas especialmente para los html de las cortes, como limbo-court.html</details_es>
+                </component>
+                <component>
+                    <name>index.css</name>
+                    <type>CSS</type>
+                    <details>This component handles all the styles and classes especially made for the index.html</details>
+                    <details_es>Este componenete maneja todos los estilos y clases hechas especialmente para el index.html</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>subpages/</name>
+            <type>Folder</type>
+            <details>This folder contains all the html archives other than index.html</details>
+            <details_es>Esta carpeta contiene todos los archivos html aparte del index.html</details_es>
+            <contents>
+                <component>
+                    <name>lore-fragments/</name>
+                    <type>Folder</type>
+                    <details>This folder is meant to contain all the html elements with information regarding lore fragments from kepler</details>
+                    <details_es>Esta carpeta esta hecha para contener todos los elementos con información acerca de fragmentos de lore de kepler</details_es>
+                    <contents>
+                        <component>
+                            <name>authors.html</name>
+                            <type>HTML</type>
+                            <details>This component is a page dedicated to the lore in the form of authors excerpts</details>
+                            <details_es>Este componente es una pagina dedicada al lore en la forma de extractos de autores</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>limbo-court.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relevant information from the limbo court in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la corte del limbo en kepler</details_es>
+                </component>
+                <component>
+                    <name>shadow-court.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relevant information from the shadow court in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la corte de la sombra en kepler</details_es>
+                </component>
+                <component>
+                    <name>solar-court.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relvant informaton from the solar court in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la corte solar en kepler</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component contains a resume of the culture and courts in kepler, is the landing page</details>
+            <details_es>Este componente contiene un resumen de la cultura y cortes en kepler, es la pagina de inicio</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project status="incomplete">
+    <project_name>Flashsports</project_name>
+    <project_name_es>Flashsports</project_name_es>
+    <description>This project is a webpage simulating a landing page where a user can find and inscribe in sports events, and admin dashboard from a sports webpage where the information can be seen, only html and css.</description>
+    <description_es>Este proyecto es una pagina web simulando una página de inicio donde el usuario puede encontrar e inscribirse en eventos de deportes, y un panel de administrador donde la información puede ser vista</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/flashsports.png</image>
+    </images>
+    <version>BETA 3.0</version>
+    <author type="organization">tren-estelar-riwi</author>
+    <url type="code-link">https://github.com/tren-estellar-riwi/flashports</url>
+    <url type="page-link">https://tren-estellar-riwi.github.io/flashports/</url>
+    <url type="page-link" alternative="true">https://tren-estellar-riwi.github.io/flashports/pages/galery.html</url>
+    <components>
+        
+    </components>
+</project>
+<!-- Project -->
+<project>
+    <project_name>form only css &amp; html</project_name>
+    <project_name_es>formulario solo css y html</project_name_es>
+    <description>This project is a simple form for log in, with no functionality, only for testing css and html abilites</description>
+    <description_es>Este proyecto es un simple formulario para inicio de sesión, sin funcionalidas, solo para poner a prueba habilidades con html y css</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/form_no_functionality.png</image>
+    </images>
+    <version>BETA 3.0</version>
+    <author type="organization">tren-estelar-riwi</author>
+    <url type="code-link">https://github.com/SrLampi1001/form_only_css_html</url>
+    <components>
+        
+    </components>
+</project>
 </module_2>
