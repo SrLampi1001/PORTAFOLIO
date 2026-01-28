@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_1>
-<riwi_module>
+<project>
     <module_name>User story 1</module_name>
     <module_name_es>Historia de usuario 1</module_name_es>
     <description>This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.</description>
@@ -31,8 +31,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>User history 2</module_name>
     <module_name_es>Historia de usuario 2</module_name_es>
     <description>This project is a simple Python program created to test the most basic conditional, functions and loop knowledge, using user input.</description>
@@ -57,8 +57,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>User Story 3</module_name>
     <module_name_es>Historia de usuario 3</module_name_es>
     <description>This project is a simple Python program created to test basic conditional, functions, loop  and libraries knowledge, libraries like csv.</description>
@@ -113,8 +113,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>Assignment 1</module_name>
     <module_name_es>Taller 1</module_name_es>
     <description>This project is a series of various python program (18), to test the most basic python knowledge, including python string funtions and methods</description>
@@ -139,8 +139,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>Assignment 2</module_name>
     <module_name_es>Taller 2</module_name_es>
     <description>This project is a simple python program testing the erorr managment basic knowledge</description>
@@ -165,8 +165,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>Mini python projects</module_name>
     <module_name_es>Mini proyectos python</module_name_es>
     <description>These are a series of 10 small projects testing python basic knowledge, including external libraries</description>
@@ -203,8 +203,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>Mini project Pandas, JSON &amp; CSV</module_name>
     <module_name_es>Mini proyecto Pandas, JSON y CSV</module_name_es>
     <description>This project is a simple Python program that tests the most basic knowledge of using the Pandas library and JSON.
@@ -244,8 +244,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>Practical Assignment grades managment</module_name>
     <module_name_es>Talles práctico gestion de notas</module_name_es>
     <description>This project is a simple Python program that creates a program executed in the terminal for grades processing, including various functionalities like adding, removing, updating and visualizing grades. </description>
@@ -270,8 +270,8 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
-<riwi_module>
+</project>
+<project>
     <module_name>Assesment Test</module_name>
     <module_name_es>Prueba de desempeño</module_name_es>
     <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage. </description>
@@ -314,5 +314,5 @@
             <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
-</riwi_module>
+</project>
 </module_1>
