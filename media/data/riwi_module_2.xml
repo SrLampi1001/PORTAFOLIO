@@ -289,6 +289,38 @@
         </component>
     </components>
 </project>
+<project>
+    <project_name>form only css &amp; html</project_name>
+    <project_name_es>formulario solo css y html</project_name_es>
+    <description>This project is a simple form for log in, with no functionality, only for testing css and html abilites</description>
+    <description_es>Este proyecto es un simple formulario para inicio de sesión, sin funcionalidas, solo para poner a prueba habilidades con html y css</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/form_no_functionality.png</image>
+    </images>
+    <version>BETA 3.0</version>
+    <author type="organization">tren-estelar-riwi</author>
+    <url type="code-link">https://github.com/SrLampi1001/form_only_css_html</url>
+    <components>
+        <component>
+            <name>login_form.html</name>
+            <type>HTML</type>
+            <details>This component is the form webpage.</details>
+            <details_es>Este componente es la página web del formulario</details_es>
+        </component>
+        <component>
+            <name>login.css</name>
+            <type>CSS</type>
+            <details>This component contains the styles for the form webpage.</details>
+            <details_es>Este componente contiene los estilos para la página web del formulario</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
 <project status="incomplete">
     <project_name>Kepler 22b</project_name>
     <project_name_es>Kepler 22b</project_name_es>
@@ -438,23 +470,174 @@
     <url type="page-link">https://tren-estellar-riwi.github.io/flashports/</url>
     <url type="page-link" alternative="true">https://tren-estellar-riwi.github.io/flashports/pages/galery.html</url>
     <components>
-        
-    </components>
-</project>
-<!-- Project -->
-<project>
-    <project_name>form only css &amp; html</project_name>
-    <project_name_es>formulario solo css y html</project_name_es>
-    <description>This project is a simple form for log in, with no functionality, only for testing css and html abilites</description>
-    <description_es>Este proyecto es un simple formulario para inicio de sesión, sin funcionalidas, solo para poner a prueba habilidades con html y css</description_es>
-    <images>
-        <image type="thumbnail">./media/images/screenshots/form_no_functionality.png</image>
-    </images>
-    <version>BETA 3.0</version>
-    <author type="organization">tren-estelar-riwi</author>
-    <url type="code-link">https://github.com/SrLampi1001/form_only_css_html</url>
-    <components>
-        
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+        <component>
+            <name>css/</name>
+            <type>Folder</type>
+            <details>This folder contains all the css files for the different html files</details>
+            <details_es>Esta carpeta contiene todos los archivos css para los diferentes archivos html</details_es>
+            <contents>
+                <component>
+                    <name>bootstrap.min.css</name>
+                    <type>CSS</type>
+                    <details>This component contains all the styles and classes from the library bootstrap5</details>
+                    <details_es>Este componente contiene todos los estilos y clases de la libreria bootstrap5</details_es>
+                </component>
+                <component>
+                    <name>styles.css</name>
+                    <type>CSS</type>
+                    <details>This component contains all the styles and classes for all html</details>
+                    <details_es>Este componente contiene todos los estilos y clases para todos los HTML</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>This folder contains all the javascript files for the different html files</details>
+            <details_es>Esta carpeta contiene todos los archivos de javascript para los diferentes archivos html</details_es>
+            <contents>
+                <component>
+                    <name>bootstrap.bundle.min.js</name>
+                    <type>Script</type>
+                    <details>This component contains all the scripts from the library bootstrap5</details>
+                    <details_es>Este componente contiene todos los scripts de la libreria bootstrap5</details_es>
+                </component>
+                <component status="empty">
+                    <name>main.js</name>
+                    <type>Script</type>
+                    <details>This component contains all the scripts for index.html</details>
+                    <details_es>Este componente contiene todos los script para index.html</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>media/</name>
+            <type>Folder</type>
+            <details>This folder contains all the multimedia folders used in the different html files</details>
+            <details_es>Esta carpeta contiene todas las carpetas multimedia usadas en los diferentes archivos html</details_es>
+            <contents>
+                <component>
+                    <name>images/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the images used in the different html files</details>
+                    <details_es>Esta carpeta contiene todas las imagenes usadas en los diferentes archivos html</details_es>
+                    <contents>
+                        banner.jpeg, estadio-campin.jpeg, estadio-hernan.jpeg, estadio-palogrande.jpeg, estadio-pascual.jpeg, estadio.jpg, general-satander.jpeg, icon.ico, icon.webp, metropolitano.jpeg, pascual.jpeg, skate.jpg
+                    </contents>
+                </component>
+                <component>
+                    <name>video/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the videos used in the different html files</details>
+                    <details_es>Esta carpeta contiene todos los videos usados en los diferentes archivos html</details_es>
+                    <contents>
+                        skateboarding_example.mp4
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>pages/</name>
+            <type>Folder</type>
+            <details>This folder contaains all the HTML corresponding to the sub pages of flashsports but admin ones</details>
+            <details_es>Esta carpeta contiene todos los HTML correspondientes a las sub páginas de flashsports excepto las de admin</details_es>
+            <contents>
+                <component>
+                    <name>eventList.html</name>
+                    <type>HTML</type>
+                    <details>This component is the page to see all events from a given category or all.</details>
+                    <details_es>Este componente es la página para ver todos los eventos de una dada categoría o todas</details_es>
+                </component>
+                <component>
+                    <name>eventDetails.html</name>
+                    <type>HTML</type>
+                    <details>This component is the event details webpage.</details>
+                    <details_es>Este componente es la página web de detalles del evento</details_es>
+                    <alternatives>
+                        <name>eventComments.html</name>
+                        <name>eventsOrganizers.html</name>
+                    </alternatives>
+                </component>
+                <component>
+                    <name>galery.html</name>
+                    <type>HTML</type>
+                    <details>This component is the galery webpage.</details>
+                    <details_es>Este componente es la página web de galería</details_es>
+                </component>
+                <component>
+                    <name>profile.html</name>
+                    <type>HTML</type>
+                    <details>This component is the user profile information webpage.</details>
+                    <details_es>Este componente es el la página de información derl perfil de usuario</details_es>
+                </component>
+                <component>
+                    <name>sing_up.html</name>
+                    <type>HTML</type>
+                    <details>This component is the sign up webpage.</details>
+                    <details_es>Este componente es la página web de registro</details_es>
+                </component>
+                <component>
+                    <name>log_in.html</name>
+                    <type>HTML</type>
+                    <details>This component is the log in webpage.</details>
+                    <details_es>Este componente es la página web de inicio de sesión</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>admin/</name>
+            <type>Folder</type>
+            <details>This folder contains all the HTML corresponding to the admin pages of flashsports</details>
+            <details_es>Esta carpeta contiene todos los HTML correspondientes a las páginas de administrador de flashsports</details_es>
+            <contents>
+                <component>
+                    <name>dashboard.html</name>
+                    <type>HTML</type>
+                    <details>This is the admin dashboard webpage</details>
+                    <details_es>Esta es la página web del panel de administrador</details_es>
+                </component>
+                <component>
+                    <name>css/</name>
+                    <type>Folder</type>
+                    <details>This Folder contains the styles for the admin webpages</details>
+                    <details_es>Esta carpeta contiene los estilos para las páginas web de administrador</details_es>
+                    <contents>
+                        <component>
+                            <name>styles.css</name>
+                            <type>CSS</type>
+                            <details>This component contains all the styles and classes for the admin webpages</details>
+                            <details_es>Este componente contiene todos los estilos y clases para las páginas web de administrador</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>This Folder contains the scripts for the admin webpages</details>
+                    <details_es>Esta carpeta contiene los scripts para las páginas web de administrador</details_es>
+                    <contents>
+                        <component status="empty">
+                            <name>main.js</name>
+                            <type>Script</type>
+                            <details>This component contains all the scripts for the admin webpages</details>
+                            <details_es>Este componente contiene todos los scripts para las páginas web de administrador</details_es>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>Boceto_pagina.pdf</name>
+            <type>PDF</type>
+            <details>This component contains the initial design sketch for the webpage.</details>
+            <details_es>Este componente contiene el boceto de diseño inicial para la página web</details_es>
+        </component>
     </components>
 </project>
 </module_2>
