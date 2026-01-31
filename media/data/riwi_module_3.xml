@@ -34,9 +34,424 @@
     </components>
 </project>
 <!-- Complete webpages -->
-<project>
+<project status="complete">
     <project_name>cars-crud</project_name>
     <project_name_es>cars-crud</project_name_es>
-    <description>This projects is a complete mock website, for a </description>
+    <description>This projects is a complete mock website, for a rent sand buying car service, it has responsive design and an admin dashboard with landpage, a simple sing up verification and an OOP with json-server api and models for interactivity</description>
+    <description_es>Este proyecto es una página web completa, para un servicio de renta y compra de coches, tiene diseño responsivo y un panel de administración con página de inicio, una verificación simple de registro y una POO con json-server api y modelos para interactividad</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/cars_crud_1.png</image>
+        <image type="screenshot">./media/images/screenshots/cars_crud_2.png</image>
+        <image type="screenshot">./media/images/screenshots/cars_crud_3.png</image>
+    </images>
+    <version>BETA 1.0</version>
+    <version-info>First public release, No json-server</version-info>
+    <author type="organization">Hubble-Riiwiii</author>
+    <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
+    <url type="code-link">https://github.com/Hubble-Riiwii/cars-crud</url>
+    <url type="page-link">https://hubble-riiwii.github.io/cars-crud/</url>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Main landing page of the website, with responsive design.</details>
+            <details_es>Página principal del sitio web, con diseño responsivo.</details_es>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>Folder containing all javascript files for interactivity and OOP models.</details>
+            <details_es>Carpeta que contiene todos los archivos javascript para interactividad y modelos POO.</details_es>
+            <contents>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>Main javascript file for interactivity and DOM manipulation.</details>
+                    <details_es>Archivo javascript principal para interactividad y manipulación del DOM.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>css/</name>
+            <type>Folder</type>
+            <details>Folder containing all CSS files for styling and responsive design.</details>
+            <details_es>Carpeta que contiene todos los archivos CSS para estilos y diseño responsivo.</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>assets/</name>
+            <type>Folder</type>
+            <details>Folder containing images and other media assets used in the website.</details>
+            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+            <contents>
+                <component>
+                    <name>cars/</name>
+                    <type>Folder</type>
+                    <details>Folder containing image files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de imágenes utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="colection">
+                            <name type="Image">car_all_new_rush.png</name>
+                            <name type="Image">car_all_new_terios.png</name>
+                            <name type="Image">car_cr-v.png</name>
+                            <name type="Image">car_koenigsegg.png</name>
+                            <name type="Image">car_mg_zx_exclusive.png</name>
+                            <name type="Image">car_new_mg_zs.png</name>
+                            <name type="Image">car_new_mg_zs_platinum.png</name>
+                            <name type="Image">car_nissangt-r</name>
+                            <name type="Image">car_rolls-royce.png</name>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>icons/</name>
+                    <type>Folder</type>
+                    <details>Folder containing icon files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de iconos utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="colection">
+                            <name type="Image">gas-station.svg</name>
+                            <name type="Image">hearth-empty.svg</name>
+                            <name type="Image">hearth-full.svg</name>
+                            <name type="Image">manual.svg</name>
+                            <name type="Image">profile-2user.svg</name>
+                        </component>
+                    </contents>
+                </component>
+                <component type="colection">
+                    <name>Ads 1.png</name>
+                    <name>BG.png</name>
+                    <name>CarsCrud-removebg 1.png</name>
+                    <name>Logo.png</name>
+                    <name>Profil &amp; Notification.png</name>
+                    <name>gray_car.png</name>
+                    <name>white_car.png</name>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+    <components type="branch" branchName="Santiago" branchOwner="Santiago Sánchez Ruiz">
+        <component>
+            <name>backend/</name>
+            <type>Folder</type>
+            <details>Simulated backend for json server with models and interaction with JSON-server api.</details>
+            <details_es>backend simulado con modelos e interacción con la api JSON-server.</details_es>
+            <contents>
+                <component>
+                    <name>api/</name>
+                    <type>Folder</type>
+                    <details>Folder containing json-server API files for data storage and retrieval.</details>
+                    <details_es>Carpeta que contiene archivos de la API json-server para almacenamiento y recuperación de datos.</details_es>
+                    <contents>
+                        <component>
+                            <name>api.js</name>
+                            <type>Script</type>
+                            <details>api object with methods for data storage and retrieval from json-server.</details>
+                            <details_es>objeto api con métodos para recuperación y envío de datos desde json-server.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>database/</name>
+                    <type>Folder</type>
+                    <details>Folder containing json-server database file for storing car listings and user data.</details>
+                    <details_es>Carpeta que contiene el archivo de base de datos json-server para almacenar listados de coches y datos de usuarios.</details_es>
+                    <contents>
+                        <component>
+                            <name>db.json</name>
+                            <type>JSON</type>
+                            <details>json-server database file for storing car listings and user data.</details>
+                            <details_es>Archivo de base de datos json-server para almacenar listados de coches y datos de usuarios.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>models/</name>
+                    <type>Folder</type>
+                    <details>Folder containing javascript model files for car listings and user registrations.</details>
+                    <details_es>Carpeta que contiene archivos de modelos javascript para listados de coches y registros de usuarios.</details_es>
+                    <contents>
+                        <component>
+                            <name>Car.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for car listings.</details>
+                            <details_es>Archivo de modelo javascript para listados de coches.</details_es>
+                        </component>
+                        <component>
+                            <name>User.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for user registrations.</details>
+                            <details_es>Archivo de modelo javascript para registros de usuarios.</details_es>
+                        </component>
+                        <component>
+                            <name>Rent.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for car rentals.</details>
+                            <details_es>Archivo de modelo javascript para rentas de coches.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>utils/</name>
+                    <type>Folder</type>
+                    <details>Folder containing utility javascript files for form validation and DOM manipulation.</details>
+                    <details_es>Carpeta que contiene archivos javascript de utilidades para validación de formularios y manipulación del DOM.</details_es>
+                    <contents>
+                        <component>
+                            <name>alerts.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for validation modals.</details>
+                            <details_es>Archivo de utilidad javascript para modales de verificación.</details_es>
+                        </component>
+                        <component>
+                            <name>functions.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for utility functions, like debounce.</details>
+                            <details_es>Archivo de utilidad javascript para funciones de utilidad, como retrasar.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>package-lock.json</name>
+                    <type>JSON</type>
+                    <details>Lock file for npm dependencies.</details>
+                    <details_es>Archivo de bloqueo para dependencias de npm.</details_es>
+                </component>
+                <component>
+                    <name>package.json</name>
+                    <type>JSON</type>
+                    <details>npm configuration file for managing dependencies and scripts.</details>
+                    <details_es>Archivo de configuración de npm para gestionar dependencias y scripts.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>Frontend/</name>
+            <type>Folder</type>
+            <details>Folder containing all frontend files for the landing page and admin dashboard.</details>
+            <details_es>Carpeta que contiene todos los archivos frontend para la página de inicio y el panel de administración.</details_es>
+            <contents>
+                <component>
+                    <name>admin/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all files for the admin dashboard.</details>
+                    <details_es>Carpeta que contiene todos los archivos para el panel de administración.</details_es>
+                    <contents>
+                        <component>
+                            <name>dashboard.html</name>
+                            <type>HTML</type>
+                            <details>Main HTML file for the admin dashboard.</details>
+                            <details_es>Archivo HTML principal para el panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>dashboard.css</name>
+                            <type>Stylesheet</type>
+                            <details>CSS file for styling the admin dashboard.</details>
+                            <details_es>Archivo CSS para dar estilo al panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>js/</name>
+                            <type>Folder</type>
+                            <details>Folder containing javascript files for the admin dashboard.</details>
+                            <details_es>Carpeta que contiene archivos javascript para el panel de administración.</details_es>
+                            <contents>
+                                <component>
+                                    <name>constructCar.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for constructing car objects.</details>
+                                    <details_es>Archivo javascript para construir objetos de coche.</details_es>
+                                </component>
+                                <component>
+                                    <name>constructUser.js</name> <!-- Pending for real creation, but a really good idea -->
+                                    <type>Script</type>
+                                    <details>Javascript file for constructing user objects.</details>
+                                    <details_es>Archivo javascript para construir objetos de usuario.</details_es>
+                                </component>
+                                <component> <!-- Pending for real creation, but a really good idea -->
+                                    <name>dashboard_script.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for admin dashboard interactivity and CRUD operations with json-server.</details>
+                                    <details_es>Archivo Javascript para la interactividad del panel de administración y operaciones CRUD con json-server.</details_es>
+                                </component>
+                                <component>
+                                    <name>logout.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for handling admin logout functionality.</details>
+                                    <details_es>Archivo Javascript para manejar la funcionalidad de cierre de sesión del administrador.</details_es>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>assets/</name>
+                    <type>Folder</type>
+                    <details>Folder containing images and other media assets used in the website.</details>
+                    <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component>
+                            <name>cars/</name>
+                            <type>Folder</type>
+                            <details>Folder containing image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="colection">
+                                    <name type="Image">car_all_new_rush.png</name>
+                                    <name type="Image">car_all_new_terios.png</name>
+                                    <name type="Image">car_cr-v.png</name>
+                                    <name type="Image">car_cr-v_black.png</name>
+                                    <name type="Image">car_koenigsegg.png</name>
+                                    <name type="Image">car_mg_zx_excite.png</name>
+                                    <name type="Image">car_mg_zx_exclusive.png</name>
+                                    <name type="Image">car_new_mg_zs.png</name>
+                                    <name type="Image">car_new_mg_zs_platinum.png</name>
+                                    <name type="Image">car_nissangt-r</name>
+                                    <name type="Image">car_rolls-royce.png</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>icons/</name>
+                            <type>Folder</type>
+                            <details>Folder containing icon files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de iconos utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="colection">
+                                    <name type="Image">gas-station.svg</name>
+                                    <name type="Image">hearth-empty.svg</name>
+                                    <name type="Image">hearth-full.svg</name>
+                                    <name type="Image">manual.svg</name>
+                                    <name type="Image">profile-2user.svg</name>
+                                    <name type="Image">user-symbol.svg</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>images/</name>
+                            <type>Folder</type>
+                            <details>Folder containing general image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="colection">
+                                    <name type="Image">Ads 1.png</name>
+                                    <name type="Image">BG.png</name>
+                                    <name type="Image">CarsCrud-removebg 1.png</name>
+                                    <name type="Image">Logo.png</name>
+                                    <name type="Image">gray_car.png</name>
+                                    <name type="Image">white_car.png</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>users/</name>
+                            <type>Folder</type>
+                            <details>Folder containing user profile images used in the website.</details>
+                            <details_es>Carpeta que contiene imágenes de perfil de usuario utilizadas en el sitio web.</details_es>
+                            <contents>
+                                <component type="colection">
+                                    <name type="Image">Profil &amp; Nodification.png</name>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>css/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all CSS files for styling and responsive design.</details>
+                    <details_es>Carpeta que contiene todos los archivos CSS para estilos y diseño responsivo.</details_es>
+                    <contents>
+                        <component>
+                            <name>style.css</name>
+                            <type>Stylesheet</type>
+                            <details>Main CSS file for styling the website.</details>
+                            <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all javascript files for interactivity</details>
+                    <details_es>Carpeta que contiene todos los archivos javascript para interactividad</details_es>
+                    <contents>
+                        <component>
+                            <name>script.js</name>
+                            <type>Script</type>
+                            <details>Main javascript file for interactivity and DOM manipulation.</details>
+                            <details_es>Archivo javascript principal para interactividad y manipulación del DOM.</details_es>
+                        </component>
+                        <component>
+                            <name>login.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user login functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+                        </component>
+                        <component>
+                            <name>signup.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user signup functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad de registro de usuario.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>index.html</name>
+                    <type>HTML</type>
+                    <details>Main landing page of the website, with responsive design.</details>
+                    <details_es>Página principal del sitio web, con diseño responsivo.</details_es>
+                </component>
+                <component>
+                    <name>log_in.html</name>
+                    <type>HTML</type>
+                    <details>Login page for user authentication.</details>
+                    <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+                </component>
+                <component>
+                    <name>sign_up.html</name>
+                    <type>HTML</type>
+                    <details>Signup page for new user registration.</details>
+                    <details_es>Página de registro para nuevos usuarios.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>CHANGELOG.md</name>
+            <type>Markdown</type>
+            <details>This component contains a log of changes made to the project.</details>
+            <details_es>Este componente contiene un registro de los cambios realizados en el proyecto.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Simple relocation page to Frontend/index.html</details>
+            <details_es>Página de reubicación simple a Frontend/index.html</details_es>
+        </component>
+    </components>
 </project>
 </module_3>
