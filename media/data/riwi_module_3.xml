@@ -65,6 +65,48 @@
         </component>
     </components>
 </project>
+<project>
+    <project_name>User story 3</project_name>
+    <project_name_es>Historia de usuario 3</project_name_es>
+    <description>This project is a simple javascript program, executed inside an HTML, where a panel for taking notes is created, with basic CRUD operations and localStorage for data persistence.</description>
+    <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, donde se crea un panel para tomar notas, con operaciones CRUD básicas y localStorage para persistencia de datos.</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/h_u_3_m3.png</image>
+        <image>./media/images/screenshots/h_u_3_m3-img1.png</image>
+        <image>./media/images/screenshots/h_u_3_m3-img2.png</image>
+        <image>./media/images/screenshots/h_u_3_m3-img3.png</image>
+        <image>./media/images/screenshots/h_u_3_m3-img4.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url>https://github.com/SrLampi1001/historia_usuario_3_m3</url>
+    <components>
+        <component>
+            <name>script.js</name>
+            <type>Script</type>
+            <details>This component handles data processing, basic CRUD operations for notes, and localStorage for data persistence.</details>
+            <details_es>Este componente maneja el procesamiento de datos, operaciones CRUD básicas para notas, y localStorage para persistencia de datos.</details_es>
+        </component>
+        <component>
+            <name>manipulation_dom.html</name>
+            <type>HTML</type>
+            <details>This component is executed on the browser to execute the script, has the notes</details>
+            <details_es>Este componente es ejecutado en el navegador para ejecutar el script, has the notes</details_es>
+        </component>
+        <component>
+            <name>styles.css</name>
+            <type>Stylesheet</type>
+            <details>This component contains the styles for the notes panel and overall design.</details>
+            <details_es>Este componente contiene los estilos para el panel de notas y el diseño en general.</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
 <!-- Complete webpages -->
 <project status="incomplete">
     <project_name>cars-crud</project_name>
