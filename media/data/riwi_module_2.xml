@@ -43,7 +43,12 @@
                     <details>This component contains the images used in the mascotas webpage.</details>
                     <details_es>Este componente contiene las imágenes usadas en la página web de mascotas</details_es>
                     <contents>
-                    dog.jpg, front.jpg, horse.jpg, iguana.jpg
+                        <component type="colection">
+                            <name type="Image">dog.jpg</name>
+                            <name type="Image">front.jpg</name>
+                            <name type="Image">horse.jpg</name>
+                            <name type="Image">iguana.jpg</name>
+                        </component>
                     </contents>
                 </component>
             </contents>
@@ -109,7 +114,17 @@
                 <details>This folder contains the images used inside the PORTFOLIO, index.html</details>
                 <details_es>Esta carpeta contiene las imagenes usadas dentro del Portafolio, index.html</details_es>
                 <contents>
-                example.png, h_u_1_m1.png, h_u_2_m1.png, h_u_3_m1.png, mascotas.png, mini_proyectos_m1.png, t_1.png, t_2.png, t_3.png
+                    <component type="colection">
+                        <name type="Image">example.png</name>
+                        <name type="Image">h_u_1_m1.png</name>
+                        <name type="Image">h_u_2_m1.png</name>
+                        <name type="Image">h_u_3_m1.png</name>
+                        <name type="Image">mascotas.png</name>
+                        <name type="Image">mini_proyectos_m1.png</name>
+                        <name type="Image">t_1.png</name>
+                        <name type="Image">t_2.png</name>
+                        <name type="Image">t_3.png</name>
+                    </component>
                 </contents>
         </component>
         <component>
@@ -230,7 +245,22 @@
                         <details>This folder contains the screenshot images from the different projects</details>
                         <details_es>Esta carpeta contiene las imagenes de capturas de pantalla de los proyectos</details_es>
                         <contents>
-                            h_u_1_m1.png, h_u_2_m1.png, h_u_3_m1.png, mascotas.png, mini_proyectos_m1.png, t_1.png, t_2.png, t_3.png, flashsports.jpg, kepler_22b.png, kfc.png, p_d_m1.png, t_3-5.png
+                            <component type="colection">
+                                <name type="Image">example.png</name>
+                                <name type="Image">h_u_1_m1.png</name>
+                                <name type="Image">h_u_2_m1.png</name>
+                                <name type="Image">h_u_3_m1.png</name>
+                                <name type="Image">mascotas.png</name>
+                                <name type="Image">mini_proyectos_m1.png</name>
+                                <name type="Image">t_1.png</name>
+                                <name type="Image">t_2.png</name>
+                                <name type="Image">t_3.png</name>
+                                <name type="Image">flashsports.jpg</name>
+                                <name type="Image">kepler_22b.png</name>
+                                <name type="Image">kfc.png</name>
+                                <name type="Image">p_d_m1.png</name>
+                                <name type="Image">t_3-5.png</name>
+                            </component>
                         </contents>
                     </component>
                 </contents>
@@ -362,7 +392,15 @@
                     <details>This folder contains all images used in the html archives</details>
                     <details_es>Esta carpeta contiene todas las imagenes usadas en los archivos html</details_es>
                     <contents>
-                        1.jpg, ChatGPT Image 4 dic 2025, 16_28_23.png, img-example.jpg, kepler.jpg, kepler_22b.jpg
+                        <component type="colection">
+                            <name type="Image">kepler_22b.jpg</name>
+                            <name type="Image">1.jpg</name>
+                            <name type="Image">ChatGPT Image 4 dic 2025.jpg</name>
+                            <name type="Image">16_28_23.png</name>
+                            <name type="Image">img-example.jpg</name>
+                            <name type="Image">kepler.jpg</name>
+                            <name type="Image">kepler_22b.jpg</name>
+                        </component>
                     </contents>
                 </component>
                 <component>
@@ -371,7 +409,11 @@
                     <details>This folder contains all the videos used in the html archives</details>
                     <details_es>Esta carpeta contiene todos los videos usados en los archivos html</details_es>
                     <contents>
-                        215697_small.mp4, kepler_rotating.webm, vxxdy-tcyx8.mp4
+                        <component type="colection">
+                            <name type="Video">215697_small.mp4</name>
+                            <name type="Video">kepler_rotating.webm</name>
+                            <name type="Video">vxxdy-tcyx8.mp4</name>
+                        </component>
                     </contents>
                 </component>
             </contents>
@@ -528,7 +570,20 @@
                     <details>This folder contains all the images used in the different html files</details>
                     <details_es>Esta carpeta contiene todas las imagenes usadas en los diferentes archivos html</details_es>
                     <contents>
-                        banner.jpeg, estadio-campin.jpeg, estadio-hernan.jpeg, estadio-palogrande.jpeg, estadio-pascual.jpeg, estadio.jpg, general-satander.jpeg, icon.ico, icon.webp, metropolitano.jpeg, pascual.jpeg, skate.jpg
+                        <component type="colection">
+                            <name type="Image">banner.jpeg</name>
+                            <name type="Image">estadio-campin.jpeg</name>
+                            <name type="Image">estadio-hernan.jpeg</name>
+                            <name type="Image">estadio-palogrande.jpeg</name>
+                            <name type="Image">estadio-pascual.jpeg</name>
+                            <name type="Image">estadio.jpg</name>
+                            <name type="Image">general-satander.jpeg</name>
+                            <name type="Image">icon.ico</name>
+                            <name type="Image">icon.webp</name>
+                            <name type="Image">metropolitano.jpeg</name>
+                            <name type="Image">pascual.jpeg</name>
+                            <name type="Image">skate.jpg</name>
+                        </component>
                     </contents>
                 </component>
                 <component>
