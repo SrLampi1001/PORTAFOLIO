@@ -7,11 +7,11 @@
     <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD with user input.</description>
     <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, para operaciones crud básicas con entrada de usuario.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_1_m1.png</image>
+        <image type="thumbnail">./media/images/screenshots/h_u_1_m3.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/historia_usuario_m3_s1</url>
+    <url>https://github.com/SrLampi1001/historia_usuario_1_m3</url>
     <components>
         <component>
             <name>sistema_interactivo.js</name>
@@ -33,8 +33,40 @@
         </component>
     </components>
 </project>
+<project>
+    <project_name>User story 2</project_name>
+    <project_name_es>Historia de usuario 2</project_name_es>
+    <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD and testing for MAP and SET data structures.</description>
+    <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, para operaciones crud básicas y pruebas para las estructuras de datos MAP y SET.</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/h_u_2_m3.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url>https://github.com/SrLampi1001/historia_usuario_2_m3</url>
+    <components>
+        <component>
+            <name>gestion_datos.js</name>
+            <type>Script</type>
+            <details>This component handles data processing, basic name &amp; age inputs, with MAP, SET and object data structures.</details>
+            <details_es>Este componente maneja el procesamiento de datos, entrada de datos básica de nombre y edad, con las estructuras de datos MAP, SET y objetos.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is executed on the browser to execute the script</details>
+            <details_es>Este componente es ejecutado en el navegador para ejecutar el script</details_es>
+        </component>
+        <component status="incomplete">
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
 <!-- Complete webpages -->
-<project status="complete">
+<project status="incomplete">
     <project_name>cars-crud</project_name>
     <project_name_es>cars-crud</project_name_es>
     <description>This projects is a complete mock website, for a rent sand buying car service, it has responsive design and an admin dashboard with landpage, a simple sing up verification and an OOP with json-server api and models for interactivity</description>
