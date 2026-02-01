@@ -43,7 +43,7 @@
                     <details>This component contains the images used in the mascotas webpage.</details>
                     <details_es>Este componente contiene las imágenes usadas en la página web de mascotas</details_es>
                     <contents>
-                        <component type="colection">
+                        <component type="collection">
                             <name type="Image">dog.jpg</name>
                             <name type="Image">front.jpg</name>
                             <name type="Image">horse.jpg</name>
@@ -114,7 +114,7 @@
                 <details>This folder contains the images used inside the PORTFOLIO, index.html</details>
                 <details_es>Esta carpeta contiene las imagenes usadas dentro del Portafolio, index.html</details_es>
                 <contents>
-                    <component type="colection">
+                    <component type="collection">
                         <name type="Image">example.png</name>
                         <name type="Image">h_u_1_m1.png</name>
                         <name type="Image">h_u_2_m1.png</name>
@@ -245,7 +245,7 @@
                         <details>This folder contains the screenshot images from the different projects</details>
                         <details_es>Esta carpeta contiene las imagenes de capturas de pantalla de los proyectos</details_es>
                         <contents>
-                            <component type="colection">
+                            <component type="collection">
                                 <name type="Image">example.png</name>
                                 <name type="Image">h_u_1_m1.png</name>
                                 <name type="Image">h_u_2_m1.png</name>
@@ -392,7 +392,7 @@
                     <details>This folder contains all images used in the html archives</details>
                     <details_es>Esta carpeta contiene todas las imagenes usadas en los archivos html</details_es>
                     <contents>
-                        <component type="colection">
+                        <component type="collection">
                             <name type="Image">kepler_22b.jpg</name>
                             <name type="Image">1.jpg</name>
                             <name type="Image">ChatGPT Image 4 dic 2025.jpg</name>
@@ -409,7 +409,7 @@
                     <details>This folder contains all the videos used in the html archives</details>
                     <details_es>Esta carpeta contiene todos los videos usados en los archivos html</details_es>
                     <contents>
-                        <component type="colection">
+                        <component type="collection">
                             <name type="Video">215697_small.mp4</name>
                             <name type="Video">kepler_rotating.webm</name>
                             <name type="Video">vxxdy-tcyx8.mp4</name>
@@ -570,7 +570,7 @@
                     <details>This folder contains all the images used in the different html files</details>
                     <details_es>Esta carpeta contiene todas las imagenes usadas en los diferentes archivos html</details_es>
                     <contents>
-                        <component type="colection">
+                        <component type="collection">
                             <name type="Image">banner.jpeg</name>
                             <name type="Image">estadio-campin.jpeg</name>
                             <name type="Image">estadio-hernan.jpeg</name>
