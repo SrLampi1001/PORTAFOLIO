@@ -699,7 +699,7 @@
 </project>
 <!-- assesment test & mocks -->
 <project status="incomplete">
-    <project_name>Mock assesment test</project_name>
+    <project_name>Mock assesment test</project_name> <!-- Add: clear disclaimer states it’s for educational purposes and not affiliated with the original. -->
     <project_name_es>Simulacro prueba de desempeño</project_name_es>
     <description>This project is a mock assesment test for front end development, using html and css, focusing on copying responsive and design from Alkosto Hiperahorro webpage</description>
     <description_es>Este proyecto es un simulacro de prueba de desempeño para desarrollo front end, usando html y css, enfocándose en copiar el diseño de la página Alkosto Hiperahorro</description_es>
