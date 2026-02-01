@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_1>
+<!-- User stories -->
 <project>
     <project_name>User story 1</project_name>
     <project_name_es>Historia de usuario 1</project_name_es>
@@ -114,6 +115,7 @@
         </component>
     </components>
 </project>
+<!-- Assigments -->
 <project>
     <project_name>Assignment 1</project_name>
     <project_name_es>Taller 1</project_name_es>
@@ -262,6 +264,61 @@
             <type>Script</type>
             <details>This component handles data procesing and input</details>
             <details_es>Este componente maneja la entrada y procesamiento de datos</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<!-- Assesment tests & mocks  -->
+<project status="incomplete">
+    <project_name>Mock Assesment test</project_name>
+    <project_name_es>Simulacro prueba de desempeño</project_name_es>
+    <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage, to prepare for the real Assesment test.
+    The program uses OOP concepts, and async operations to simulate a real sistem for a borrowing equipment tech company. 
+    </description>
+    <description_es>Este es un proyecto de prueba creado para evaluar todo el conocimiento adquirido durante los proyectos previos de este módulo, incluyendo el manejo de la entrada del usuario, control de errores, procesamiento de datos y uso de librerías externas, para prepararse para la prueba de desempeño real
+    El programa usa conceptos de POO y operaciones asíncronas para simular un sistema real para una empresa de tecnología de equipos en préstamo.
+    </description_es>.
+    <images>
+        <image type="thumbnail">./media/images/screenshots/simulacro_m1.png</image>
+    </images>
+    <version>0.2</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url>https://github.com/SrLampi1001/simulacro_prueba_desempeno_modulo1</url>
+    <components>
+        <component status="incomplete">
+            <name>main.py</name>
+            <type>Script</type>
+            <details>This component handles data procesing, core of the application</details>
+            <details_es>Este componente maneja el procesamiento de datos, es el centro de la aplicacion</details_es>
+        </component>
+        <component>
+            <name>equipos.py</name>
+            <type>Script</type>
+            <details>This component decribes the equipment object and it's methods</details>
+            <details_es>Este componente describe el objeto equipo y sus métodos</details_es>
+        </component>
+        <component>
+            <name>usuarios.py</name>
+            <type>Script</type>
+            <details>This component decribes the user object and it's methods</details>
+            <details_es>Este componente describe el objeto usuario y sus métodos</details_es>
+        </component>
+        <component>
+            <name>prestamos.py</name>
+            <type>Script</type>
+            <details>This component decribes the borrowing object and it's methods</details>
+            <details_es>Este componente describe el objeto préstamo y sus métodos</details_es>
+        </component>
+        <component>
+            <name>reportes.py</name>
+            <type>Script</type>
+            <details>This component handles the reports generation</details>
+            <details_es>Este componente maneja la generación de reportes</details_es>
         </component>
         <component>
             <name>README.md</name>
