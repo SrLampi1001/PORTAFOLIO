@@ -72,10 +72,10 @@
     <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, donde se crea un panel para tomar notas, con operaciones CRUD básicas y localStorage para persistencia de datos.</description_es>
     <images>
         <image type="thumbnail">./media/images/screenshots/h_u_3_m3.png</image>
-        <image>./media/images/screenshots/h_u_3_m3-img1.png</image>
-        <image>./media/images/screenshots/h_u_3_m3-img2.png</image>
-        <image>./media/images/screenshots/h_u_3_m3-img3.png</image>
-        <image>./media/images/screenshots/h_u_3_m3-img4.png</image>
+        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img1.png</image>
+        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img2.png</image>
+        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img3.png</image>
+        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img4.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
