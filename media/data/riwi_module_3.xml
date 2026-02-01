@@ -120,8 +120,8 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url type="link-code">https://github.com/SrLampi1001/KFC</url>
-    <url type="link-page">https://srlampi1001.github.io/KFC/</url>
+    <url type="code-link">https://github.com/SrLampi1001/KFC</url>
+    <url type="page-link">https://srlampi1001.github.io/KFC/</url>
     <components>
         <component>
             <name>index.html</name>
@@ -951,6 +951,265 @@
             <type>HTML</type>
             <details>Simple relocation page to Front/index.html</details>
             <details_es>Página de reubicación simple a Front/index.html</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<!-- Assesment tests & mocks  -->
+<project status="incomplete">
+    <project_name>Mock assesment test</project_name>
+    <project_name_es>Simulacro prueba de desempeño</project_name_es>
+    <description>This project is a simple simulated website with a restaurant ordering system, using bootstrap5 for frontend, with a simulated backend via JSON-server and OOP for the client functionality and CRUD operations</description>
+    <description_es>Este proyecto es un simple sitio web simulado con un sistema de pedidos de restaurante, usando bootstrap5 para el frontend, con un backend simulado via JSON-server y POO para la funcionalidad del cliente y operaciones CRUD</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/s_p_d_m3.png</image>
+    </images>
+    <version>beta 2.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m3</url>
+    <components>
+        <component>
+            <name>admin/</name>
+            <type>Folder</type>
+            <details>Folder containing all files for the admin dashboard.</details>
+            <details_es>Carpeta que contiene todos los archivos para el panel de administración.</details_es>
+            <contents>
+                <component>
+                    <name>index.html</name>
+                    <type>HTML</type>
+                    <details>Main HTML file for the admin dashboard.</details>
+                    <details_es>Archivo HTML principal para el panel de administración.</details_es>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>Folder containing javascript files for the admin dashboard.</details>
+                    <details_es>Carpeta que contiene archivos javascript para el panel de administración.</details_es>
+                    <contents>
+                        <component>
+                            <name>loadAdmin.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for admin dashboard interactivity and CRUD operations with json-server using admin object.</details>
+                            <details_es>Archivo Javascript para la interactividad del panel de administración y operaciones CRUD con json-server usando el objeto admin.</details_es>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>database/</name>
+            <type>Folder</type>
+            <details>Folder containing the json-server database file.</details>
+            <details_es>Carpeta que contiene el archivo de base de datos json-server.</details_es>
+            <contents>
+                <component>
+                    <name>db.json</name>
+                    <type>JSON</type>
+                    <details>json-server database file for storing restaurant menu items and orders.</details>
+                    <details_es>Archivo de base de datos json-server para almacenar artículos del menú del restaurante y pedidos.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>Folder containing all javascript files for interactivity</details>
+            <details_es>Carpeta que contiene todos los archivos javascript para interactividad</details_es>
+            <contents>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>javascript file for user and admin redirection.</details>
+                    <details_es>Archivo javascript para redirección de admin y user.</details_es>
+                </component>
+                <component>
+                    <name>login.script.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user login functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+                </component>
+                <component>
+                    <name>signup.script.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user signup functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de registro de usuario.</details_es>
+                </component>
+                <component>
+                    <name>logout.script.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user logout functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de cierre de sesión del usuario.</details_es>
+                </component>
+                <component>
+                    <name>loadUser.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for loading user object after login.</details>
+                    <details_es>Archivo Javascript para cargar el objeto de usuario después del inicio de sesión.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>media/</name>
+            <type>Folder</type>
+            <details>Folder containing images and other media assets used in the website.</details>
+            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+            <contents>
+                <component>
+                    <name>images/</name>
+                    <type>Folder</type>
+                    <details>Folder containing general image files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">clasic_beef_burger.png</name>
+                            <name type="Image">cola_zero.png</name>
+                            <name type="Image">donut_box.png</name>
+                            <name type="Image">double_beacon_melt.png</name>
+                            <name type="Image">golden_fries.png</name>
+                            <name type="Image">pizza_slice.png</name>
+                            <name type="Image">user_profile.png</name>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>icons/</name>
+                    <type>Folder</type>
+                    <details>Folder containing icon image files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de imágenes de iconos utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">cart_icon.png</name>
+                            <name type="Image">admin_icon.png</name>
+                            <name type="Image">bag_icon.png</name>
+                            <name type="Image">bills_icon.png</name>
+                            <name type="Image">burger_icon.png</name>
+                            <name type="Image">canceled_icon.png</name>
+                            <name type="Image">card_icon.png</name>
+                            <name type="Image">cono_icon.png</name>
+                            <name type="Image">cubiertos_2_icon.png</name>
+                            <name type="Image">cubiertos_icon.png</name>
+                            <name type="Image">done_icon.png</name>
+                            <name type="Image">drink_icon.png</name>
+                            <name type="Image">identification_icon.png</name>
+                            <name type="Image">mail_icon.png</name>
+                            <name type="Image">map_icon.png</name>
+                            <name type="Image">pizza_icon.png</name>
+                            <name type="Image">preparing_icon.png</name>
+                            <name type="Image">settings_icon.png</name>
+                            <name type="Image">task_icon.png</name>
+                            <name type="Image">truck_icon.png</name>
+                            <name type="Image">user_icon.png</name>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>models/</name>
+            <type>Folder</type>
+            <details>Folder containing javascript model files for restaurant menu items and orders.</details>
+            <details_es>Carpeta que contiene archivos de modelos javascript para artículos del menú del restaurante y pedidos.</details_es>
+            <contents>
+                <component>
+                    <name>Admin.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for admin users.</details>
+                    <details_es>Archivo de modelo javascript para usuarios administradores.</details_es>
+                </component>
+                <component>
+                    <name>Product.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for restaurant menu items.</details>
+                    <details_es>Archivo de modelo javascript para artículos del menú del restaurante.</details_es>
+                </component>
+                <component>
+                    <name>Product_State.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for product states.</details>
+                    <details_es>Archivo de modelo javascript para estados de productos.</details_es>
+                </component>
+                <component>
+                    <name>User.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for regular users.</details>
+                    <details_es>Archivo de modelo javascript para usuarios regulares.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>Folder containing all CSS files for styling the website.</details>
+            <details_es>Carpeta que contiene todos los archivos CSS para dar estilo al sitio web.</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+                <component>
+                    <name>icons.css</name>
+                    <type>Stylesheet</type>
+                    <details>CSS file for creating personalized classes for icons.</details>
+                    <details_es>Archivo CSS para crear clases personalizadas para iconos.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>utils/</name>
+            <type>Folder</type>
+            <details>Folder containing utility javascript files for form validation and DOM manipulation.</details>
+            <details_es>Carpeta que contiene archivos javascript de utilidades para validación de formularios y manipulación del DOM.</details_es>
+            <contents>
+                <component>
+                    <name>log_in.js</name>
+                    <type>Script</type>
+                    <details>Javascript utility file for login validation.</details>
+                    <details_es>Archivo de utilidad javascript para validación de inicio de sesión.</details_es>
+                </component>
+                <component>
+                    <name>sign_up.js</name>
+                    <type>Script</type>
+                    <details>Javascript utility file for signup validation.</details>
+                    <details_es>Archivo de utilidad javascript para validación de registro.</details_es>
+                </component>
+                <component>
+                    <name>render_galery.js</name>
+                    <type>Script</type>
+                    <details>Javascript utility file for rendering product gallery dynamically.</details>
+                    <details_es>Archivo de utilidad javascript para renderizar la galería de productos dinámicamente.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Main landing page of the restaurant ordering system, with responsive design.</details>
+            <details_es>Página principal del sistema de pedidos del restaurante, con diseño responsivo.</details_es>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>log_in.html</name>
+            <type>HTML</type>
+            <details>Login page for user authentication.</details>
+            <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+        </component>
+        <component>
+            <name>sign_up.html</name>
+            <type>HTML</type>
+            <details>Signup page for new user registration.</details>
+            <details_es>Página de registro para nuevos usuarios.</details_es>
         </component>
         <component>
             <name>README.md</name>

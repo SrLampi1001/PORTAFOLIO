@@ -11,7 +11,7 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/historia_usuario_1</url>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_1</url>
     <components>
         <component>
             <name>Inventory.py</name>
@@ -43,7 +43,7 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/historia_usuario_2</url>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_2</url>
     <components>
         <component>
             <name>historia_usuario_2.py</name>
@@ -69,7 +69,7 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/historia_usuario_3</url>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_3</url>
     <components>
         <component>
             <name>app.py</name>
@@ -126,7 +126,7 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/taller1_riwi</url>
+    <url type="code-link">https://github.com/SrLampi1001/taller1_riwi</url>
     <components>
         <component>
             <name>taller1.py</name>
@@ -152,7 +152,7 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/taller2_riwi</url>
+    <url type="code-link">https://github.com/SrLampi1001/taller2_riwi</url>
     <components>
         <component>
             <name>taller2.py</name>
@@ -178,7 +178,7 @@
     </images>
     <version>0.2</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/Mini_proyecto_python</url>
+    <url type="code-link">https://github.com/SrLampi1001/Mini_proyecto_python</url>
     <components>
         <component>
             <name>calculadora.py</name>
@@ -219,7 +219,7 @@
     <version>0.5</version>
     <author>Santiago Sánchez Ruiz</author>
     <author>Nicolas Garzón</author>
-    <url>https://github.com/nicogarzonhub/Mini_proyecto</url>
+    <url type="code-link">https://github.com/nicogarzonhub/Mini_proyecto</url>
     <components>
         <component>
             <name>estudiantes.json</name>
@@ -257,7 +257,7 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/taller_practico_gestion_notas</url>
+    <url type="code-link">https://github.com/SrLampi1001/taller_practico_gestion_notas</url>
     <components>
         <component>
             <name>taller_practico_sistema_notas.py</name>
@@ -288,7 +288,7 @@
     </images>
     <version>0.2</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/simulacro_prueba_desempeno_modulo1</url>
+    <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_modulo1</url>
     <components>
         <component status="incomplete">
             <name>main.py</name>
@@ -338,7 +338,7 @@
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/prueba_desempe-o_modulo_1</url>
+    <url type="code-link">https://github.com/SrLampi1001/prueba_desempe-o_modulo_1</url>
     <components>
         <component>
             <name>app.py</name>
