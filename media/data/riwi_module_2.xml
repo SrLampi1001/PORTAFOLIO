@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_2>
+<!-- User stories -->
 <project>   
     <project_name>User Story 1</project_name>
     <project_name_es>Historia de usuario 1</project_name_es>
@@ -319,6 +320,7 @@
         </component>
     </components>
 </project>
+<!-- Webpages -->
 <project>
     <project_name>form only css &amp; html</project_name>
     <project_name_es>formulario solo css y html</project_name_es>
@@ -692,6 +694,94 @@
             <type>PDF</type>
             <details>This component contains the initial design sketch for the webpage.</details>
             <details_es>Este componente contiene el boceto de diseño inicial para la página web</details_es>
+        </component>
+    </components>
+</project>
+<!-- assesment test & mocks -->
+<project status="incomplete">
+    <project_name>Mock assesment test</project_name>
+    <project_name_es>Simulacro prueba de desempeño</project_name_es>
+    <description>This project is a mock assesment test for front end development, using html and css, focusing on copying responsive and design from Alkosto Hiperahorro webpage</description>
+    <description_es>Este proyecto es un simulacro de prueba de desempeño para desarrollo front end, usando html y css, enfocándose en copiar el diseño de la página Alkosto Hiperahorro</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/s_p_d_m2.png</image>
+        <!-- <image type="screenshot">./media/images/screenshots/s_p_d_m2_responsive.png</image> --> <!-- Future image -->
+    </images>
+    <version>0.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2/</url>
+    <components>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project status="incomplete">
+    <project_name>Mock assesment test 2</project_name>
+    <project_name_es>Simulacro prueba de desempeño 2</project_name_es>
+    <description>This project is a mock assesment for riwi module 2 assesment test, creating a simple webpage responsive design with HTML and CSS</description>
+    <description_es>Este proyecto es un simulacro de proyecto para el módulo 3, creando una simple aplicación de notas usando javascript, html y css</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/s_p_d_m2-2.png</image>
+        <!-- <image type="screenshot">./media/images/screenshots/s_p_d_m2-2-responsive.png</image> --> <!-- Future Image -->
+    </images>
+    <version>0.2</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2-2</url>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is the main webpage of the project.</details>
+            <details_es>Este componente es la página web principal del proyecto</details_es>
+        </component>
+        <component>
+            <name>styles/styles.css</name>
+            <type>CSS</type>
+            <details>This component contains all the styles and classes for the html webpage.</details>
+            <details_es>Este componente contiene todos los estilos y clases para la página web html</details_es>
+        </component>
+        <component>
+            <name>media/images/</name>
+            <type>Folder</type>
+            <details>This folder contains all the images used in the html webpage.</details>
+            <details_es>Esta carpeta contiene todas las imagenes usadas en la página web html</details_es>
+            <contents>
+                <component type="collection">
+                    <name type="Image">Design.png</name>
+                    <name type="Image">Ellipse 61.svg</name>
+                    <name type="Image">Group 109.png</name>
+                    <name type="Image">Play.png</name>
+                    <name type="Image">Union.svg</name>
+                    <name type="Image">Unsplash.svg</name>
+                    <name type="Image">activity 1.png</name>
+                    <name type="Image">bold-success.svg</name>
+                    <name type="Image">card1-img.png</name>
+                    <name type="Image">card2-img.png</name>
+                    <name type="Image">card3-img.png</name>
+                    <name type="Image">command 1.png</name>
+                    <name type="Image">credit-card.png</name>
+                    <name type="Image">five-stars.png</name>
+                    <name type="Image">four-stars.png</name>
+                    <name type="Image">grammarly.svg</name>
+                    <name type="Image">guy.png</name>
+                    <name type="Image">intercom.svg</name>
+                    <name type="Image">notion.svg</name>
+                    <name type="Image">pc.png</name>
+                    <name type="Image">pie-chart 1.png</name>
+                    <name type="Image">profile-photo.png</name>
+                    <name type="Image">succes.svg</name>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
 </project>
