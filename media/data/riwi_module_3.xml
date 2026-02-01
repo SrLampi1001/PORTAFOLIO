@@ -528,4 +528,317 @@
         </component>
     </components>
 </project>
+<project status="incomplete">
+    <project_name>CrudVentory</project_name>
+    <project_name_es>CrudVentory</project_name_es>
+    <description>This project is a simple inventory management system using JavaScript, HTML, and CSS. It allows users to perform basic CRUD operations on inventory items, uses json-server</description>
+    <description_es>Este proyecto es un simple sistema de gestión de inventario usando JavaScript, HTML y CSS. Permite a los usuarios realizar operaciones CRUD básicas en los artículos de inventario, uses json-server</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/crudventory.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="organization">Hubble-Riiwii</author>
+    <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
+    <url type="code-link">https://github.com/Hubble-Riiwii/CrudVentory</url>
+    <components>
+        <component>
+            <name>Back/</name>
+            <type>Folder</type>
+            <details>Folder containing all backend files for json-server and models.</details>
+            <details_es>Carpeta que contiene todos los archivos backend para json-server y modelos.</details_es>
+            <contents>
+                <component>
+                    <name>db.json</name>
+                    <type>JSON</type>
+                    <details>json-server database file for storing inventory items.</details>
+                    <details_es>Archivo de base de datos json-server para almacenar artículos de inventario.</details_es>
+                </component>
+                <component>
+                    <name>models/</name>
+                    <type>Folder</type>
+                    <details>Folder containing javascript model files for inventory items.</details>
+                    <details_es>Carpeta que contiene archivos de modelos javascript para artículos de inventario.</details_es>
+                    <contents>
+                        <component>
+                            <name>Product.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for inventory items.</details>
+                            <details_es>Archivo de modelo javascript para artículos de inventario.</details_es>
+                        </component>
+                        <component>
+                            <name>Admin.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for admin users.</details>
+                            <details_es>Archivo de modelo javascript para usuarios administradores.</details_es>
+                        </component>
+                        <component>
+                            <name>Category.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for product categories.</details>
+                            <details_es>Archivo de modelo javascript para categorías de productos.</details_es>
+                        </component>
+                        <component>
+                            <name>Product_State.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for product states.</details>
+                            <details_es>Archivo de modelo javascript para estados de productos.</details_es>
+                        </component>
+                        <component>
+                            <name>User.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for regular users.</details>
+                            <details_es>Archivo de modelo javascript para usuarios regulares.</details_es>
+                        </component>
+                    </contents>                    
+                </component>
+                <component>
+                    <name>utils/</name>
+                    <type>Folder</type>
+                    <details>Folder containing utility javascript files for form validation and DOM manipulation.</details>
+                    <details_es>Carpeta que contiene archivos javascript de utilidades para validación de formularios y manipulación del DOM.</details_es>
+                    <contents>
+                        <component>
+                            <name>log_in.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for login validation.</details>
+                            <details_es>Archivo de utilidad javascript para validación de inicio de sesión.</details_es>
+                        </component>
+                        <component>
+                            <name>sign_up.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for signup validation.</details>
+                            <details_es>Archivo de utilidad javascript para validación de registro.</details_es>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>Front/</name>
+            <type>Folder</type>
+            <details>Folder containing all frontend files for the inventory management system.</details>
+            <details_es>Carpeta que contiene todos los archivos frontend para el sistema de gestión de inventario.</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+                <component>
+                    <name>index.html</name>
+                    <type>HTML</type>
+                    <details>Main landing page of the inventory management system, with responsive design.</details>
+                    <details_es>Página principal del sistema de gestión de inventario, con diseño responsivo.</details_es>
+                </component>
+                <component>
+                    <name>details.html</name>
+                    <type>HTML</type>
+                    <details>Details page for viewing inventory items.</details>
+                    <details_es>Página de detalles para ver artículos de inventario.</details_es>
+                </component>
+                <component>
+                    <name>log_in.html</name>
+                    <type>HTML</type>
+                    <details>Login page for user authentication.</details>
+                    <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+                </component>
+                <component>
+                    <name>sign_up.html</name>
+                    <type>HTML</type>
+                    <details>Signup page for new user registration.</details>
+                    <details_es>Página de registro para nuevos usuarios.</details_es>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all javascript files for interactivity</details>
+                    <details_es>Carpeta que contiene todos los archivos javascript para interactividad</details_es>
+                    <contents>
+                        <component>
+                            <name>script.js</name>
+                            <type>Script</type>
+                            <details>Main javascript file for interactivity and index DOM manipulation.</details>
+                            <details_es>Archivo javascript principal para interactividad y manipulación del DOM en el index.</details_es>
+                        </component>
+                        <component>
+                            <name>contact.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for giving WhatsApp redirection to contact information button</details>
+                            <details_es>Archivo Javascript para dar redirección a WhatsApp al botón de información de contacto</details_es>
+                        </component>
+                        <component>
+                            <name>loadUser.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for loading user object after login.</details>
+                            <details_es>Archivo Javascript para cargar el objeto de usuario después del inicio de sesión.</details_es>
+                        </component>
+                        <component>
+                            <name>login.script.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user login formt functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad del formulario de inicio de sesión del usuario.</details_es>
+                        </component>
+                        <component>
+                            <name>signup.script.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user signup form functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad del formulario de registro de usuario.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>admin/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all files for the admin dashboard.</details>
+                    <details_es>Carpeta que contiene todos los archivos para el panel de administración.</details_es>
+                    <contents>
+                        <component>
+                            <name>index.html</name>
+                            <type>HTML</type>
+                            <details>Main HTML file for the admin dashboard.</details>
+                            <details_es>Archivo HTML principal para el panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>estilos.css</name>
+                            <type>Stylesheet</type>
+                            <details>CSS file for styling the admin dashboard.</details>
+                            <details_es>Archivo CSS para dar estilo al panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>js/</name>
+                            <type>Folder</type>
+                            <details>Folder containing javascript files for the admin dashboard.</details>
+                            <details_es>Carpeta que contiene archivos javascript para el panel de administración.</details_es>
+                            <contents>
+                                <component>
+                                    <name>admin.script.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for admin dashboard interactivity and CRUD operations with json-server using admin object.</details>
+                                    <details_es>Archivo Javascript para la interactividad del panel de administración y operaciones CRUD con json-server usando el objeto admin.</details_es>
+                                </component>
+                                <component>
+                                    <name>app.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for constructing dashoboard data and CRUD operations with json-server</details>
+                                    <details_es>Archivo Javascript para construir los datos del dashboard y operaciones CRUD con json-server</details_es>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>assets/</name>
+                            <type>Folder</type>
+                            <details>Folder containing images and other media assets used in the admin dashboard.</details>
+                            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el panel de administración.</details_es>
+                            <contents>
+                                <component>
+                                    <name>img/</name>
+                                    <type>Folder</type>
+                                    <details>Folder containing image files used in the admin dashboard.</details>
+                                    <details_es>Carpeta que contiene archivos de imágenes utilizados en el panel de administración.</details_es>
+                                    <contents>
+                                        <component type="colection">
+                                            <name type="Image">ajustes.png</name>
+                                            <name type="Image">brillo.png</name>
+                                            <name type="Image">usuario.png</name>
+                                        </component>
+                                    </contents>
+                                </component>
+                                <component>
+                                    <name>img-aside/</name>
+                                    <type>Folder</type>
+                                    <details>Folder containing aside image files used in the admin dashboard.</details>
+                                    <details_es>Carpeta que contiene archivos de imágenes aside utilizados en el panel de administración.</details_es>
+                                    <contents>
+                                        <component type="colection">
+                                            <name type="Image">angulo-hacia-abajo.png</name>
+                                            <name type="Image">bolsa-de-la-compra.png</name>
+                                            <name type="Image">carpeta-abierta.png</name>
+                                            <name type="Image">dia-del-calendario.png</name>
+                                            <name type="Image">hora-en-punto.png</name>
+                                            <name type="Image">mundo.png</name>
+                                            <name type="Image">notificacion-del-chat.png</name>
+                                        </component>
+                                    </contents>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>api/</name>
+                    <type>Folder</type>
+                    <details>Folder containing API product object files CRUD operations for json-server.</details>
+                    <details_es>Carpeta que contiene archivos de objetos de productos API para operaciones CRUD con json-server.</details_es>
+                    <contents>
+                        <component>
+                            <name>getProduct.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for API product object CRUD operations for json-server.</details>
+                            <details_es>Archivo Javascript para operaciones CRUD de objetos de productos API para json-server.</details_es>
+                        </component>
+                        <component>
+                            <name>getProducts_index.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for API product object CRUD operations for index page using json-server.</details>
+                            <details_es>Archivo Javascript para operaciones CRUD de objetos de productos API para la página index usando json-server.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>assets/</name>
+                    <type>Folder</type>
+                    <details>Folder containing images and other media assets used in the website.</details>
+                    <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component>
+                            <name>images/</name>
+                            <type>Folder</type>
+                            <details>Folder containing general image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="colection">
+                                    <name type="Image">hero-background.jpg</name>
+                                    <name type="Image">hero.jpeg</name>
+                                    <name type="Image">product-1.webp</name>
+                                    <name type="Image">taladro.webp</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>products/</name>
+                            <type>Folder</type>
+                            <details>Folder containing product image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes de productos utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="colection">
+                                    <name type="Image">101.jpg</name>
+                                    <name type="Image">102.jpg</name>
+                                    <name type="Image">103.jpg</name>
+                                    <name type="Image">105.jpg</name>
+                                    <name type="Image">106.jpg</name>
+                                    <name type="Image">107.webp</name>
+                                    <name type="Image">108.webp</name>
+                                    <name type="Image">109.webp</name>
+                                    <name type="Image">110.webp</name>
+                                    <name type="Image">111.webp</name>
+                                    <name type="Image">112.webp</name>
+                                    <name type="Image">113.webp</name>
+                                    <name type="Image">114.webp</name>
+                                    <name type="Image">115.jpg</name>
+                                    <name type="Image">116.webp</name>
+                                    <name type="Image">117.webp</name>
+                                    <name type="Image">118.webp</name>
+                                    <name type="Image">119.webp</name>
+                                    <name type="Image">120.webp</name>
+                                    <name type="Image">121.webp</name>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+    </components>
+</project>
 </module_3>
