@@ -107,7 +107,102 @@
         </component>
     </components>
 </project>
-<!-- Complete webpages -->
+<!-- webpages -->
+<project>
+    <project_name>KFC</project_name>
+    <project_name_es>KFC</project_name_es>
+    <description>This project is a simple mock webpage of KFC, made with HTML and CSS, with responsive design for mobile and desktop, using bootstrap5 &amp; localStorage for data persistance</description>
+    <description_es>Este proyecto es una página web simulada de KFC, hecha con HTML y CSS, con diseño responsivo para móvil y escritorio, usando bootstrap5 y localStorage para persistencia de datos</description_es>
+    <images>
+        <image type="thumbnail">./media/images/screenshots/kfc.png</image>
+        <image type="screenshot">./media/images/screenshots/kfc_2.png</image>
+        <image type="screenshot">./media/images/screenshots/kfc_3.png</image>
+    </images>
+    <version>1.0</version>
+    <author>Santiago Sánchez Ruiz</author>
+    <url type="link-code">https://github.com/SrLampi1001/KFC</url>
+    <url type="link-page">https://srlampi1001.github.io/KFC/</url>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Main landing page of the website, with responsive design.</details>
+            <details_es>Página principal del sitio web, con diseño responsivo.</details_es>
+        </component>
+        <component>
+            <name>log_in.js</name>
+            <type>Script</type>
+            <details>Javascript file for handling user login functionality.</details>
+            <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>Folder containing all CSS files for styling and responsive design.</details>
+            <details_es>Carpeta que contiene todos los archivos CSS para estilos y diseño responsivo.</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+                <component>
+                    <name>bootstrap.min.css</name>
+                    <type>Stylesheet</type>
+                    <details>Bootstrap 5 CSS file for responsive design and pre-defined styles.</details>
+                    <details_es>Archivo CSS de Bootstrap 5 para diseño responsivo y estilos predefinidos.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>script/</name>
+            <type>Folder</type>
+            <details>Folder containing all javascript files for interactivity and localStorage.</details>
+            <details_es>Carpeta que contiene todos los archivos javascript para interactividad y localStorage.</details_es>
+            <contents>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>Main javascript file for interactivity and localStorage data persistence.</details>
+                    <details_es>Archivo javascript principal para interactividad y persistencia de datos en localStorage.</details_es>
+                </component>
+                <component>
+                    <name>log_in.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user login functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+                </component>
+                <component>
+                    <name>sign_in_verification.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user redirection when not logged.</details>
+                    <details_es>Archivo Javascript para manejar la redirección del usuario cuando no está registrado.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>media/</name>
+            <type>Folder</type>
+            <details>Folder containing images and other media assets used in the website.</details>
+            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+            <contents>
+                <component type="collection">
+                    <name>Logo.png</name>
+                    <name>favicon.ico</name>
+                    <name>hamburguesa-1.webp</name>
+                    <name>hamburguesa-2.webp</name>
+                    <name>hamburguesa-3.webp</name>
+                    <name>hamburguesa-4.webp</name>
+                    <name>hamburguesa-5.webp</name>
+                    <name>hamburguesa-6.webp</name>
+                    <name>hamburguesa-7.webp</name>
+                    <name>hamburguesa-8.webp</name>
+                </component>
+            </contents>
+        </component>
+    </components>
+</project>
 <project status="incomplete">
     <project_name>cars-crud</project_name>
     <project_name_es>cars-crud</project_name_es>
@@ -171,7 +266,7 @@
                     <details>Folder containing image files used in the website.</details>
                     <details_es>Carpeta que contiene archivos de imágenes utilizados en el sitio web.</details_es>
                     <contents>
-                        <component type="colection">
+                        <component type="collection">
                             <name type="Image">car_all_new_rush.png</name>
                             <name type="Image">car_all_new_terios.png</name>
                             <name type="Image">car_cr-v.png</name>
@@ -190,7 +285,7 @@
                     <details>Folder containing icon files used in the website.</details>
                     <details_es>Carpeta que contiene archivos de iconos utilizados en el sitio web.</details_es>
                     <contents>
-                        <component type="colection">
+                        <component type="collection">
                             <name type="Image">gas-station.svg</name>
                             <name type="Image">hearth-empty.svg</name>
                             <name type="Image">hearth-full.svg</name>
@@ -199,7 +294,7 @@
                         </component>
                     </contents>
                 </component>
-                <component type="colection">
+                <component type="collection">
                     <name>Ads 1.png</name>
                     <name>BG.png</name>
                     <name>CarsCrud-removebg 1.png</name>
@@ -382,7 +477,7 @@
                             <details>Folder containing image files used in the website.</details>
                             <details_es>Carpeta que contiene archivos de imágenes utilizados en el sitio web.</details_es>
                             <contents>
-                                <component type="colection">
+                                <component type="collection">
                                     <name type="Image">car_all_new_rush.png</name>
                                     <name type="Image">car_all_new_terios.png</name>
                                     <name type="Image">car_cr-v.png</name>
@@ -403,7 +498,7 @@
                             <details>Folder containing icon files used in the website.</details>
                             <details_es>Carpeta que contiene archivos de iconos utilizados en el sitio web.</details_es>
                             <contents>
-                                <component type="colection">
+                                <component type="collection">
                                     <name type="Image">gas-station.svg</name>
                                     <name type="Image">hearth-empty.svg</name>
                                     <name type="Image">hearth-full.svg</name>
@@ -419,7 +514,7 @@
                             <details>Folder containing general image files used in the website.</details>
                             <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
                             <contents>
-                                <component type="colection">
+                                <component type="collection">
                                     <name type="Image">Ads 1.png</name>
                                     <name type="Image">BG.png</name>
                                     <name type="Image">CarsCrud-removebg 1.png</name>
@@ -435,7 +530,7 @@
                             <details>Folder containing user profile images used in the website.</details>
                             <details_es>Carpeta que contiene imágenes de perfil de usuario utilizadas en el sitio web.</details_es>
                             <contents>
-                                <component type="colection">
+                                <component type="collection">
                                     <name type="Image">Profil &amp; Nodification.png</name>
                                 </component>
                             </contents>
@@ -503,12 +598,6 @@
             </contents>
         </component>
         <component>
-            <name>README.md</name>
-            <type>Markdown</type>
-            <details>This component contains instructions and information about the project.</details>
-            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
-        </component>
-        <component>
             <name>.gitignore</name>
             <type>Text</type>
             <details>This component specifies files and directories to be ignored by Git.</details>
@@ -525,6 +614,12 @@
             <type>HTML</type>
             <details>Simple relocation page to Frontend/index.html</details>
             <details_es>Página de reubicación simple a Frontend/index.html</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
 </project>
@@ -620,36 +715,6 @@
             <details_es>Carpeta que contiene todos los archivos frontend para el sistema de gestión de inventario.</details_es>
             <contents>
                 <component>
-                    <name>styles.css</name>
-                    <type>Stylesheet</type>
-                    <details>Main CSS file for styling the website.</details>
-                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
-                </component>
-                <component>
-                    <name>index.html</name>
-                    <type>HTML</type>
-                    <details>Main landing page of the inventory management system, with responsive design.</details>
-                    <details_es>Página principal del sistema de gestión de inventario, con diseño responsivo.</details_es>
-                </component>
-                <component>
-                    <name>details.html</name>
-                    <type>HTML</type>
-                    <details>Details page for viewing inventory items.</details>
-                    <details_es>Página de detalles para ver artículos de inventario.</details_es>
-                </component>
-                <component>
-                    <name>log_in.html</name>
-                    <type>HTML</type>
-                    <details>Login page for user authentication.</details>
-                    <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
-                </component>
-                <component>
-                    <name>sign_up.html</name>
-                    <type>HTML</type>
-                    <details>Signup page for new user registration.</details>
-                    <details_es>Página de registro para nuevos usuarios.</details_es>
-                </component>
-                <component>
                     <name>js/</name>
                     <type>Folder</type>
                     <details>Folder containing all javascript files for interactivity</details>
@@ -737,7 +802,7 @@
                                     <details>Folder containing image files used in the admin dashboard.</details>
                                     <details_es>Carpeta que contiene archivos de imágenes utilizados en el panel de administración.</details_es>
                                     <contents>
-                                        <component type="colection">
+                                        <component type="collection">
                                             <name type="Image">ajustes.png</name>
                                             <name type="Image">brillo.png</name>
                                             <name type="Image">usuario.png</name>
@@ -750,7 +815,7 @@
                                     <details>Folder containing aside image files used in the admin dashboard.</details>
                                     <details_es>Carpeta que contiene archivos de imágenes aside utilizados en el panel de administración.</details_es>
                                     <contents>
-                                        <component type="colection">
+                                        <component type="collection">
                                             <name type="Image">angulo-hacia-abajo.png</name>
                                             <name type="Image">bolsa-de-la-compra.png</name>
                                             <name type="Image">carpeta-abierta.png</name>
@@ -797,7 +862,7 @@
                             <details>Folder containing general image files used in the website.</details>
                             <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
                             <contents>
-                                <component type="colection">
+                                <component type="collection">
                                     <name type="Image">hero-background.jpg</name>
                                     <name type="Image">hero.jpeg</name>
                                     <name type="Image">product-1.webp</name>
@@ -811,7 +876,7 @@
                             <details>Folder containing product image files used in the website.</details>
                             <details_es>Carpeta que contiene archivos de imágenes de productos utilizados en el sitio web.</details_es>
                             <contents>
-                                <component type="colection">
+                                <component type="collection">
                                     <name type="Image">101.jpg</name>
                                     <name type="Image">102.jpg</name>
                                     <name type="Image">103.jpg</name>
@@ -837,7 +902,61 @@
                         </component>
                     </contents>
                 </component>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+                <component>
+                    <name>index.html</name>
+                    <type>HTML</type>
+                    <details>Main landing page of the inventory management system, with responsive design.</details>
+                    <details_es>Página principal del sistema de gestión de inventario, con diseño responsivo.</details_es>
+                </component>
+                <component>
+                    <name>details.html</name>
+                    <type>HTML</type>
+                    <details>Details page for viewing inventory items.</details>
+                    <details_es>Página de detalles para ver artículos de inventario.</details_es>
+                </component>
+                <component>
+                    <name>log_in.html</name>
+                    <type>HTML</type>
+                    <details>Login page for user authentication.</details>
+                    <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+                </component>
+                <component>
+                    <name>sign_up.html</name>
+                    <type>HTML</type>
+                    <details>Signup page for new user registration.</details>
+                    <details_es>Página de registro para nuevos usuarios.</details_es>
+                </component>
             </contents>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>REQUEST.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about what features to create or report issues.</details>
+            <details_es>Este componente contiene instrucciones e información sobre qué características crear o reportar problemas.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Simple relocation page to Front/index.html</details>
+            <details_es>Página de reubicación simple a Front/index.html</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
         </component>
     </components>
 </project>
