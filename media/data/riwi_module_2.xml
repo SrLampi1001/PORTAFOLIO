@@ -7,7 +7,7 @@
     <description>This project corresponds to the portfolio and mascotas page first version, using basic HTML and CSS to deploy a web page inside GitHub</description>
     <description_es>Este proyecto corresponse a la primera versión del portafolio, usando HTML y CSS básicos para desplegar una página usando GitHub.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/mascotas.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/mascotas.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -68,7 +68,7 @@
     <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
     <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_2_m2.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/h_u_2_m2.png</image>
     </images>
     <version>2.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -176,7 +176,7 @@
     <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
     <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_3_m2.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/h_u_3_m2.png</image>
     </images>
     <version>2.5</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -327,7 +327,7 @@
     <description>This project is a simple form for log in, with no functionality, only for testing css and html abilites</description>
     <description_es>Este proyecto es un simple formulario para inicio de sesión, sin funcionalidas, solo para poner a prueba habilidades con html y css</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/form_no_functionality.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/form_no_functionality.png</image>
     </images>
     <version>BETA 3.0</version>
     <author type="organization">tren-estelar-riwi</author>
@@ -359,7 +359,7 @@
     <description>This project is a webpage dedicated to the lore of Kepler 22b, a fictional planet and it's history, world culture and living beigns, using javascript, css and HTML</description>
     <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/kepler_22b.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/kepler_22b.png</image>
     </images>
     <version>BETA 1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -506,7 +506,7 @@
     <description>This project is a webpage simulating a landing page where a user can find and inscribe in sports events, and admin dashboard from a sports webpage where the information can be seen, only html and css.</description>
     <description_es>Este proyecto es una pagina web simulando una página de inicio donde el usuario puede encontrar e inscribirse en eventos de deportes, y un panel de administrador donde la información puede ser vista</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/flashsports.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/flashsports.png</image>
     </images>
     <version>BETA 3.0</version>
     <author type="organization">tren-estelar-riwi</author>
@@ -704,8 +704,8 @@
     <description>This project is a mock assesment test for front end development, using html and css, focusing on copying responsive and design from Alkosto Hiperahorro webpage</description>
     <description_es>Este proyecto es un simulacro de prueba de desempeño para desarrollo front end, usando html y css, enfocándose en copiar el diseño de la página Alkosto Hiperahorro</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/s_p_d_m2.png</image>
-        <!-- <image type="screenshot">./media/images/screenshots/s_p_d_m2_responsive.png</image> --> <!-- Future image -->
+        <image type="thumbnail">/media/images/screenshots/module_2/s_p_d_m2.png</image>
+        <!-- <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2_responsive.png</image> --> <!-- Future image -->
     </images>
     <version>0.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -725,8 +725,8 @@
     <description>This project is a mock assesment for riwi module 2 assesment test, creating a simple webpage responsive design with HTML and CSS</description>
     <description_es>Este proyecto es un simulacro de proyecto para el módulo 3, creando una simple aplicación de notas usando javascript, html y css</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/s_p_d_m2-2.png</image>
-        <!-- <image type="screenshot">./media/images/screenshots/s_p_d_m2-2-responsive.png</image> --> <!-- Future Image -->
+        <image type="thumbnail">/media/images/screenshots/module_2/s_p_d_m2-2.png</image>
+        <!-- <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2-2-responsive.png</image> --> <!-- Future Image -->
     </images>
     <version>0.2</version>
     <author>Santiago Sánchez Ruiz</author>

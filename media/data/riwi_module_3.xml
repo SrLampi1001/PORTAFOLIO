@@ -7,7 +7,7 @@
     <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD with user input.</description>
     <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, para operaciones crud básicas con entrada de usuario.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_1_m3.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_3/h_u_1_m3.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -39,7 +39,7 @@
     <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD and testing for MAP and SET data structures.</description>
     <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, para operaciones crud básicas y pruebas para las estructuras de datos MAP y SET.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_2_m3.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_3/h_u_2_m3.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -71,11 +71,11 @@
     <description>This project is a simple javascript program, executed inside an HTML, where a panel for taking notes is created, with basic CRUD operations and localStorage for data persistence.</description>
     <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, donde se crea un panel para tomar notas, con operaciones CRUD básicas y localStorage para persistencia de datos.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_3_m3.png</image>
-        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img1.png</image>
-        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img2.png</image>
-        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img3.png</image>
-        <image type="screenshot">./media/images/screenshots/h_u_3_m3-img4.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_3/h_u_3_m3.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img1.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img3.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img4.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -114,9 +114,9 @@
     <description>This project is a simple mock webpage of KFC, made with HTML and CSS, with responsive design for mobile and desktop, using bootstrap5 &amp; localStorage for data persistance</description>
     <description_es>Este proyecto es una página web simulada de KFC, hecha con HTML y CSS, con diseño responsivo para móvil y escritorio, usando bootstrap5 y localStorage para persistencia de datos</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/kfc.png</image>
-        <image type="screenshot">./media/images/screenshots/kfc_2.png</image>
-        <image type="screenshot">./media/images/screenshots/kfc_3.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_3/kfc.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/kfc_2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/kfc_3.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -209,9 +209,9 @@
     <description>This projects is a complete mock website, for a rent sand buying car service, it has responsive design and an admin dashboard with landpage, a simple sing up verification and an OOP with json-server api and models for interactivity</description>
     <description_es>Este proyecto es una página web completa, para un servicio de renta y compra de coches, tiene diseño responsivo y un panel de administración con página de inicio, una verificación simple de registro y una POO con json-server api y modelos para interactividad</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/cars_crud_1.png</image>
-        <image type="screenshot">./media/images/screenshots/cars_crud_2.png</image>
-        <image type="screenshot">./media/images/screenshots/cars_crud_3.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_3/cars_crud_1.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/cars_crud_2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/cars_crud_3.png</image>
     </images>
     <version>BETA 1.0</version>
     <version-info>First public release, No json-server</version-info>
@@ -629,7 +629,7 @@
     <description>This project is a simple inventory management system using JavaScript, HTML, and CSS. It allows users to perform basic CRUD operations on inventory items, uses json-server</description>
     <description_es>Este proyecto es un simple sistema de gestión de inventario usando JavaScript, HTML y CSS. Permite a los usuarios realizar operaciones CRUD básicas en los artículos de inventario, uses json-server</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/crudventory.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_3/crudventory.png</image>
     </images>
     <version>1.0</version>
     <author type="organization">Hubble-Riiwii</author>
@@ -967,7 +967,7 @@
     <description>This project is a simple simulated website with a restaurant ordering system, using bootstrap5 for frontend, with a simulated backend via JSON-server and OOP for the client functionality and CRUD operations</description>
     <description_es>Este proyecto es un simple sitio web simulado con un sistema de pedidos de restaurante, usando bootstrap5 para el frontend, con un backend simulado via JSON-server y POO para la funcionalidad del cliente y operaciones CRUD</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/s_p_d_m3.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_3/s_p_d_m3.png</image>
     </images>
     <version>beta 2.0</version>
     <author>Santiago Sánchez Ruiz</author>

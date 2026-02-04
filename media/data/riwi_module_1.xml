@@ -7,7 +7,7 @@
     <description>This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles y condicionales, usando user input.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_1_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/h_u_1_m1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -39,7 +39,7 @@
     <description>This project is a simple Python program created to test the most basic conditional, functions and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, funciones y condicionales, usando user input</description_es>.
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_2_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/h_u_2_m1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -65,7 +65,7 @@
     <description>This project is a simple Python program created to test basic conditional, functions, loop  and libraries knowledge, libraries like csv.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, condiciones, funciones y librerías como csv.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_3_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/h_u_3_m1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -122,7 +122,7 @@
     <description>This project is a series of various python program (18), to test the most basic python knowledge, including python string funtions and methods</description>
     <description_es>Este proyecto es una serie de varios programas (18) de python, para testear el conocimiento más básico de python, incluyendo funciones integradas para manejar strings.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -148,7 +148,7 @@
     <description>This project is a simple python program testing the error managment basic knowledge</description>
     <description_es>Este proyecto es un simple programa de python que pone en prueba los conocimientos básicos de control de errores, haciendo uso del user input</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_2.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_2.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -174,7 +174,7 @@
     <description>These are a series of 8 small projects testing python basic knowledge, including external libraries</description>
     <description_es>Este proyecto es una serie de 8 mini proyectos de python que testean el conocimiento básico, incluyendo librerías externas</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/mini_proyectos_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/mini_proyectos_m1.png</image>
     </images>
     <version>0.2</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -214,7 +214,7 @@
     <description_es>Este proyecto es un simple programa de python que pone a prueba los conocimientos más básicos del manejo de la librearía Pandas, y JSON.
     Este proyecto incluye una base de datos simulada de estudiantes en formato JSON y un archivo de Excel para manejar la entrada de estudiantes por parte del usuario. </description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_3.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_3.png</image>
     </images>
     <version>0.5</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -253,7 +253,7 @@
     <description>This project is a simple Python program that creates a program executed in the terminal for grades processing, including various functionalities like adding, removing, updating and visualizing grades. </description>
     <description_es>Este proyecto es un simple programa de python que crea un programa ejecutado en la terminal para el procesamiento de notas, incluyendo varias funcionalidades como agregar, eliminar, actualizar y visualizar notas. </description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_3-5.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_3-5.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -284,7 +284,7 @@
     El programa usa conceptos de POO y operaciones asíncronas para simular un sistema real para una empresa de tecnología de equipos en préstamo.
     </description_es>.
     <images>
-        <image type="thumbnail">./media/images/screenshots/s_p_d_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/s_p_d_m1.png</image>
     </images>
     <version>0.2</version>
     <author>Santiago Sánchez Ruiz</author>
@@ -334,7 +334,7 @@
     <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage. </description>
     <description_es>Este es un proyecto de prueba creado para evaluar todo el conocimiento adquirido durante los proyectos previos de este módulo, incluyendo el manejo de la entrada del usuario, control de errores, procesamiento de datos y uso de librerías externas. </description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/p_d_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/p_d_m1.png</image>
     </images>
     <version>1.0</version>
     <author>Santiago Sánchez Ruiz</author>
