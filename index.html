@@ -3,83 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./media/images/icon.ico" type="image/x-icon"> <!-- Icon -->
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/mediaquery.css">
-    <title>Portafolio</title>
+    <title>Portfolio | SrLampi1001</title>
+    <meta name="description" content="portfilio from santiago sanchez, a free lancer programmer specialiced in webpage creation">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <div class="padding-container aside-left-container dark-gray-background"> <!-- Container with margin on left and right -->
-        <header class="main-header"> <!-- Main header, re-appears when db-click -->
-            <nav class="header-nav"> <!-- Nav for semantic HTML purporses, mainly just inherits the header styles is contained -->
-                <ul class="nav-list flex-wrap justify-around align-items-center"> <!-- List especifically for navs -->
-                    <li class="header-h1"><a href="./index.html" class="inherit-a">Mi portafolio</a></li>
-                    <li class="header-h2">Mi información: </li>
-                    <li class="nav-item phone-logo"><a href="tel:+57-313-225-1924" class="inherit-a">3132251924</a></li>
-                    <li class="nav-item email-logo"><a href="mailto:sanchezsantiago1001@gmail.com" class="inherit-a">sanchezsantiago1001@gmail.com</a></li>
-                    <li class="nav-item github-logo"><a href="https://github.com/SrLampi1001" class="inherit-a">SrLampi1001</a></li>
-                </ul>            
-            </nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <header class="d-lg-none py-3 border-bottom d-flex justify-content-between align-items-center sticky-header">
+                <span class="fw-bold">Portfolio</span>
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"><i class="fas fa-bars"></i></button>
         </header>
-        <aside class="fixed-left"> <!-- Aside for in-page navigation, Semantic HTML -->
-            <nav class="navbar">
-                <ul class="navbar">
-                    <li class="nav-item"><a href="#my-section" class="inherit-a">Acerca de mí</a></li>
-                    <li class="nav-item"><a href="#proyects-slider" class="inherit-a">Mis proyectos básicos</a></li>
-                    <li class="nav-item"><a href="#profesional-proyects" class="inherit-a">Mis proyectos profesionales</a></li>
-                    <li class="nav-item"><a href="#my-simple-applications" class="inherit-a">Mis aplicaciones</a></li>
-                    <li class="nav-item"><a href="#my-experience" class="inherit-a">Mi experiencia</a></li>
+        <nav id="sidebarMenu" class="col-lg-2 d-lg-block sidebar collapse sticky-sidebar bg-white">
+            <div class="px-3">
+                <div class="mb-5 px-3">
+                    <img src="./media/images/ilustrations/yo_prof_recortada.png" class="rounded-3 mb-2 w-100 mt-3" data-image-small>
+                    <h5 class="fw-bold">Santiago Sánchez</h5>
+                </div>
+                
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact me</a></li>
                 </ul>
-            </nav>
-        </aside>
-        <main class="main-container"> <!-- Main container, with all the relevant information -->
-            <h2 class="section-title">¿Quién soy?</h2>
-            <section id="my-section" class="card g-3-rows">
-                <img src="./media/images/ilustrations/yo_prof_recortada.png" alt="SrLampi1001" class="left-image">
-                <h3 class="card-title">Santiago Sánchez Ruiz</h3>
-                <p class="card-text">Nacimiento: 24/12/2005</p>
-                <p class="card-text">Programador, orientado en Riwi, especializado en Backend y aplicaciones web, con conocimiento en HAXE, lenguaje con transpilación disponible para todos los mayores lenguajes (C#, C++, Java, Javascript, Python, etc)</p>
+            </div>
+        </nav>
+
+        <main class="col-lg-10 ms-sm-auto px-md-5">
+            <section class="py-5">
+                <h1 class="display-4 mb-4 mt-4">Developer</h1>
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <p class="lead text-muted">I'm a self taught coder, capacited in Riwi, with 2 years of experience coding as a Junior and capable of speaking both english and spanish.</p>
+                        <p class="lead text-muted">My learnt languages are:</p>
+                        <div class="d-flex justify-content-start gap-5 flex-wrap">
+                            <img src="./media/images/icons/html-icon.svg" alt="html-icon" title="Markup Languange" class="w-2rem">
+                            <img src="./media/images/icons/css-icon.svg" alt="css-icon" title="Style Sheet Styles" class="w-2rem">
+                            <img src="./media/images/icons/js-icon.svg" alt="js-icon" title="script language" class="w-2rem">
+                            <img src="./media/images/icons/python-icon.svg" alt="python-icon" title="Programmin language" class="w-2rem">
+                            <img src="./media/images/icons/node-icon.svg" alt="node-icon" title="Server side language library" class="w-2rem">
+                            <img src="./media/images/icons/haxe-icon.svg" alt="haxe-icon" title="Programming language" class="w-2rem">
+                        </div>
+                    </div>
+                </div>
             </section>
-            <h2 class="section-title">Mis proyectos Riwi</h2>
-            <section class="card-container g-4-rows max-four-elements" id="proyects-slider"> <!-- Section for showing the various proyects, currently all, in future will be separated into more specific subsections -->
-            </section>
-            <h2 class="section-title">Mis proyectos profesionales</h2>
-            <section class="card-container g-4-rows max-three-elements" id="profesional-proyects">
-                <!-- To add real proyects-> Infinite board, js game -->
-            </section>
-            <h2 class="section-title">Mis aplicaciones (Simples)</h2>
-            <section id="my-simple-aplications" class="card-container g-4-rows">
-                <!-- To add my applications (currently no one) -->
+            <section class="py-4">
+                <h2 class="mb-5">My projects</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="module-card">
+                            <img src="./media/images/ilustrations/index/m1_thumbnail.png" class="w-100" alt="Proyecto">
+                            <span class="card-category">Basic python</span>
+                            <h3 class="card-title text-dark"><a href="./subpages/module_1.html" class="inherit-a">Riwi | Module 1</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="module-card">
+                            <img src="./media/images/ilustrations/index/m2_thumbnail.png" class="w-100" alt="Proyecto">
+                            <span class="card-category">HTML & CSS</span>
+                            <h3 class="card-title text-dark"><a href="#" class="inherit-a">Riwi | Module 2</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="module-card">
+                            <img src="./media/images/ilustrations/index/m3_thumbnail.png" class="w-100" alt="Proyecto">
+                            <span class="card-category">Javascript & JSON-server</span>
+                            <h3 class="card-title text-dark"><a href="#" class="inherit-a">Riwi | Module 3</a></h3>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <h2 class="section-title">Mi experiencia</h2>
-            <section id="my-experience" class="card-container g-4-rows">
-                <!-- To add my work experience (currently no one, except Accegas) -->
-            </section>
+            <footer class="mt-5 p-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="text-white mb-4">Are you interested?</h2>
+                        <p class="text-secondary">Find me in social media or send me a direct message.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="d-flex justify-content-md-end gap-3 mt-4">
+                            <a href="https://github.com/SrLampi1001" class="text-white text-decoration-none">GitHub</a>
+                            <a href="https://www.linkedin.com/in/santiago-s%C3%A1nchez-ruiz-a26868389/" class="text-white text-decoration-none">LinkedIn</a>
+                        </div>
+                        <p class="mt-4 text-secondary small">&copy; 2026 Santiago Sanchez. made with ✨ and code. (Bootstap5)</p>
+                    </div>
+                </div>
+            </footer>
         </main>
     </div>
-    <footer class="main-footer darkest-gray-background flex-nowrap justify-around">
-        <div class="f-log-container">
-            <img src="../media/images/ilustrations/example.png" alt="logo.svg" title="Logo" class="h-100">
-        </div>
-        <ul class="ft-ul">
-            <li class="title">Information: </li>
-            <li class="white-font"><a href="../index.html" class="inherit-a">Go back to portfolio</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-        </ul>
-        <ul class="ft-ul">
-            <li class="title white-font">Other Things: </li>
-            <li class="white-font"><a href="../index.html" class="inherit-a">Go back to portfolio</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-            <li class="white-font"><a href="#" class="inherit-a">item</a></li>
-        </ul>
-    </footer>
-    <script src="./js/main.js"></script> <!-- Script for page funcionalities -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
