@@ -81,3 +81,10 @@ footer {
 .w-2rem{
     width: 2rem;
 }
+.inherit-a{
+    font-size: inherit;
+    font-family: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    font-style: inherit;
+}
