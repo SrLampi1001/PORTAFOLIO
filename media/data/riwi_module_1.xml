@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_1>
 <!-- User stories -->
-<project>
+<project id="us-1">
     <project_name>User story 1</project_name>
     <project_name_es>Historia de usuario 1</project_name_es>
     <description>This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.</description>
@@ -33,7 +33,7 @@
         </component>
     </components>
 </project>
-<project>
+<project id="us-2">
     <project_name>User story 2</project_name>
     <project_name_es>Historia de usuario 2</project_name_es>
     <description>This project is a simple Python program created to test the most basic conditional, functions and loop knowledge, using user input.</description>
@@ -59,7 +59,7 @@
         </component>
     </components>
 </project>
-<project>
+<project id="us-3">
     <project_name>User Story 3</project_name>
     <project_name_es>Historia de usuario 3</project_name_es>
     <description>This project is a simple Python program created to test basic conditional, functions, loop  and libraries knowledge, libraries like csv.</description>
@@ -116,7 +116,7 @@
     </components>
 </project>
 <!-- Assigments -->
-<project>
+<project id="asg-1">
     <project_name>Assignment 1</project_name>
     <project_name_es>Taller 1</project_name_es>
     <description>This project is a series of various python program (18), to test the most basic python knowledge, including python string funtions and methods</description>
@@ -142,7 +142,7 @@
         </component>
     </components>
 </project>
-<project>
+<project id="asg-2">
     <project_name>Assignment 2</project_name>
     <project_name_es>Taller 2</project_name_es>
     <description>This project is a simple python program testing the error managment basic knowledge</description>
@@ -168,7 +168,7 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="asg-3">
     <project_name>Mini python projects</project_name>
     <project_name_es>Mini proyectos python</project_name_es>
     <description>These are a series of 8 small projects testing python basic knowledge, including external libraries</description>
@@ -206,7 +206,7 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="asg-4">
     <project_name>Mini project Pandas, JSON &amp; CSV</project_name>
     <project_name_es>Mini proyecto Pandas, JSON y CSV</project_name_es>
     <description>This project is a simple Python program that tests the most basic knowledge of using the Pandas library and JSON.
@@ -247,7 +247,7 @@
         </component>
     </components>
 </project>
-<project>
+<project id="asg-5">
     <project_name>Practical Assignment grades managment</project_name>
     <project_name_es>Talles práctico gestion de notas</project_name_es>
     <description>This project is a simple Python program that creates a program executed in the terminal for grades processing, including various functionalities like adding, removing, updating and visualizing grades. </description>
@@ -274,7 +274,7 @@
     </components>
 </project>
 <!-- Assesment tests & mocks  -->
-<project status="incomplete">
+<project status="incomplete" id="m-asg-1">
     <project_name>Mock Assesment test</project_name>
     <project_name_es>Simulacro prueba de desempeño</project_name_es>
     <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage, to prepare for the real Assesment test.
@@ -328,7 +328,7 @@
         </component>
     </components>
 </project>
-<project>
+<project id="t-asg">
     <project_name>Assesment Test</project_name>
     <project_name_es>Prueba de desempeño</project_name_es>
     <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage. </description>
