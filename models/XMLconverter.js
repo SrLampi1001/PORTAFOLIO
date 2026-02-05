@@ -37,7 +37,7 @@ export default class XMLconverter{
         const pageLink = project.querySelector("url[type=page-link]");
         const template = document.createElement("div"); template.classList.add("card","col-lg-3","col-md-5")
         template.innerHTML = `
-            <img class="card-img-top" src="./../${image.textContent}?raw=true" alt="${title.textContent}" title="thumbnail"/>
+            <img class="card-img-top" src="./..${image.textContent}" alt="${title.textContent}" title="thumbnail"/>
             <div class="card-body">
                 <h4 class="card-title">${title.textContent}</h4>
                 <p class="card-text">${details.textContent.length > 100 ? details.textContent.slice(0, 100)+"..." : details.textContent}</p>
