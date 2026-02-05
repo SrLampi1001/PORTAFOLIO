@@ -10,7 +10,7 @@
         <image type="thumbnail">/media/images/screenshots/module_3/h_u_1_m3.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url>https://github.com/SrLampi1001/historia_usuario_1_m3</url>
     <components>
         <component>
@@ -42,7 +42,7 @@
         <image type="thumbnail">/media/images/screenshots/module_3/h_u_2_m3.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url>https://github.com/SrLampi1001/historia_usuario_2_m3</url>
     <components>
         <component>
@@ -78,7 +78,7 @@
         <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img4.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url>https://github.com/SrLampi1001/historia_usuario_3_m3</url>
     <components>
         <component>
@@ -119,7 +119,7 @@
         <image type="screenshot">/media/images/screenshots/module_3/kfc_3.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/KFC</url>
     <url type="page-link">https://srlampi1001.github.io/KFC/</url>
     <components>
@@ -970,7 +970,7 @@
         <image type="thumbnail">/media/images/screenshots/module_3/s_p_d_m3.png</image>
     </images>
     <version>beta 2.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m3</url>
     <components>
         <component>

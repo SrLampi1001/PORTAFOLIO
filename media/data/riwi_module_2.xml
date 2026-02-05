@@ -10,7 +10,7 @@
         <image type="thumbnail">/media/images/screenshots/module_2/mascotas.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/d0b668bae4a5a1e6721943d590fd24be10dca960</url>
     <url type="page-link">https://srlampi1001.github.io/PORTAFOLIO/subpages/mascotas.html</url>
     <components>
@@ -71,7 +71,7 @@
         <image type="thumbnail">/media/images/screenshots/module_2/h_u_2_m2.png</image>
     </images>
     <version>2.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/8568123fea4d401faaf0e9d5af1b6a491e1d7904</url>
     <components>
         <component>
@@ -179,7 +179,7 @@
         <image type="thumbnail">/media/images/screenshots/module_2/h_u_3_m2.png</image>
     </images>
     <version>2.5</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/1bc5daf26b007e5b08db3d92e251d48743ee5109</url>
     <components>
         <component>
@@ -331,6 +331,7 @@
     </images>
     <version>BETA 3.0</version>
     <author type="organization">tren-estelar-riwi</author>
+    <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
     <url type="code-link">https://github.com/SrLampi1001/form_only_css_html</url>
     <components>
         <component>
@@ -362,9 +363,9 @@
         <image type="thumbnail">/media/images/screenshots/module_2/kepler_22b.png</image>
     </images>
     <version>BETA 1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
-    <author>Juan Diego Mazo</author>
-    <author>Juliana Sofia Valencia</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <author type="person">Juan Diego Mazo</author>
+    <author type="person">Juliana Sofia Valencia</author>
     <url type="code-link">https://github.com/SrLampi1001/kepler_page</url>
     <url type="page-link">https://srlampi1001.github.io/kepler_page/</url>
     <components>
@@ -708,7 +709,7 @@
         <!-- <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2_responsive.png</image> --> <!-- Future image -->
     </images>
     <version>0.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2/</url>
     <components>
         <component>
@@ -729,7 +730,7 @@
         <!-- <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2-2-responsive.png</image> --> <!-- Future Image -->
     </images>
     <version>0.2</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2-2</url>
     <components>
         <component>

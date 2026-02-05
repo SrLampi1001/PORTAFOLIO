@@ -10,7 +10,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/h_u_1_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/historia_usuario_1</url>
     <techs>
         <tech type="code-editor">Terminal</tech>
@@ -48,7 +48,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/h_u_2_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/historia_usuario_2</url>
         <techs>
         <tech type="code-editor">Terminal</tech>
@@ -79,7 +79,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/h_u_3_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/historia_usuario_3</url>
     <techs>
         <tech type="code-editor">Terminal</tech>
@@ -142,7 +142,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/t_1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/taller1_riwi</url>
     <techs>
         <tech type="code-editor">Terminal</tech>
@@ -173,7 +173,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/t_2.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/taller2_riwi</url>
     <techs>
         <tech type="code-editor">Terminal</tech>
@@ -204,7 +204,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/mini_proyectos_m1.png</image>
     </images>
     <version>0.2</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/Mini_proyecto_python</url>
     <techs>
         <tech type="code-editor">Terminal</tech>
@@ -250,8 +250,8 @@
         <image type="thumbnail">/media/images/screenshots/module_1/t_3.png</image>
     </images>
     <version>0.5</version>
-    <author>Santiago Sánchez Ruiz</author>
-    <author>Nicolas Garzón</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <author type="person">Nicolas Garzón</author>
     <url type="code-link">https://github.com/nicogarzonhub/Mini_proyecto</url>
     <techs>
         <tech type="code-editor">Visual Studio Code</tech>
@@ -296,7 +296,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/t_3-5.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/taller_practico_gestion_notas</url>
     <techs>
         <tech type="code-editor">Terminal</tech>
@@ -332,7 +332,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/s_p_d_m1.png</image>
     </images>
     <version>0.2</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_modulo1</url>
     <techs>
         <tech type="code-editor">Visual Studio Code</tech>
@@ -387,7 +387,7 @@
         <image type="thumbnail">/media/images/screenshots/module_1/p_d_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/prueba_desempe-o_modulo_1</url>
     <techs>
         <tech type="code-editor">Visual Studio Code</tech>
