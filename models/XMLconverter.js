@@ -41,7 +41,7 @@ export default class XMLconverter{
             <div class="card-body">
                 <h4 class="card-title">${title.textContent}</h4>
                 <p class="card-text">${details.textContent.length > 100 ? details.textContent.slice(0, 100)+"..." : details.textContent}</p>
-                <button type="button" class="btn btn-info" data-details-${project.getAttribute("id")}>Details</button>
+                <a type="button" class="btn btn-info" href="./details.html?id=${project.getAttribute("id")}" data-details-${project.getAttribute("id")}>Details</a>
                 <a class="btn btn-success" href="${codeLink.textContent}" target="blank">Repository</a>
                 ${pageLink ? `<a class="btn btn-warning" href="${pageLink.textContent}" target="blank">Github Page</a>` : ""}
             </div>
