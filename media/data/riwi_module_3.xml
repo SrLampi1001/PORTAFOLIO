@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_3>
 <!-- User stories -->
-<project>
+<project id="us-1" category="Input data handling script" category_es="Script de manejo de datos">
     <project_name>User story 1</project_name>
     <project_name_es>Historia de usuario 1</project_name_es>
     <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD with user input.</description>
@@ -12,6 +12,10 @@
     <version>1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
     <url>https://github.com/SrLampi1001/historia_usuario_1_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">06/01/2026</date>
     <components>
         <component>
             <name>sistema_interactivo.js</name>
@@ -33,7 +37,7 @@
         </component>
     </components>
 </project>
-<project>
+<project id="us-2" category="Javascript objects tests" category_es="Tests de objetos Javascript"> 
     <project_name>User story 2</project_name>
     <project_name_es>Historia de usuario 2</project_name_es>
     <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD and testing for MAP and SET data structures.</description>
@@ -44,6 +48,10 @@
     <version>1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
     <url>https://github.com/SrLampi1001/historia_usuario_2_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">31/01/2026</date>
     <components>
         <component>
             <name>gestion_datos.js</name>
@@ -65,7 +73,7 @@
         </component>
     </components>
 </project>
-<project id="us-3">
+<project id="us-3" category="Data persistence webPage" category_es="Persistencia de datos WebPage">
     <project_name>User story 3</project_name>
     <project_name_es>Historia de usuario 3</project_name_es>
     <description>This project is a simple javascript program, executed inside an HTML, where a panel for taking notes is created, with basic CRUD operations and localStorage for data persistence.</description>
@@ -80,6 +88,10 @@
     <version>1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
     <url>https://github.com/SrLampi1001/historia_usuario_3_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">31/01/2026</date>
     <components>
         <component>
             <name>script.js</name>
@@ -108,7 +120,7 @@
     </components>
 </project>
 <!-- webpages -->
-<project id="kfc">
+<project id="kfc" category="Dynamic responsive webPage" category_es="Página web responsiva dinámica">
     <project_name>KFC</project_name>
     <project_name_es>KFC</project_name_es>
     <description>This project is a simple mock webpage of KFC, made with HTML and CSS, with responsive design for mobile and desktop, using bootstrap5 &amp; localStorage for data persistance</description>
@@ -122,6 +134,11 @@
     <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/KFC</url>
     <url type="page-link">https://srlampi1001.github.io/KFC/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+    </techs>
+    <date format="dd/mm/yyyy">01/02/2026</date>
     <components>
         <component>
             <name>index.html</name>
@@ -203,7 +220,7 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="carscrud" category="Dynamic JSON-server webPage" category_es="Página web JSON-server dinámica">
     <project_name>cars-crud</project_name>
     <project_name_es>cars-crud</project_name_es>
     <description>This projects is a complete mock website, for a rent sand buying car service, it has responsive design and an admin dashboard with landpage, a simple sing up verification and an OOP with json-server api and models for interactivity</description>
@@ -219,6 +236,13 @@
     <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
     <url type="code-link">https://github.com/Hubble-Riiwii/cars-crud</url>
     <url type="page-link">https://hubble-riiwii.github.io/cars-crud/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="application">Figma</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+    </techs>
+    <date format="dd/mm/yyyy">13/01/2026</date>
     <components>
         <component>
             <name>index.html</name>
@@ -623,7 +647,7 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="crudventory" category="Dynamic JSON-server webPage" category_es="Página web JSON-server dinámica">
     <project_name>CrudVentory</project_name>
     <project_name_es>CrudVentory</project_name_es>
     <description>This project is a simple inventory management system using JavaScript, HTML, and CSS. It allows users to perform basic CRUD operations on inventory items, uses json-server</description>
@@ -635,6 +659,12 @@
     <author type="organization">Hubble-Riiwii</author>
     <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
     <url type="code-link">https://github.com/Hubble-Riiwii/CrudVentory</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+    </techs>
+    <date format="dd/mm/yyyy">26/01/2026</date>
     <components>
         <component>
             <name>Back/</name>
@@ -961,7 +991,7 @@
     </components>
 </project>
 <!-- Assesment tests & mocks  -->
-<project status="incomplete">
+<project status="incomplete" id="m_as_t_m3" category="Dynamic JSON-server webPage" category_es="Página web JSON-server dinámica">
     <project_name>Mock assesment test</project_name>
     <project_name_es>Simulacro prueba de desempeño</project_name_es>
     <description>This project is a simple simulated website with a restaurant ordering system, using bootstrap5 for frontend, with a simulated backend via JSON-server and OOP for the client functionality and CRUD operations</description>
@@ -969,9 +999,16 @@
     <images>
         <image type="thumbnail">/media/images/screenshots/module_3/s_p_d_m3.png</image>
     </images>
-    <version>beta 2.0</version>
+    <version>beta 1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+        <tech type="application">Figma</tech>
+    </techs>
+    <date format="dd/mm/yyyy">01/02/2026</date>
     <components>
         <component>
             <name>admin/</name>
@@ -1198,6 +1235,240 @@
             <type>Text</type>
             <details>This component specifies files and directories to be ignored by Git.</details>
             <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>log_in.html</name>
+            <type>HTML</type>
+            <details>Login page for user authentication.</details>
+            <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+        </component>
+        <component>
+            <name>sign_up.html</name>
+            <type>HTML</type>
+            <details>Signup page for new user registration.</details>
+            <details_es>Página de registro para nuevos usuarios.</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project id="t_as_m3" category="JSON-server data handling webPage" category_es="Página web JSON-server de manejo de datos">
+    <project_name>Assesment Test 3 (CRUDTASK)</project_name>
+    <project_name_es>Prueba de desempeño 3 (CRUDTASK)</project_name_es>
+    <description>This is a web page that simulates a SCRUM work environment, in which an administrator can create and give tasks to users, who in turn can manage their own tasks and create them</description>
+    <description_es>Esta es una página web que simula un entorno de trabajo SCRUM, en el que un administrador puede crear y dar tareas a usuarios, que a su vez, pueden manejar sus propias tareas y crearlas</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/p_d_m3.png</image>
+    </images>
+    <version>beta 1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/prueba-desempeno-3-CRUDTASK</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+        <tech type="application">Figma</tech>
+    </techs>
+    <date format="dd/mm/yyyy">03/02/2026</date>
+    <components>
+        <component>
+            <name>admin/</name>
+            <type>Folder</type>
+            <details>This folder contains all the html files and their dependencies for the admin side functionality</details>
+            <details_es>Esta carpeta contiene todos los archivos HTML y sus dependencias para la funcionalidad del lado del admin</details_es>
+            <contents>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the javascript files necessary for the admin dashboard render and admin methods initialization</details>
+                    <details_es>Esta carpeta contiene todos los archivos necesarios para la renderización del dashboard administrativo y los métodos del admin</details_es>
+                    <contents>
+                        <component>
+                            <name>create-task.js</name>
+                            <type>Script</type>
+                            <details>This script handles the form input for task creation and it's communication with the API</details>
+                            <details_es>Este script maneja los input del formulario para la creación de tareas y su comunicación con la API</details_es>
+                        </component>
+                        <component>
+                            <name>dashboard.js</name>
+                            <type>Script</type>
+                            <details>This script handles the dashboard render and the task editing, communicating with the API</details>
+                            <details_es>Este script maneja el render del dashboard y la edición de tareas, comunicandose con la API</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>styles/</name>
+                    <type>Folder</type>
+                    <details>This folder contains the styles files for the dashboard and admin side</details>
+                    <details_es>Esta carpeta contiene todos los archivos de estilos para el dashboard y el lado de administrador</details_es>
+                    <contents>
+                        <component>
+                            <name>styles.css</name>
+                            <type>CSS</type>
+                            <details>This component handles the classes styles for the dashboard</details>
+                            <details_es>Este componente maneja los estilos de clases para el dashboard</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>create-task.html</name>
+                    <type>HTML</type>
+                    <details>This component has the form to create and assign tasks</details>
+                    <details_es>Este componente tiene el formulario para crear y asignar tareas</details_es>
+                </component>
+                <component>
+                    <name>dashboard.html</name>
+                    <type>HTML</type>
+                    <details>This component is the dashboard where all the users task are shown and can be modified</details>
+                    <details_es>Este componente es el dashboard donde todas las tareas de los usuarios son mostradas y pueden ser modificadas</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>assets/</name>
+            <type>Folder</type>
+            <details>This folder contains the assets used in the project</details>
+            <details_es>Esta carpeta contiene los activos usados en el projecto</details_es>
+            <contents>
+                <component>
+                    <name>icons/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the icons used in the project</details>
+                    <details_es>Esta carpeta contiene todos los iconos usados en el proyecto</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">corbata_icon.png</name>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>This folder contains all js files used for models and data processing inside the webpage</details>
+            <details_es>Esta carpeta contiene todos los archivos js para modelos y procesamiento de datos dentro de la página web</details_es>
+            <contents>
+                <component>
+                    <name>models/</name>
+                    <type>Folder</type>
+                    <details>This folder contains the js classes, modularizing the functionalities</details>
+                    <details_es>Esta carpeta contiene las clases de js, modularizando las funcionalidades</details_es>
+                    <contents>
+                        <component>
+                            <name>Admin.js</name>
+                            <type>Script</type>
+                            <details>This script describes the Admin model and declares it's methods, communicating with the API</details>
+                            <details_es>Este script describe el modelo de admin y declara sus métodos, comunicandose con la API</details_es>
+                        </component>
+                        <component>
+                            <name>Task.js</name>
+                            <type>Script</type>
+                            <details>This script describes the Task model and declares it's methods, communicating with the API</details>
+                            <details_es>Este script describe el modelo de Tarea (Task) y declara sus métodos, comunicandose con la API</details_es>
+                        </component>
+                        <component>
+                            <name>User.js</name>
+                            <type>Script</type>
+                            <details>This script describes the User model and declares it's methods, communicating with the API</details>
+                            <details_es>Este script describe el modelo de Usuario (User) y declara sus métodos, comunicandose con la API</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>utils/</name>
+                    <type>Folder</type>
+                    <details>This folder contains the js functions utilities for registration and login</details>
+                    <details_es>Esta carpeta contiene las clases funciones de utilidad de js para registrarse e iniciar sesión</details_es>
+                    <contents>
+                        <component>
+                            <name>log_in.js</name>
+                            <type>Script</type>
+                            <details>This script handles the log in, creating the session and it's persistance, communicating with the API</details>
+                            <details_es>Este script maneja el inicio de sesión, creando la sesión y su persistencia, comunicandose con la API</details_es>
+                        </component>
+                        <component>
+                            <name>sign_up.js</name>
+                            <type>Script</type>
+                            <details>This script handles the sign up, creating the session and the user, communicating with the API</details>
+                            <details_es>Este script maneja el registro, creando la sesión y el usuario, comunicandose con la API</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>index.js</name>
+                    <type>Script</type>
+                    <details>This script handles the user index.html render, and it's functionality</details>
+                    <details_es>Este script maneja el render del index.html del usuario y su funcionalidad</details_es>
+                </component>
+                <component>
+                    <name>login.script.js</name>
+                    <type>Script</type>
+                    <details>This script handles the log in form and interface</details>
+                    <details_es>Este escript maneja el formulario de inicio de sesión y su interfaz</details_es>
+                </component>
+                <component>
+                    <name>signup.script.js</name>
+                    <type>Script</type>
+                    <details>This script handles the sign up form and interface</details>
+                    <details_es>Este escript maneja el formulario de registro y su interfaz</details_es>
+                </component>
+                <component>
+                    <name>logout.script.js</name>
+                    <type>Script</type>
+                    <details>This script handles the log out, deleting the session</details>
+                    <details_es>Este escript maneja el cerrado de sesión, eliminando la sesión</details_es>
+                </component>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>This script is the pathkeeper, preventing roles from accessing files over which they lack permissions</details>
+                    <details_es>Este script es un guardian de rutas, impidiendo que roles accedan a archivos sobre los que carecen permisos</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>This folder contains the styles files for the user side HTML</details>
+            <details_es>Esta carpeta contiene los archivos de estilos para los HTML del lado del usuario</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>CSS</type>
+                    <details>This file contains the styles classes used in the user side HTML</details>
+                    <details_es>Esta carpeta contiene las clases de estilos usadas en los HTML del lado del usuario</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>api.js</name>
+            <type>Script</type>
+            <details>This script handles all fetch to the JSON server</details>
+            <details_es>Este script maneja todos los fetch al JSON server</details_es>
+        </component>
+        <component>
+            <name>db.json</name>
+            <type>JSON</type>
+            <details>json-server database file for storing tasks and users.</details>
+            <details_es>Archivo de base de datos json-server para almacenar las tareas y usuarios.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This file is the logged user dashboard and landing page, interface for task managing</details>
+            <details_es>Este archivo es el dashboard y pagina inicial de los usuarios con sesión, una interfaz para el manejo de tareas</details_es>
         </component>
         <component>
             <name>log_in.html</name>
