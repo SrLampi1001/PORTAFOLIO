@@ -257,11 +257,11 @@ export default class XMLconverter{
         template.innerHTML = `
             <img class="card-img-top" src="./..${image.textContent}" alt="${title.textContent}" title="thumbnail"/>
             <div class="card-body">
-                <h4 class="card-title">${title.textContent}</h4>
-                <p class="card-text">${details.textContent.length > 100 ? details.textContent.slice(0, 100)+"..." : details.textContent}</p>
+                <h4 class="card-title">${title?.textContent}</h4>
+                <p class="card-text">${details?.textContent.length > 100 ? details?.textContent.slice(0, 100)+"..." : details.textContent}</p>
                 <a type="button" class="btn btn-info" href="./details.html?id=${project.getAttribute("id")}&xml=${this.XML}" data-details-${project.getAttribute("id")}>Details</a>
-                <a class="btn btn-success" href="${codeLink.textContent}" target="blank">Repository</a>
-                ${pageLink ? `<a class="btn btn-warning" href="${pageLink.textContent}" target="blank">Github Page</a>` : ""}
+                <a class="btn btn-success" href="${codeLink?.textContent}" target="blank">Repository</a>
+                ${pageLink ? `<a class="btn btn-warning" href="${pageLink?.textContent}" target="blank">Github Page</a>` : ""}
             </div>
         `;
         return template;

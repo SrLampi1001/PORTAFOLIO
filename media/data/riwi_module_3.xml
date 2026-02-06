@@ -11,7 +11,7 @@
     </images>
     <version>1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/historia_usuario_1_m3</url>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_1_m3</url>
     <techs>
         <tech type="code-editor">Visual Studio Code</tech>
     </techs>
@@ -47,7 +47,7 @@
     </images>
     <version>1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/historia_usuario_2_m3</url>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_2_m3</url>
     <techs>
         <tech type="code-editor">Visual Studio Code</tech>
     </techs>
@@ -87,7 +87,7 @@
     </images>
     <version>1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
-    <url>https://github.com/SrLampi1001/historia_usuario_3_m3</url>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_3_m3</url>
     <techs>
         <tech type="code-editor">Visual Studio Code</tech>
     </techs>
