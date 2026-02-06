@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_2>
 <!-- User stories -->
-<project>   
+<project id="us-1" category="Static Web Architecture" category_es="Esctructura Web Estática">   
     <project_name>User Story 1</project_name>
     <project_name_es>Historia de usuario 1</project_name_es>
     <description>This project corresponds to the portfolio and mascotas page first version, using basic HTML and CSS to deploy a web page inside GitHub</description>
     <description_es>Este proyecto corresponse a la primera versión del portafolio, usando HTML y CSS básicos para desplegar una página usando GitHub.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/mascotas.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/mascotas.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/d0b668bae4a5a1e6721943d590fd24be10dca960</url>
     <url type="page-link">https://srlampi1001.github.io/PORTAFOLIO/subpages/mascotas.html</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">02/12/2025</date>
     <components>
         <component>
             <name>index.html</name>
@@ -62,17 +66,21 @@
         </component>
     </components>
 </project>
-<project>
+<project id="us-2" category="Responsive Web Design" category_es="Diseño Web Responsivo">
     <project_name>User story 2</project_name>
     <project_name_es>Historia de usuario 2</project_name_es>
     <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
     <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_2_m2.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/h_u_2_m2.png</image>
     </images>
     <version>2.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/8568123fea4d401faaf0e9d5af1b6a491e1d7904</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">15/12/2025</date>
     <components>
         <component>
             <name>index.html</name>
@@ -170,17 +178,21 @@
         </component>
     </components>
 </project>
-<project>
+<project id="us-3" category="UI Components &amp; Styling" category_es="Componentes Interfaz y Estilado">
     <project_name>User story 3</project_name>
     <project_name_es>Historia de usuario 3</project_name_es>
     <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
     <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_3_m2.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/h_u_3_m2.png</image>
     </images>
     <version>2.5</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/1bc5daf26b007e5b08db3d92e251d48743ee5109</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">06/01/2026</date>
     <components>
         <component>
             <name>index.html</name>
@@ -321,17 +333,22 @@
     </components>
 </project>
 <!-- Webpages -->
-<project>
+<project id="f_n_f" category="Static Web Architecture" category_es="Esctructura Web Estática">
     <project_name>form only css &amp; html</project_name>
     <project_name_es>formulario solo css y html</project_name_es>
     <description>This project is a simple form for log in, with no functionality, only for testing css and html abilites</description>
     <description_es>Este proyecto es un simple formulario para inicio de sesión, sin funcionalidas, solo para poner a prueba habilidades con html y css</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/form_no_functionality.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/form_no_functionality.png</image>
     </images>
     <version>BETA 3.0</version>
     <author type="organization">tren-estelar-riwi</author>
+    <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
     <url type="code-link">https://github.com/SrLampi1001/form_only_css_html</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">02/12/2025</date>
     <components>
         <component>
             <name>login_form.html</name>
@@ -353,68 +370,67 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project id="k-22b" category="Frontend Layout &amp; UI" category_es="Diseño interfaz usuario y frontend">
     <project_name>Kepler 22b</project_name>
     <project_name_es>Kepler 22b</project_name_es>
     <description>This project is a webpage dedicated to the lore of Kepler 22b, a fictional planet and it's history, world culture and living beigns, using javascript, css and HTML</description>
     <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/kepler_22b.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/kepler_22b.png</image>
     </images>
-    <version>BETA 1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
-    <author>Juan Diego Mazo</author>
-    <author>Juliana Sofia Valencia</author>
+    <version>1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <author type="person">Juan Diego Mazo</author>
+    <author type="person">Juliana Sofia Valencia</author>
     <url type="code-link">https://github.com/SrLampi1001/kepler_page</url>
     <url type="page-link">https://srlampi1001.github.io/kepler_page/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">5/02/2026</date>
     <components>
         <component>
-            <name>multimedia/</name>
+            <name>multi/</name>
             <type>Folder</type>
             <details>This folder contains all the folders with their respective type of multimedia, including images, videos and audios</details>
             <details_es>Esta carpeta contiene todas las carpetas con sus respectivos tipos de contenido multimedia, incluyendo imagenes, videos y audios</details_es>
             <contents>
                 <component>
-                    <name>audios/</name>
-                    <type>Folder</type>
-                    <details>This folder contains all the mp3 and audio type of archives</details>
-                    <details_es>Esta carpeta contiene todos los mp3 y tipos de archivo de audio</details_es>
-                    <contents>
-                        <component>
-                            <name>underwater_ambience.mp3</name>
-                            <type>Audio</type>
-                            <details>This component is an underwater ambience souds audio, used for testing</details>
-                            <details_es>Este componente es un audio de sonido ambiental en agua, usado para tests</details_es>
-                        </component>
-                    </contents>
-                </component>
-                <component>
-                    <name>images/</name>
+                    <name>img/</name>
                     <type>Folder</type>
                     <details>This folder contains all images used in the html archives</details>
                     <details_es>Esta carpeta contiene todas las imagenes usadas en los archivos html</details_es>
                     <contents>
                         <component type="collection">
-                            <name type="Image">kepler_22b.jpg</name>
-                            <name type="Image">1.jpg</name>
-                            <name type="Image">ChatGPT Image 4 dic 2025.jpg</name>
-                            <name type="Image">16_28_23.png</name>
-                            <name type="Image">img-example.jpg</name>
-                            <name type="Image">kepler.jpg</name>
-                            <name type="Image">kepler_22b.jpg</name>
+                            <name type="Image">2.png</name>
+                            <name type="Image">logo-kepler.jpg</name>
+                            <name type="Image">reinoluz-auror.jpg</name>
+                            <name type="Image">reinoluz-cultura.jpg</name>
+                            <name type="Image">reinoluz-fotovores.jpg</name>
+                            <name type="Image">reinoluz-lumin.jpg</name>
+                            <name type="Image">reinoluz.jpg</name>
+                            <name type="Image">reinomedio-cultura.jpg</name>
+                            <name type="Image">reinomedio-equinox.jpg</name>
+                            <name type="Image">reinomedio-llimbofagos.jpg</name>
+                            <name type="Image">reinomedio-twilight.jpg</name>
+                            <name type="Image">reinomedio.png</name>
+                            <name type="Image">reinooscuro-cultura.png</name>
+                            <name type="Image">reinooscuro-ecosombras.png</name>
+                            <name type="Image">reinooscuro-geotermos.png</name>
+                            <name type="Image">reinooscuro.png</name>
+                            <name type="Image">reinooscuro-susurro.png</name>
                         </component>
                     </contents>
                 </component>
                 <component>
-                    <name>videos/</name>
+                    <name>video/</name>
                     <type>Folder</type>
                     <details>This folder contains all the videos used in the html archives</details>
                     <details_es>Esta carpeta contiene todos los videos usados en los archivos html</details_es>
                     <contents>
                         <component type="collection">
-                            <name type="Video">215697_small.mp4</name>
-                            <name type="Video">kepler_rotating.webm</name>
-                            <name type="Video">vxxdy-tcyx8.mp4</name>
+                            <name type="Video">fondo.mp4</name>
+                            <name type="Video">intro.mp4</name>
                         </component>
                     </contents>
                 </component>
@@ -427,62 +443,36 @@
             <details_es>Esta carpeta contiene los archivos de estilos css para todos los archivos html</details_es>
             <contents>
                 <component>
-                    <name>authors.css</name>
+                    <name>styles.css</name>
                     <type>CSS</type>
-                    <details>This component handles the styles and classes specially made for the authors.html archive</details>
-                    <details_es>Este componente maneja los estilos y clases especialmente hechas para el archivo authors.html</details_es>
-                </component>
-                <component>
-                    <name>courts.css</name>
-                    <type>CSS</type>
-                    <details>This component handles all the styles and classes specially made for the court html archives, like limbo-court.html</details>
-                    <details_es>Este componente maneja todos los estilos y clases hechas especialmente para los html de las cortes, como limbo-court.html</details_es>
-                </component>
-                <component>
-                    <name>index.css</name>
-                    <type>CSS</type>
-                    <details>This component handles all the styles and classes especially made for the index.html</details>
-                    <details_es>Este componenete maneja todos los estilos y clases hechas especialmente para el index.html</details_es>
+                    <details>This component handles the styles and classes specially made for all the html files</details>
+                    <details_es>Este componente maneja los estilos y clases especialmente hechas para todos los archivos html</details_es>
                 </component>
             </contents>
         </component>
         <component>
-            <name>subpages/</name>
+            <name>index/</name>
             <type>Folder</type>
             <details>This folder contains all the html archives other than index.html</details>
             <details_es>Esta carpeta contiene todos los archivos html aparte del index.html</details_es>
             <contents>
                 <component>
-                    <name>lore-fragments/</name>
-                    <type>Folder</type>
-                    <details>This folder is meant to contain all the html elements with information regarding lore fragments from kepler</details>
-                    <details_es>Esta carpeta esta hecha para contener todos los elementos con información acerca de fragmentos de lore de kepler</details_es>
-                    <contents>
-                        <component>
-                            <name>authors.html</name>
-                            <type>HTML</type>
-                            <details>This component is a page dedicated to the lore in the form of authors excerpts</details>
-                            <details_es>Este componente es una pagina dedicada al lore en la forma de extractos de autores</details_es>
-                        </component>
-                    </contents>
+                    <name>cresendo.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relevant information from the cresendo zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona cresendo en kepler</details_es>
                 </component>
                 <component>
-                    <name>limbo-court.html</name>
+                    <name>dartumbria.html</name>
                     <type>HTML</type>
-                    <details>This component contains all the relevant information from the limbo court in kepler</details>
-                    <details_es>Este componente contiene toda la información relevante de la corte del limbo en kepler</details_es>
+                    <details>This component contains all the relevant information from the dark zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona oscura en kepler</details_es>
                 </component>
                 <component>
-                    <name>shadow-court.html</name>
+                    <name>sinteryum.html</name>
                     <type>HTML</type>
-                    <details>This component contains all the relevant information from the shadow court in kepler</details>
-                    <details_es>Este componente contiene toda la información relevante de la corte de la sombra en kepler</details_es>
-                </component>
-                <component>
-                    <name>solar-court.html</name>
-                    <type>HTML</type>
-                    <details>This component contains all the relvant informaton from the solar court in kepler</details>
-                    <details_es>Este componente contiene toda la información relevante de la corte solar en kepler</details_es>
+                    <details>This component contains all the relevant information from the iluminated zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona iluminada en kepler</details_es>
                 </component>
             </contents>
         </component>
@@ -500,19 +490,24 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="flashsporsts" category="Frontend Layout &amp; UI" category_es="Diseño interfaz usuario y frontend">
     <project_name>Flashsports</project_name>
     <project_name_es>Flashsports</project_name_es>
     <description>This project is a webpage simulating a landing page where a user can find and inscribe in sports events, and admin dashboard from a sports webpage where the information can be seen, only html and css.</description>
     <description_es>Este proyecto es una pagina web simulando una página de inicio donde el usuario puede encontrar e inscribirse en eventos de deportes, y un panel de administrador donde la información puede ser vista</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/flashsports.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_2/flashsports.png</image>
     </images>
     <version>BETA 3.0</version>
     <author type="organization">tren-estelar-riwi</author>
     <url type="code-link">https://github.com/tren-estellar-riwi/flashports</url>
     <url type="page-link">https://tren-estellar-riwi.github.io/flashports/</url>
     <url type="page-link" alternative="true">https://tren-estellar-riwi.github.io/flashports/pages/galery.html</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="application">Balsamiq</tech>
+    </techs>
+    <date format="dd/mm/yyyy">11/12/2025</date>
     <components>
         <component>
             <name>README.md</name>
@@ -698,18 +693,22 @@
     </components>
 </project>
 <!-- assesment test & mocks -->
-<project status="incomplete">
+<project status="incomplete" id="m_as_t_m2" category="Responsive Web Design" category_es="Diseño Web Responsivo">
     <project_name>Mock assesment test</project_name> <!-- Add: clear disclaimer states it’s for educational purposes and not affiliated with the original. -->
     <project_name_es>Simulacro prueba de desempeño</project_name_es>
     <description>This project is a mock assesment test for front end development, using html and css, focusing on copying responsive and design from Alkosto Hiperahorro webpage</description>
     <description_es>Este proyecto es un simulacro de prueba de desempeño para desarrollo front end, usando html y css, enfocándose en copiar el diseño de la página Alkosto Hiperahorro</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/s_p_d_m2.png</image>
-        <!-- <image type="screenshot">./media/images/screenshots/s_p_d_m2_responsive.png</image> --> <!-- Future image -->
+        <image type="thumbnail">/media/images/screenshots/module_2/s_p_d_m2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2_responsive.png</image> <!-- Future image -->
     </images>
     <version>0.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">16/12/2025</date>
     <components>
         <component>
             <name>README.md</name>
@@ -719,18 +718,23 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="m_as_t_2_m2" category="Responsive Web Design" category_es="Diseño Web Responsivo">
     <project_name>Mock assesment test 2</project_name>
     <project_name_es>Simulacro prueba de desempeño 2</project_name_es>
     <description>This project is a mock assesment for riwi module 2 assesment test, creating a simple webpage responsive design with HTML and CSS</description>
     <description_es>Este proyecto es un simulacro de proyecto para el módulo 3, creando una simple aplicación de notas usando javascript, html y css</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/s_p_d_m2-2.png</image>
-        <!-- <image type="screenshot">./media/images/screenshots/s_p_d_m2-2-responsive.png</image> --> <!-- Future Image -->
+        <image type="thumbnail">/media/images/screenshots/module_2/s_p_d_m2-2.png</image>
+        <!-- <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2-2-responsive.png</image> --> <!-- Future Image -->
     </images>
     <version>0.2</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2-2</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="application">Figma</tech>
+    </techs>
+    <date format="dd/mm/yyyy">17/12/2025</date>
     <components>
         <component>
             <name>index.html</name>

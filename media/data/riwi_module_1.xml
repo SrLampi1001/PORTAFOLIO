@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_1>
 <!-- User stories -->
-<project>
+<project id="us-1" category="CLI Application" category_es="Aplicación ILC">
     <project_name>User story 1</project_name>
     <project_name_es>Historia de usuario 1</project_name_es>
     <description>This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles y condicionales, usando user input.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_1_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/h_u_1_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/historia_usuario_1</url>
+    <techs>
+        <tech type="code-editor">Terminal</tech>
+        <tech type="language">Python</tech>
+        <tech type="application">Draw.io</tech>
+    </techs>
+    <date format="dd/mm/yyyy">14/11/2025</date>
     <components>
         <component>
             <name>Inventory.py</name>
@@ -20,7 +26,7 @@
             <details_es>Este componente maneja el procesamiento de datos</details_es>
         </component>
         <component>
-            <name>diagrama</name>
+            <name>diagrama.png</name>
             <type>Image</type>
             <details>This component shows the basic work flow</details>
             <details_es>Este componente muestra el flujo de trabajo del programa</details_es>
@@ -33,17 +39,22 @@
         </component>
     </components>
 </project>
-<project>
-    <project_name>User history 2</project_name>
+<project id="us-2" category="CLI Application" category_es="Aplicación ILC">
+    <project_name>User story 2</project_name>
     <project_name_es>Historia de usuario 2</project_name_es>
     <description>This project is a simple Python program created to test the most basic conditional, functions and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, funciones y condicionales, usando user input</description_es>.
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_2_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/h_u_2_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/historia_usuario_2</url>
+        <techs>
+        <tech type="code-editor">Terminal</tech>
+        <tech type="language">Python</tech>
+    </techs>
+    <date format="dd/mm/yyyy">14/11/2025</date>
     <components>
         <component>
             <name>historia_usuario_2.py</name>
@@ -59,17 +70,23 @@
         </component>
     </components>
 </project>
-<project>
+<project id="us-3" category="Data Analysis Fundamentals" category_es="Fundamentos análisis de datos">
     <project_name>User Story 3</project_name>
     <project_name_es>Historia de usuario 3</project_name_es>
     <description>This project is a simple Python program created to test basic conditional, functions, loop  and libraries knowledge, libraries like csv.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, condiciones, funciones y librerías como csv.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/h_u_3_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/h_u_3_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/historia_usuario_3</url>
+    <techs>
+        <tech type="code-editor">Terminal</tech>
+        <tech type="language">Python</tech>
+        <tech type="application">Draw.io</tech>
+    </techs>
+    <date format="dd/mm/yyyy">22/11/2025</date>
     <components>
         <component>
             <name>app.py</name>
@@ -116,17 +133,22 @@
     </components>
 </project>
 <!-- Assigments -->
-<project>
+<project id="asg-1" category="CLI Application" category_es="Aplicación ILC">
     <project_name>Assignment 1</project_name>
     <project_name_es>Taller 1</project_name_es>
     <description>This project is a series of various python program (18), to test the most basic python knowledge, including python string funtions and methods</description>
     <description_es>Este proyecto es una serie de varios programas (18) de python, para testear el conocimiento más básico de python, incluyendo funciones integradas para manejar strings.</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/taller1_riwi</url>
+    <techs>
+        <tech type="code-editor">Terminal</tech>
+        <tech type="language">Python</tech>
+    </techs>
+    <date format="dd/mm/yyyy">14/11/2025</date>
     <components>
         <component>
             <name>taller1.py</name>
@@ -142,17 +164,22 @@
         </component>
     </components>
 </project>
-<project>
+<project id="asg-2" category="CLI Application" category_es="Aplicación ILC">
     <project_name>Assignment 2</project_name>
     <project_name_es>Taller 2</project_name_es>
     <description>This project is a simple python program testing the error managment basic knowledge</description>
     <description_es>Este proyecto es un simple programa de python que pone en prueba los conocimientos básicos de control de errores, haciendo uso del user input</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_2.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_2.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/taller2_riwi</url>
+    <techs>
+        <tech type="code-editor">Terminal</tech>
+        <tech type="language">Python</tech>
+    </techs>
+    <date format="dd/mm/yyyy">14/11/2025</date>
     <components>
         <component>
             <name>taller2.py</name>
@@ -168,17 +195,23 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="asg-3" category="CLI Application" category_es="Aplicación ILC">
     <project_name>Mini python projects</project_name>
     <project_name_es>Mini proyectos python</project_name_es>
     <description>These are a series of 8 small projects testing python basic knowledge, including external libraries</description>
     <description_es>Este proyecto es una serie de 8 mini proyectos de python que testean el conocimiento básico, incluyendo librerías externas</description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/mini_proyectos_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/mini_proyectos_m1.png</image>
     </images>
     <version>0.2</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/Mini_proyecto_python</url>
+    <techs>
+        <tech type="code-editor">Terminal</tech>
+        <tech type="language">Python</tech>
+        <tech type="application">Draw.io</tech>
+    </techs>
+    <date format="dd/mm/yyyy">20/11/2025</date>
     <components>
         <component>
             <name>calculadora.py</name>
@@ -206,7 +239,7 @@
         </component>
     </components>
 </project>
-<project status="incomplete">
+<project status="incomplete" id="asg-4" category="Data Analysis Fundamentals" category_es="Fundamentos análisis de datos">
     <project_name>Mini project Pandas, JSON &amp; CSV</project_name>
     <project_name_es>Mini proyecto Pandas, JSON y CSV</project_name_es>
     <description>This project is a simple Python program that tests the most basic knowledge of using the Pandas library and JSON.
@@ -214,17 +247,24 @@
     <description_es>Este proyecto es un simple programa de python que pone a prueba los conocimientos más básicos del manejo de la librearía Pandas, y JSON.
     Este proyecto incluye una base de datos simulada de estudiantes en formato JSON y un archivo de Excel para manejar la entrada de estudiantes por parte del usuario. </description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_3.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_3.png</image>
     </images>
     <version>0.5</version>
-    <author>Santiago Sánchez Ruiz</author>
-    <author>Nicolas Garzón</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <author type="person">Nicolas Garzón</author>
     <url type="code-link">https://github.com/nicogarzonhub/Mini_proyecto</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="language">Python</tech>
+        <tech type="library">Pandas</tech>
+        <tech type="application">Excel</tech>
+    </techs>
+    <date format="dd/mm/yyyy">20/11/2025</date>
     <components>
         <component>
             <name>estudiantes.json</name>
             <type>JSON</type>
-            <details>This component contains the studens simulated database</details>
+            <details>This component contains the students simulated database</details>
             <details_es>Este componente contiene la base de datos simulada de estudiantes</details_es>
         </component>
         <component>
@@ -247,17 +287,22 @@
         </component>
     </components>
 </project>
-<project>
+<project id="asg-5" category="CLI Application" category_es="Aplicación ILC">
     <project_name>Practical Assignment grades managment</project_name>
     <project_name_es>Talles práctico gestion de notas</project_name_es>
     <description>This project is a simple Python program that creates a program executed in the terminal for grades processing, including various functionalities like adding, removing, updating and visualizing grades. </description>
     <description_es>Este proyecto es un simple programa de python que crea un programa ejecutado en la terminal para el procesamiento de notas, incluyendo varias funcionalidades como agregar, eliminar, actualizar y visualizar notas. </description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/t_3-5.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/t_3-5.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/taller_practico_gestion_notas</url>
+    <techs>
+        <tech type="code-editor">Terminal</tech>
+        <tech type="language">Python</tech>
+    </techs>
+    <date format="dd/mm/yyyy">14/11/2025</date>
     <components>
         <component>
             <name>taller_practico_sistema_notas.py</name>
@@ -274,7 +319,7 @@
     </components>
 </project>
 <!-- Assesment tests & mocks  -->
-<project status="incomplete">
+<project status="incomplete" id="m-asg-1" category="Data Scripting &amp; Automation" category_es="Scripting y automatización de datos">
     <project_name>Mock Assesment test</project_name>
     <project_name_es>Simulacro prueba de desempeño</project_name_es>
     <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage, to prepare for the real Assesment test.
@@ -284,11 +329,16 @@
     El programa usa conceptos de POO y operaciones asíncronas para simular un sistema real para una empresa de tecnología de equipos en préstamo.
     </description_es>.
     <images>
-        <image type="thumbnail">./media/images/screenshots/s_p_d_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/s_p_d_m1.png</image>
     </images>
     <version>0.2</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_modulo1</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="language">Python</tech>
+    </techs>
+    <date format="dd/mm/yyyy">01/12/2025</date>
     <components>
         <component status="incomplete">
             <name>main.py</name>
@@ -328,17 +378,22 @@
         </component>
     </components>
 </project>
-<project>
+<project id="t-asg" category="Data Analysis Fundamentals" category_es="Fundamentos análisis de datos">
     <project_name>Assesment Test</project_name>
     <project_name_es>Prueba de desempeño</project_name_es>
     <description>This is a test project created to asses all the knowledge acquired during the previous projects from this module, including user input managment, error handling, data processing and external libraries usage. </description>
     <description_es>Este es un proyecto de prueba creado para evaluar todo el conocimiento adquirido durante los proyectos previos de este módulo, incluyendo el manejo de la entrada del usuario, control de errores, procesamiento de datos y uso de librerías externas. </description_es>
     <images>
-        <image type="thumbnail">./media/images/screenshots/p_d_m1.png</image>
+        <image type="thumbnail">/media/images/screenshots/module_1/p_d_m1.png</image>
     </images>
     <version>1.0</version>
-    <author>Santiago Sánchez Ruiz</author>
+    <author type="person">Santiago Sánchez Ruiz</author>
     <url type="code-link">https://github.com/SrLampi1001/prueba_desempe-o_modulo_1</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="language">Python</tech>
+    </techs>
+    <date format="dd/mm/yyyy">08/01/2026</date>
     <components>
         <component>
             <name>app.py</name>
