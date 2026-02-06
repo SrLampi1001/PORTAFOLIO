@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module_1>
-<<<<<<< HEAD
 <!-- User stories -->
 <project>
     <project_name>User story 1</project_name>
     <project_name_es>Historia de usuario 1</project_name_es>
-=======
-<riwi_module>
-    <module_name>User history 1</module_name>
-    <module_name_es>Historia de usuario 1</module_name_es>
->>>>>>> f2239db (fix: errors riwi_module_1.xml)
     <description>This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.</description>
     <description_es>Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles y condicionales, usando user input.</description_es>
     <images>
