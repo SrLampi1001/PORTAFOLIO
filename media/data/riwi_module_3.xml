@@ -65,7 +65,7 @@
         </component>
     </components>
 </project>
-<project>
+<project id="us-3">
     <project_name>User story 3</project_name>
     <project_name_es>Historia de usuario 3</project_name_es>
     <description>This project is a simple javascript program, executed inside an HTML, where a panel for taking notes is created, with basic CRUD operations and localStorage for data persistence.</description>
@@ -108,7 +108,7 @@
     </components>
 </project>
 <!-- webpages -->
-<project>
+<project id="kfc">
     <project_name>KFC</project_name>
     <project_name_es>KFC</project_name_es>
     <description>This project is a simple mock webpage of KFC, made with HTML and CSS, with responsive design for mobile and desktop, using bootstrap5 &amp; localStorage for data persistance</description>
@@ -188,16 +188,16 @@
             <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
             <contents>
                 <component type="collection">
-                    <name>Logo.png</name>
-                    <name>favicon.ico</name>
-                    <name>hamburguesa-1.webp</name>
-                    <name>hamburguesa-2.webp</name>
-                    <name>hamburguesa-3.webp</name>
-                    <name>hamburguesa-4.webp</name>
-                    <name>hamburguesa-5.webp</name>
-                    <name>hamburguesa-6.webp</name>
-                    <name>hamburguesa-7.webp</name>
-                    <name>hamburguesa-8.webp</name>
+                    <name type="Image">Logo.png</name>
+                    <name type="Image">favicon.ico</name>
+                    <name type="Image">hamburguesa-1.webp</name>
+                    <name type="Image">hamburguesa-2.webp</name>
+                    <name type="Image">hamburguesa-3.webp</name>
+                    <name type="Image">hamburguesa-4.webp</name>
+                    <name type="Image">hamburguesa-5.webp</name>
+                    <name type="Image">hamburguesa-6.webp</name>
+                    <name type="Image">hamburguesa-7.webp</name>
+                    <name type="Image">hamburguesa-8.webp</name>
                 </component>
             </contents>
         </component>
