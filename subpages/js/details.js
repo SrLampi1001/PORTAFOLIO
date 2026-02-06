@@ -4,7 +4,7 @@ const id = params.has('id') ? params.get('id') : null //gets the project id
 const xml = params.has('xml') ? params.get('xml') : "not-found.xml" //gets the xml archive from the project
 const converter = new XMLconverter(`./../media/data/${xml}`)
 const applyContent = async ()=>{
-    const content = await converter.createDetailsPage(id, "es")
+    const content = await converter.createDetailsPage(id)
     console.log(content)
     document.querySelector("body").appendChild(content)
 }
