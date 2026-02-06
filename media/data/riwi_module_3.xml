@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module_3>
+<!-- User stories -->
+<project id="us-1" category="Input data handling script" category_es="Script de manejo de datos">
+    <project_name>User story 1</project_name>
+    <project_name_es>Historia de usuario 1</project_name_es>
+    <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD with user input.</description>
+    <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, para operaciones crud básicas con entrada de usuario.</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/h_u_1_m3.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_1_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">06/01/2026</date>
+    <components>
+        <component>
+            <name>sistema_interactivo.js</name>
+            <type>Script</type>
+            <details>This component handles data processing, basic name &amp; age inputs.</details>
+            <details_es>Este componente maneja el procesamiento de datos, entrada de datos básicoa de nombre y edad</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is executed on the browser to execute the script</details>
+            <details_es>Este componente es ejecutado en el navegador para ejecutar el script</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project id="us-2" category="Javascript objects tests" category_es="Tests de objetos Javascript"> 
+    <project_name>User story 2</project_name>
+    <project_name_es>Historia de usuario 2</project_name_es>
+    <description>This project is a simple javascript program, executed inside an HTML, for basic CRUD and testing for MAP and SET data structures.</description>
+    <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, para operaciones crud básicas y pruebas para las estructuras de datos MAP y SET.</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/h_u_2_m3.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_2_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">31/01/2026</date>
+    <components>
+        <component>
+            <name>gestion_datos.js</name>
+            <type>Script</type>
+            <details>This component handles data processing, basic name &amp; age inputs, with MAP, SET and object data structures.</details>
+            <details_es>Este componente maneja el procesamiento de datos, entrada de datos básica de nombre y edad, con las estructuras de datos MAP, SET y objetos.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is executed on the browser to execute the script</details>
+            <details_es>Este componente es ejecutado en el navegador para ejecutar el script</details_es>
+        </component>
+        <component status="incomplete">
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project id="us-3" category="Data persistence webPage" category_es="Persistencia de datos WebPage">
+    <project_name>User story 3</project_name>
+    <project_name_es>Historia de usuario 3</project_name_es>
+    <description>This project is a simple javascript program, executed inside an HTML, where a panel for taking notes is created, with basic CRUD operations and localStorage for data persistence.</description>
+    <description_es>Este proyecto es un simple programa de javascript, ejectuando dentro de un HTML, donde se crea un panel para tomar notas, con operaciones CRUD básicas y localStorage para persistencia de datos.</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/h_u_3_m3.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img1.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img3.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/h_u_3_m3-img4.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/historia_usuario_3_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">31/01/2026</date>
+    <components>
+        <component>
+            <name>script.js</name>
+            <type>Script</type>
+            <details>This component handles data processing, basic CRUD operations for notes, and localStorage for data persistence.</details>
+            <details_es>Este componente maneja el procesamiento de datos, operaciones CRUD básicas para notas, y localStorage para persistencia de datos.</details_es>
+        </component>
+        <component>
+            <name>manipulation_dom.html</name>
+            <type>HTML</type>
+            <details>This component is executed on the browser to execute the script, has the notes</details>
+            <details_es>Este componente es ejecutado en el navegador para ejecutar el script, has the notes</details_es>
+        </component>
+        <component>
+            <name>styles.css</name>
+            <type>Stylesheet</type>
+            <details>This component contains the styles for the notes panel and overall design.</details>
+            <details_es>Este componente contiene los estilos para el panel de notas y el diseño en general.</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<!-- webpages -->
+<project id="kfc" category="Dynamic responsive webPage" category_es="Página web responsiva dinámica">
+    <project_name>KFC</project_name>
+    <project_name_es>KFC</project_name_es>
+    <description>This project is a simple mock webpage of KFC, made with HTML and CSS, with responsive design for mobile and desktop, using bootstrap5 &amp; localStorage for data persistance</description>
+    <description_es>Este proyecto es una página web simulada de KFC, hecha con HTML y CSS, con diseño responsivo para móvil y escritorio, usando bootstrap5 y localStorage para persistencia de datos</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/kfc.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/kfc_2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/kfc_3.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/KFC</url>
+    <url type="page-link">https://srlampi1001.github.io/KFC/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+    </techs>
+    <date format="dd/mm/yyyy">01/02/2026</date>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Main landing page of the website, with responsive design.</details>
+            <details_es>Página principal del sitio web, con diseño responsivo.</details_es>
+        </component>
+        <component>
+            <name>log_in.js</name>
+            <type>Script</type>
+            <details>Javascript file for handling user login functionality.</details>
+            <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>Folder containing all CSS files for styling and responsive design.</details>
+            <details_es>Carpeta que contiene todos los archivos CSS para estilos y diseño responsivo.</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+                <component>
+                    <name>bootstrap.min.css</name>
+                    <type>Stylesheet</type>
+                    <details>Bootstrap 5 CSS file for responsive design and pre-defined styles.</details>
+                    <details_es>Archivo CSS de Bootstrap 5 para diseño responsivo y estilos predefinidos.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>script/</name>
+            <type>Folder</type>
+            <details>Folder containing all javascript files for interactivity and localStorage.</details>
+            <details_es>Carpeta que contiene todos los archivos javascript para interactividad y localStorage.</details_es>
+            <contents>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>Main javascript file for interactivity and localStorage data persistence.</details>
+                    <details_es>Archivo javascript principal para interactividad y persistencia de datos en localStorage.</details_es>
+                </component>
+                <component>
+                    <name>log_in.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user login functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+                </component>
+                <component>
+                    <name>sign_in_verification.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user redirection when not logged.</details>
+                    <details_es>Archivo Javascript para manejar la redirección del usuario cuando no está registrado.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>media/</name>
+            <type>Folder</type>
+            <details>Folder containing images and other media assets used in the website.</details>
+            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+            <contents>
+                <component type="collection">
+                    <name type="Image">Logo.png</name>
+                    <name type="Image">favicon.ico</name>
+                    <name type="Image">hamburguesa-1.webp</name>
+                    <name type="Image">hamburguesa-2.webp</name>
+                    <name type="Image">hamburguesa-3.webp</name>
+                    <name type="Image">hamburguesa-4.webp</name>
+                    <name type="Image">hamburguesa-5.webp</name>
+                    <name type="Image">hamburguesa-6.webp</name>
+                    <name type="Image">hamburguesa-7.webp</name>
+                    <name type="Image">hamburguesa-8.webp</name>
+                </component>
+            </contents>
+        </component>
+    </components>
+</project>
+<project status="incomplete" id="carscrud" category="Dynamic JSON-server webPage" category_es="Página web JSON-server dinámica">
+    <project_name>cars-crud</project_name>
+    <project_name_es>cars-crud</project_name_es>
+    <description>This projects is a complete mock website, for a rent sand buying car service, it has responsive design and an admin dashboard with landpage, a simple sing up verification and an OOP with json-server api and models for interactivity</description>
+    <description_es>Este proyecto es una página web completa, para un servicio de renta y compra de coches, tiene diseño responsivo y un panel de administración con página de inicio, una verificación simple de registro y una POO con json-server api y modelos para interactividad</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/cars_crud_1.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/cars_crud_2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_3/cars_crud_3.png</image>
+    </images>
+    <version>BETA 1.0</version>
+    <version-info>First public release, No json-server</version-info>
+    <author type="organization">Hubble-Riiwiii</author>
+    <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
+    <url type="code-link">https://github.com/Hubble-Riiwii/cars-crud</url>
+    <url type="page-link">https://hubble-riiwii.github.io/cars-crud/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="application">Figma</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+    </techs>
+    <date format="dd/mm/yyyy">13/01/2026</date>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Main landing page of the website, with responsive design.</details>
+            <details_es>Página principal del sitio web, con diseño responsivo.</details_es>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>Folder containing all javascript files for interactivity and OOP models.</details>
+            <details_es>Carpeta que contiene todos los archivos javascript para interactividad y modelos POO.</details_es>
+            <contents>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>Main javascript file for interactivity and DOM manipulation.</details>
+                    <details_es>Archivo javascript principal para interactividad y manipulación del DOM.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>css/</name>
+            <type>Folder</type>
+            <details>Folder containing all CSS files for styling and responsive design.</details>
+            <details_es>Carpeta que contiene todos los archivos CSS para estilos y diseño responsivo.</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>assets/</name>
+            <type>Folder</type>
+            <details>Folder containing images and other media assets used in the website.</details>
+            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+            <contents>
+                <component>
+                    <name>cars/</name>
+                    <type>Folder</type>
+                    <details>Folder containing image files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de imágenes utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">car_all_new_rush.png</name>
+                            <name type="Image">car_all_new_terios.png</name>
+                            <name type="Image">car_cr-v.png</name>
+                            <name type="Image">car_koenigsegg.png</name>
+                            <name type="Image">car_mg_zx_exclusive.png</name>
+                            <name type="Image">car_new_mg_zs.png</name>
+                            <name type="Image">car_new_mg_zs_platinum.png</name>
+                            <name type="Image">car_nissangt-r</name>
+                            <name type="Image">car_rolls-royce.png</name>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>icons/</name>
+                    <type>Folder</type>
+                    <details>Folder containing icon files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de iconos utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">gas-station.svg</name>
+                            <name type="Image">hearth-empty.svg</name>
+                            <name type="Image">hearth-full.svg</name>
+                            <name type="Image">manual.svg</name>
+                            <name type="Image">profile-2user.svg</name>
+                        </component>
+                    </contents>
+                </component>
+                <component type="collection">
+                    <name>Ads 1.png</name>
+                    <name>BG.png</name>
+                    <name>CarsCrud-removebg 1.png</name>
+                    <name>Logo.png</name>
+                    <name>Profil &amp; Notification.png</name>
+                    <name>gray_car.png</name>
+                    <name>white_car.png</name>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+    <components type="branch" branchName="Santiago" branchOwner="Santiago Sánchez Ruiz">
+        <component>
+            <name>backend/</name>
+            <type>Folder</type>
+            <details>Simulated backend for json server with models and interaction with JSON-server api.</details>
+            <details_es>backend simulado con modelos e interacción con la api JSON-server.</details_es>
+            <contents>
+                <component>
+                    <name>api/</name>
+                    <type>Folder</type>
+                    <details>Folder containing json-server API files for data storage and retrieval.</details>
+                    <details_es>Carpeta que contiene archivos de la API json-server para almacenamiento y recuperación de datos.</details_es>
+                    <contents>
+                        <component>
+                            <name>api.js</name>
+                            <type>Script</type>
+                            <details>api object with methods for data storage and retrieval from json-server.</details>
+                            <details_es>objeto api con métodos para recuperación y envío de datos desde json-server.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>database/</name>
+                    <type>Folder</type>
+                    <details>Folder containing json-server database file for storing car listings and user data.</details>
+                    <details_es>Carpeta que contiene el archivo de base de datos json-server para almacenar listados de coches y datos de usuarios.</details_es>
+                    <contents>
+                        <component>
+                            <name>db.json</name>
+                            <type>JSON</type>
+                            <details>json-server database file for storing car listings and user data.</details>
+                            <details_es>Archivo de base de datos json-server para almacenar listados de coches y datos de usuarios.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>models/</name>
+                    <type>Folder</type>
+                    <details>Folder containing javascript model files for car listings and user registrations.</details>
+                    <details_es>Carpeta que contiene archivos de modelos javascript para listados de coches y registros de usuarios.</details_es>
+                    <contents>
+                        <component>
+                            <name>Car.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for car listings.</details>
+                            <details_es>Archivo de modelo javascript para listados de coches.</details_es>
+                        </component>
+                        <component>
+                            <name>User.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for user registrations.</details>
+                            <details_es>Archivo de modelo javascript para registros de usuarios.</details_es>
+                        </component>
+                        <component>
+                            <name>Rent.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for car rentals.</details>
+                            <details_es>Archivo de modelo javascript para rentas de coches.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>utils/</name>
+                    <type>Folder</type>
+                    <details>Folder containing utility javascript files for form validation and DOM manipulation.</details>
+                    <details_es>Carpeta que contiene archivos javascript de utilidades para validación de formularios y manipulación del DOM.</details_es>
+                    <contents>
+                        <component>
+                            <name>alerts.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for validation modals.</details>
+                            <details_es>Archivo de utilidad javascript para modales de verificación.</details_es>
+                        </component>
+                        <component>
+                            <name>functions.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for utility functions, like debounce.</details>
+                            <details_es>Archivo de utilidad javascript para funciones de utilidad, como retrasar.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>package-lock.json</name>
+                    <type>JSON</type>
+                    <details>Lock file for npm dependencies.</details>
+                    <details_es>Archivo de bloqueo para dependencias de npm.</details_es>
+                </component>
+                <component>
+                    <name>package.json</name>
+                    <type>JSON</type>
+                    <details>npm configuration file for managing dependencies and scripts.</details>
+                    <details_es>Archivo de configuración de npm para gestionar dependencias y scripts.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>Frontend/</name>
+            <type>Folder</type>
+            <details>Folder containing all frontend files for the landing page and admin dashboard.</details>
+            <details_es>Carpeta que contiene todos los archivos frontend para la página de inicio y el panel de administración.</details_es>
+            <contents>
+                <component>
+                    <name>admin/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all files for the admin dashboard.</details>
+                    <details_es>Carpeta que contiene todos los archivos para el panel de administración.</details_es>
+                    <contents>
+                        <component>
+                            <name>dashboard.html</name>
+                            <type>HTML</type>
+                            <details>Main HTML file for the admin dashboard.</details>
+                            <details_es>Archivo HTML principal para el panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>dashboard.css</name>
+                            <type>Stylesheet</type>
+                            <details>CSS file for styling the admin dashboard.</details>
+                            <details_es>Archivo CSS para dar estilo al panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>js/</name>
+                            <type>Folder</type>
+                            <details>Folder containing javascript files for the admin dashboard.</details>
+                            <details_es>Carpeta que contiene archivos javascript para el panel de administración.</details_es>
+                            <contents>
+                                <component>
+                                    <name>constructCar.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for constructing car objects.</details>
+                                    <details_es>Archivo javascript para construir objetos de coche.</details_es>
+                                </component>
+                                <component>
+                                    <name>constructUser.js</name> <!-- Pending for real creation, but a really good idea -->
+                                    <type>Script</type>
+                                    <details>Javascript file for constructing user objects.</details>
+                                    <details_es>Archivo javascript para construir objetos de usuario.</details_es>
+                                </component>
+                                <component> <!-- Pending for real creation, but a really good idea -->
+                                    <name>dashboard_script.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for admin dashboard interactivity and CRUD operations with json-server.</details>
+                                    <details_es>Archivo Javascript para la interactividad del panel de administración y operaciones CRUD con json-server.</details_es>
+                                </component>
+                                <component>
+                                    <name>logout.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for handling admin logout functionality.</details>
+                                    <details_es>Archivo Javascript para manejar la funcionalidad de cierre de sesión del administrador.</details_es>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>assets/</name>
+                    <type>Folder</type>
+                    <details>Folder containing images and other media assets used in the website.</details>
+                    <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component>
+                            <name>cars/</name>
+                            <type>Folder</type>
+                            <details>Folder containing image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="collection">
+                                    <name type="Image">car_all_new_rush.png</name>
+                                    <name type="Image">car_all_new_terios.png</name>
+                                    <name type="Image">car_cr-v.png</name>
+                                    <name type="Image">car_cr-v_black.png</name>
+                                    <name type="Image">car_koenigsegg.png</name>
+                                    <name type="Image">car_mg_zx_excite.png</name>
+                                    <name type="Image">car_mg_zx_exclusive.png</name>
+                                    <name type="Image">car_new_mg_zs.png</name>
+                                    <name type="Image">car_new_mg_zs_platinum.png</name>
+                                    <name type="Image">car_nissangt-r</name>
+                                    <name type="Image">car_rolls-royce.png</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>icons/</name>
+                            <type>Folder</type>
+                            <details>Folder containing icon files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de iconos utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="collection">
+                                    <name type="Image">gas-station.svg</name>
+                                    <name type="Image">hearth-empty.svg</name>
+                                    <name type="Image">hearth-full.svg</name>
+                                    <name type="Image">manual.svg</name>
+                                    <name type="Image">profile-2user.svg</name>
+                                    <name type="Image">user-symbol.svg</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>images/</name>
+                            <type>Folder</type>
+                            <details>Folder containing general image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="collection">
+                                    <name type="Image">Ads 1.png</name>
+                                    <name type="Image">BG.png</name>
+                                    <name type="Image">CarsCrud-removebg 1.png</name>
+                                    <name type="Image">Logo.png</name>
+                                    <name type="Image">gray_car.png</name>
+                                    <name type="Image">white_car.png</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>users/</name>
+                            <type>Folder</type>
+                            <details>Folder containing user profile images used in the website.</details>
+                            <details_es>Carpeta que contiene imágenes de perfil de usuario utilizadas en el sitio web.</details_es>
+                            <contents>
+                                <component type="collection">
+                                    <name type="Image">Profil &amp; Nodification.png</name>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>css/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all CSS files for styling and responsive design.</details>
+                    <details_es>Carpeta que contiene todos los archivos CSS para estilos y diseño responsivo.</details_es>
+                    <contents>
+                        <component>
+                            <name>style.css</name>
+                            <type>Stylesheet</type>
+                            <details>Main CSS file for styling the website.</details>
+                            <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all javascript files for interactivity</details>
+                    <details_es>Carpeta que contiene todos los archivos javascript para interactividad</details_es>
+                    <contents>
+                        <component>
+                            <name>script.js</name>
+                            <type>Script</type>
+                            <details>Main javascript file for interactivity and DOM manipulation.</details>
+                            <details_es>Archivo javascript principal para interactividad y manipulación del DOM.</details_es>
+                        </component>
+                        <component>
+                            <name>login.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user login functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+                        </component>
+                        <component>
+                            <name>signup.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user signup functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad de registro de usuario.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>index.html</name>
+                    <type>HTML</type>
+                    <details>Main landing page of the website, with responsive design.</details>
+                    <details_es>Página principal del sitio web, con diseño responsivo.</details_es>
+                </component>
+                <component>
+                    <name>log_in.html</name>
+                    <type>HTML</type>
+                    <details>Login page for user authentication.</details>
+                    <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+                </component>
+                <component>
+                    <name>sign_up.html</name>
+                    <type>HTML</type>
+                    <details>Signup page for new user registration.</details>
+                    <details_es>Página de registro para nuevos usuarios.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>CHANGELOG.md</name>
+            <type>Markdown</type>
+            <details>This component contains a log of changes made to the project.</details>
+            <details_es>Este componente contiene un registro de los cambios realizados en el proyecto.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Simple relocation page to Frontend/index.html</details>
+            <details_es>Página de reubicación simple a Frontend/index.html</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project status="incomplete" id="crudventory" category="Dynamic JSON-server webPage" category_es="Página web JSON-server dinámica">
+    <project_name>CrudVentory</project_name>
+    <project_name_es>CrudVentory</project_name_es>
+    <description>This project is a simple inventory management system using JavaScript, HTML, and CSS. It allows users to perform basic CRUD operations on inventory items, uses json-server</description>
+    <description_es>Este proyecto es un simple sistema de gestión de inventario usando JavaScript, HTML y CSS. Permite a los usuarios realizar operaciones CRUD básicas en los artículos de inventario, uses json-server</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/crudventory.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="organization">Hubble-Riiwii</author>
+    <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
+    <url type="code-link">https://github.com/Hubble-Riiwii/CrudVentory</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+    </techs>
+    <date format="dd/mm/yyyy">26/01/2026</date>
+    <components>
+        <component>
+            <name>Back/</name>
+            <type>Folder</type>
+            <details>Folder containing all backend files for json-server and models.</details>
+            <details_es>Carpeta que contiene todos los archivos backend para json-server y modelos.</details_es>
+            <contents>
+                <component>
+                    <name>db.json</name>
+                    <type>JSON</type>
+                    <details>json-server database file for storing inventory items.</details>
+                    <details_es>Archivo de base de datos json-server para almacenar artículos de inventario.</details_es>
+                </component>
+                <component>
+                    <name>models/</name>
+                    <type>Folder</type>
+                    <details>Folder containing javascript model files for inventory items.</details>
+                    <details_es>Carpeta que contiene archivos de modelos javascript para artículos de inventario.</details_es>
+                    <contents>
+                        <component>
+                            <name>Product.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for inventory items.</details>
+                            <details_es>Archivo de modelo javascript para artículos de inventario.</details_es>
+                        </component>
+                        <component>
+                            <name>Admin.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for admin users.</details>
+                            <details_es>Archivo de modelo javascript para usuarios administradores.</details_es>
+                        </component>
+                        <component>
+                            <name>Category.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for product categories.</details>
+                            <details_es>Archivo de modelo javascript para categorías de productos.</details_es>
+                        </component>
+                        <component>
+                            <name>Product_State.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for product states.</details>
+                            <details_es>Archivo de modelo javascript para estados de productos.</details_es>
+                        </component>
+                        <component>
+                            <name>User.js</name>
+                            <type>Script</type>
+                            <details>Javascript model file for regular users.</details>
+                            <details_es>Archivo de modelo javascript para usuarios regulares.</details_es>
+                        </component>
+                    </contents>                    
+                </component>
+                <component>
+                    <name>utils/</name>
+                    <type>Folder</type>
+                    <details>Folder containing utility javascript files for form validation and DOM manipulation.</details>
+                    <details_es>Carpeta que contiene archivos javascript de utilidades para validación de formularios y manipulación del DOM.</details_es>
+                    <contents>
+                        <component>
+                            <name>log_in.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for login validation.</details>
+                            <details_es>Archivo de utilidad javascript para validación de inicio de sesión.</details_es>
+                        </component>
+                        <component>
+                            <name>sign_up.js</name>
+                            <type>Script</type>
+                            <details>Javascript utility file for signup validation.</details>
+                            <details_es>Archivo de utilidad javascript para validación de registro.</details_es>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>Front/</name>
+            <type>Folder</type>
+            <details>Folder containing all frontend files for the inventory management system.</details>
+            <details_es>Carpeta que contiene todos los archivos frontend para el sistema de gestión de inventario.</details_es>
+            <contents>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all javascript files for interactivity</details>
+                    <details_es>Carpeta que contiene todos los archivos javascript para interactividad</details_es>
+                    <contents>
+                        <component>
+                            <name>script.js</name>
+                            <type>Script</type>
+                            <details>Main javascript file for interactivity and index DOM manipulation.</details>
+                            <details_es>Archivo javascript principal para interactividad y manipulación del DOM en el index.</details_es>
+                        </component>
+                        <component>
+                            <name>contact.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for giving WhatsApp redirection to contact information button</details>
+                            <details_es>Archivo Javascript para dar redirección a WhatsApp al botón de información de contacto</details_es>
+                        </component>
+                        <component>
+                            <name>loadUser.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for loading user object after login.</details>
+                            <details_es>Archivo Javascript para cargar el objeto de usuario después del inicio de sesión.</details_es>
+                        </component>
+                        <component>
+                            <name>login.script.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user login formt functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad del formulario de inicio de sesión del usuario.</details_es>
+                        </component>
+                        <component>
+                            <name>signup.script.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for handling user signup form functionality.</details>
+                            <details_es>Archivo Javascript para manejar la funcionalidad del formulario de registro de usuario.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>admin/</name>
+                    <type>Folder</type>
+                    <details>Folder containing all files for the admin dashboard.</details>
+                    <details_es>Carpeta que contiene todos los archivos para el panel de administración.</details_es>
+                    <contents>
+                        <component>
+                            <name>index.html</name>
+                            <type>HTML</type>
+                            <details>Main HTML file for the admin dashboard.</details>
+                            <details_es>Archivo HTML principal para el panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>estilos.css</name>
+                            <type>Stylesheet</type>
+                            <details>CSS file for styling the admin dashboard.</details>
+                            <details_es>Archivo CSS para dar estilo al panel de administración.</details_es>
+                        </component>
+                        <component>
+                            <name>js/</name>
+                            <type>Folder</type>
+                            <details>Folder containing javascript files for the admin dashboard.</details>
+                            <details_es>Carpeta que contiene archivos javascript para el panel de administración.</details_es>
+                            <contents>
+                                <component>
+                                    <name>admin.script.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for admin dashboard interactivity and CRUD operations with json-server using admin object.</details>
+                                    <details_es>Archivo Javascript para la interactividad del panel de administración y operaciones CRUD con json-server usando el objeto admin.</details_es>
+                                </component>
+                                <component>
+                                    <name>app.js</name>
+                                    <type>Script</type>
+                                    <details>Javascript file for constructing dashoboard data and CRUD operations with json-server</details>
+                                    <details_es>Archivo Javascript para construir los datos del dashboard y operaciones CRUD con json-server</details_es>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>assets/</name>
+                            <type>Folder</type>
+                            <details>Folder containing images and other media assets used in the admin dashboard.</details>
+                            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el panel de administración.</details_es>
+                            <contents>
+                                <component>
+                                    <name>img/</name>
+                                    <type>Folder</type>
+                                    <details>Folder containing image files used in the admin dashboard.</details>
+                                    <details_es>Carpeta que contiene archivos de imágenes utilizados en el panel de administración.</details_es>
+                                    <contents>
+                                        <component type="collection">
+                                            <name type="Image">ajustes.png</name>
+                                            <name type="Image">brillo.png</name>
+                                            <name type="Image">usuario.png</name>
+                                        </component>
+                                    </contents>
+                                </component>
+                                <component>
+                                    <name>img-aside/</name>
+                                    <type>Folder</type>
+                                    <details>Folder containing aside image files used in the admin dashboard.</details>
+                                    <details_es>Carpeta que contiene archivos de imágenes aside utilizados en el panel de administración.</details_es>
+                                    <contents>
+                                        <component type="collection">
+                                            <name type="Image">angulo-hacia-abajo.png</name>
+                                            <name type="Image">bolsa-de-la-compra.png</name>
+                                            <name type="Image">carpeta-abierta.png</name>
+                                            <name type="Image">dia-del-calendario.png</name>
+                                            <name type="Image">hora-en-punto.png</name>
+                                            <name type="Image">mundo.png</name>
+                                            <name type="Image">notificacion-del-chat.png</name>
+                                        </component>
+                                    </contents>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>api/</name>
+                    <type>Folder</type>
+                    <details>Folder containing API product object files CRUD operations for json-server.</details>
+                    <details_es>Carpeta que contiene archivos de objetos de productos API para operaciones CRUD con json-server.</details_es>
+                    <contents>
+                        <component>
+                            <name>getProduct.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for API product object CRUD operations for json-server.</details>
+                            <details_es>Archivo Javascript para operaciones CRUD de objetos de productos API para json-server.</details_es>
+                        </component>
+                        <component>
+                            <name>getProducts_index.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for API product object CRUD operations for index page using json-server.</details>
+                            <details_es>Archivo Javascript para operaciones CRUD de objetos de productos API para la página index usando json-server.</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>assets/</name>
+                    <type>Folder</type>
+                    <details>Folder containing images and other media assets used in the website.</details>
+                    <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component>
+                            <name>images/</name>
+                            <type>Folder</type>
+                            <details>Folder containing general image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="collection">
+                                    <name type="Image">hero-background.jpg</name>
+                                    <name type="Image">hero.jpeg</name>
+                                    <name type="Image">product-1.webp</name>
+                                    <name type="Image">taladro.webp</name>
+                                </component>
+                            </contents>
+                        </component>
+                        <component>
+                            <name>products/</name>
+                            <type>Folder</type>
+                            <details>Folder containing product image files used in the website.</details>
+                            <details_es>Carpeta que contiene archivos de imágenes de productos utilizados en el sitio web.</details_es>
+                            <contents>
+                                <component type="collection">
+                                    <name type="Image">101.jpg</name>
+                                    <name type="Image">102.jpg</name>
+                                    <name type="Image">103.jpg</name>
+                                    <name type="Image">105.jpg</name>
+                                    <name type="Image">106.jpg</name>
+                                    <name type="Image">107.webp</name>
+                                    <name type="Image">108.webp</name>
+                                    <name type="Image">109.webp</name>
+                                    <name type="Image">110.webp</name>
+                                    <name type="Image">111.webp</name>
+                                    <name type="Image">112.webp</name>
+                                    <name type="Image">113.webp</name>
+                                    <name type="Image">114.webp</name>
+                                    <name type="Image">115.jpg</name>
+                                    <name type="Image">116.webp</name>
+                                    <name type="Image">117.webp</name>
+                                    <name type="Image">118.webp</name>
+                                    <name type="Image">119.webp</name>
+                                    <name type="Image">120.webp</name>
+                                    <name type="Image">121.webp</name>
+                                </component>
+                            </contents>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+                <component>
+                    <name>index.html</name>
+                    <type>HTML</type>
+                    <details>Main landing page of the inventory management system, with responsive design.</details>
+                    <details_es>Página principal del sistema de gestión de inventario, con diseño responsivo.</details_es>
+                </component>
+                <component>
+                    <name>details.html</name>
+                    <type>HTML</type>
+                    <details>Details page for viewing inventory items.</details>
+                    <details_es>Página de detalles para ver artículos de inventario.</details_es>
+                </component>
+                <component>
+                    <name>log_in.html</name>
+                    <type>HTML</type>
+                    <details>Login page for user authentication.</details>
+                    <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+                </component>
+                <component>
+                    <name>sign_up.html</name>
+                    <type>HTML</type>
+                    <details>Signup page for new user registration.</details>
+                    <details_es>Página de registro para nuevos usuarios.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>REQUEST.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about what features to create or report issues.</details>
+            <details_es>Este componente contiene instrucciones e información sobre qué características crear o reportar problemas.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Simple relocation page to Front/index.html</details>
+            <details_es>Página de reubicación simple a Front/index.html</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<!-- Assesment tests & mocks  -->
+<project status="incomplete" id="m_as_t_m3" category="Dynamic JSON-server webPage" category_es="Página web JSON-server dinámica">
+    <project_name>Mock assesment test</project_name>
+    <project_name_es>Simulacro prueba de desempeño</project_name_es>
+    <description>This project is a simple simulated website with a restaurant ordering system, using bootstrap5 for frontend, with a simulated backend via JSON-server and OOP for the client functionality and CRUD operations</description>
+    <description_es>Este proyecto es un simple sitio web simulado con un sistema de pedidos de restaurante, usando bootstrap5 para el frontend, con un backend simulado via JSON-server y POO para la funcionalidad del cliente y operaciones CRUD</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/s_p_d_m3.png</image>
+    </images>
+    <version>beta 1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m3</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+        <tech type="application">Figma</tech>
+    </techs>
+    <date format="dd/mm/yyyy">01/02/2026</date>
+    <components>
+        <component>
+            <name>admin/</name>
+            <type>Folder</type>
+            <details>Folder containing all files for the admin dashboard.</details>
+            <details_es>Carpeta que contiene todos los archivos para el panel de administración.</details_es>
+            <contents>
+                <component>
+                    <name>index.html</name>
+                    <type>HTML</type>
+                    <details>Main HTML file for the admin dashboard.</details>
+                    <details_es>Archivo HTML principal para el panel de administración.</details_es>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>Folder containing javascript files for the admin dashboard.</details>
+                    <details_es>Carpeta que contiene archivos javascript para el panel de administración.</details_es>
+                    <contents>
+                        <component>
+                            <name>loadAdmin.js</name>
+                            <type>Script</type>
+                            <details>Javascript file for admin dashboard interactivity and CRUD operations with json-server using admin object.</details>
+                            <details_es>Archivo Javascript para la interactividad del panel de administración y operaciones CRUD con json-server usando el objeto admin.</details_es>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>database/</name>
+            <type>Folder</type>
+            <details>Folder containing the json-server database file.</details>
+            <details_es>Carpeta que contiene el archivo de base de datos json-server.</details_es>
+            <contents>
+                <component>
+                    <name>db.json</name>
+                    <type>JSON</type>
+                    <details>json-server database file for storing restaurant menu items and orders.</details>
+                    <details_es>Archivo de base de datos json-server para almacenar artículos del menú del restaurante y pedidos.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>Folder containing all javascript files for interactivity</details>
+            <details_es>Carpeta que contiene todos los archivos javascript para interactividad</details_es>
+            <contents>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>javascript file for user and admin redirection.</details>
+                    <details_es>Archivo javascript para redirección de admin y user.</details_es>
+                </component>
+                <component>
+                    <name>login.script.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user login functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de inicio de sesión del usuario.</details_es>
+                </component>
+                <component>
+                    <name>signup.script.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user signup functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de registro de usuario.</details_es>
+                </component>
+                <component>
+                    <name>logout.script.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for handling user logout functionality.</details>
+                    <details_es>Archivo Javascript para manejar la funcionalidad de cierre de sesión del usuario.</details_es>
+                </component>
+                <component>
+                    <name>loadUser.js</name>
+                    <type>Script</type>
+                    <details>Javascript file for loading user object after login.</details>
+                    <details_es>Archivo Javascript para cargar el objeto de usuario después del inicio de sesión.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>media/</name>
+            <type>Folder</type>
+            <details>Folder containing images and other media assets used in the website.</details>
+            <details_es>Carpeta que contiene imágenes y otros recursos multimedia utilizados en el sitio web.</details_es>
+            <contents>
+                <component>
+                    <name>images/</name>
+                    <type>Folder</type>
+                    <details>Folder containing general image files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de imágenes generales utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">clasic_beef_burger.png</name>
+                            <name type="Image">cola_zero.png</name>
+                            <name type="Image">donut_box.png</name>
+                            <name type="Image">double_beacon_melt.png</name>
+                            <name type="Image">golden_fries.png</name>
+                            <name type="Image">pizza_slice.png</name>
+                            <name type="Image">user_profile.png</name>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>icons/</name>
+                    <type>Folder</type>
+                    <details>Folder containing icon image files used in the website.</details>
+                    <details_es>Carpeta que contiene archivos de imágenes de iconos utilizados en el sitio web.</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">cart_icon.png</name>
+                            <name type="Image">admin_icon.png</name>
+                            <name type="Image">bag_icon.png</name>
+                            <name type="Image">bills_icon.png</name>
+                            <name type="Image">burger_icon.png</name>
+                            <name type="Image">canceled_icon.png</name>
+                            <name type="Image">card_icon.png</name>
+                            <name type="Image">cono_icon.png</name>
+                            <name type="Image">cubiertos_2_icon.png</name>
+                            <name type="Image">cubiertos_icon.png</name>
+                            <name type="Image">done_icon.png</name>
+                            <name type="Image">drink_icon.png</name>
+                            <name type="Image">identification_icon.png</name>
+                            <name type="Image">mail_icon.png</name>
+                            <name type="Image">map_icon.png</name>
+                            <name type="Image">pizza_icon.png</name>
+                            <name type="Image">preparing_icon.png</name>
+                            <name type="Image">settings_icon.png</name>
+                            <name type="Image">task_icon.png</name>
+                            <name type="Image">truck_icon.png</name>
+                            <name type="Image">user_icon.png</name>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>models/</name>
+            <type>Folder</type>
+            <details>Folder containing javascript model files for restaurant menu items and orders.</details>
+            <details_es>Carpeta que contiene archivos de modelos javascript para artículos del menú del restaurante y pedidos.</details_es>
+            <contents>
+                <component>
+                    <name>Admin.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for admin users.</details>
+                    <details_es>Archivo de modelo javascript para usuarios administradores.</details_es>
+                </component>
+                <component>
+                    <name>Product.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for restaurant menu items.</details>
+                    <details_es>Archivo de modelo javascript para artículos del menú del restaurante.</details_es>
+                </component>
+                <component>
+                    <name>Product_State.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for product states.</details>
+                    <details_es>Archivo de modelo javascript para estados de productos.</details_es>
+                </component>
+                <component>
+                    <name>User.js</name>
+                    <type>Script</type>
+                    <details>Javascript model file for regular users.</details>
+                    <details_es>Archivo de modelo javascript para usuarios regulares.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>Folder containing all CSS files for styling the website.</details>
+            <details_es>Carpeta que contiene todos los archivos CSS para dar estilo al sitio web.</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>Stylesheet</type>
+                    <details>Main CSS file for styling the website.</details>
+                    <details_es>Archivo CSS principal para dar estilo al sitio web.</details_es>
+                </component>
+                <component>
+                    <name>icons.css</name>
+                    <type>Stylesheet</type>
+                    <details>CSS file for creating personalized classes for icons.</details>
+                    <details_es>Archivo CSS para crear clases personalizadas para iconos.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>utils/</name>
+            <type>Folder</type>
+            <details>Folder containing utility javascript files for form validation and DOM manipulation.</details>
+            <details_es>Carpeta que contiene archivos javascript de utilidades para validación de formularios y manipulación del DOM.</details_es>
+            <contents>
+                <component>
+                    <name>log_in.js</name>
+                    <type>Script</type>
+                    <details>Javascript utility file for login validation.</details>
+                    <details_es>Archivo de utilidad javascript para validación de inicio de sesión.</details_es>
+                </component>
+                <component>
+                    <name>sign_up.js</name>
+                    <type>Script</type>
+                    <details>Javascript utility file for signup validation.</details>
+                    <details_es>Archivo de utilidad javascript para validación de registro.</details_es>
+                </component>
+                <component>
+                    <name>render_galery.js</name>
+                    <type>Script</type>
+                    <details>Javascript utility file for rendering product gallery dynamically.</details>
+                    <details_es>Archivo de utilidad javascript para renderizar la galería de productos dinámicamente.</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>Main landing page of the restaurant ordering system, with responsive design.</details>
+            <details_es>Página principal del sistema de pedidos del restaurante, con diseño responsivo.</details_es>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>log_in.html</name>
+            <type>HTML</type>
+            <details>Login page for user authentication.</details>
+            <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+        </component>
+        <component>
+            <name>sign_up.html</name>
+            <type>HTML</type>
+            <details>Signup page for new user registration.</details>
+            <details_es>Página de registro para nuevos usuarios.</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project id="t_as_m3" category="JSON-server data handling webPage" category_es="Página web JSON-server de manejo de datos">
+    <project_name>Assesment Test 3 (CRUDTASK)</project_name>
+    <project_name_es>Prueba de desempeño 3 (CRUDTASK)</project_name_es>
+    <description>This is a web page that simulates a SCRUM work environment, in which an administrator can create and give tasks to users, who in turn can manage their own tasks and create them</description>
+    <description_es>Esta es una página web que simula un entorno de trabajo SCRUM, en el que un administrador puede crear y dar tareas a usuarios, que a su vez, pueden manejar sus propias tareas y crearlas</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_3/p_d_m3.png</image>
+    </images>
+    <version>beta 1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/prueba-desempeno-3-CRUDTASK</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="library">Bootstrap5</tech>
+        <tech type="API">JSON-server</tech>
+        <tech type="application">Figma</tech>
+    </techs>
+    <date format="dd/mm/yyyy">03/02/2026</date>
+    <components>
+        <component>
+            <name>admin/</name>
+            <type>Folder</type>
+            <details>This folder contains all the html files and their dependencies for the admin side functionality</details>
+            <details_es>Esta carpeta contiene todos los archivos HTML y sus dependencias para la funcionalidad del lado del admin</details_es>
+            <contents>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the javascript files necessary for the admin dashboard render and admin methods initialization</details>
+                    <details_es>Esta carpeta contiene todos los archivos necesarios para la renderización del dashboard administrativo y los métodos del admin</details_es>
+                    <contents>
+                        <component>
+                            <name>create-task.js</name>
+                            <type>Script</type>
+                            <details>This script handles the form input for task creation and it's communication with the API</details>
+                            <details_es>Este script maneja los input del formulario para la creación de tareas y su comunicación con la API</details_es>
+                        </component>
+                        <component>
+                            <name>dashboard.js</name>
+                            <type>Script</type>
+                            <details>This script handles the dashboard render and the task editing, communicating with the API</details>
+                            <details_es>Este script maneja el render del dashboard y la edición de tareas, comunicandose con la API</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>styles/</name>
+                    <type>Folder</type>
+                    <details>This folder contains the styles files for the dashboard and admin side</details>
+                    <details_es>Esta carpeta contiene todos los archivos de estilos para el dashboard y el lado de administrador</details_es>
+                    <contents>
+                        <component>
+                            <name>styles.css</name>
+                            <type>CSS</type>
+                            <details>This component handles the classes styles for the dashboard</details>
+                            <details_es>Este componente maneja los estilos de clases para el dashboard</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>create-task.html</name>
+                    <type>HTML</type>
+                    <details>This component has the form to create and assign tasks</details>
+                    <details_es>Este componente tiene el formulario para crear y asignar tareas</details_es>
+                </component>
+                <component>
+                    <name>dashboard.html</name>
+                    <type>HTML</type>
+                    <details>This component is the dashboard where all the users task are shown and can be modified</details>
+                    <details_es>Este componente es el dashboard donde todas las tareas de los usuarios son mostradas y pueden ser modificadas</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>assets/</name>
+            <type>Folder</type>
+            <details>This folder contains the assets used in the project</details>
+            <details_es>Esta carpeta contiene los activos usados en el projecto</details_es>
+            <contents>
+                <component>
+                    <name>icons/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the icons used in the project</details>
+                    <details_es>Esta carpeta contiene todos los iconos usados en el proyecto</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">corbata_icon.png</name>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>This folder contains all js files used for models and data processing inside the webpage</details>
+            <details_es>Esta carpeta contiene todos los archivos js para modelos y procesamiento de datos dentro de la página web</details_es>
+            <contents>
+                <component>
+                    <name>models/</name>
+                    <type>Folder</type>
+                    <details>This folder contains the js classes, modularizing the functionalities</details>
+                    <details_es>Esta carpeta contiene las clases de js, modularizando las funcionalidades</details_es>
+                    <contents>
+                        <component>
+                            <name>Admin.js</name>
+                            <type>Script</type>
+                            <details>This script describes the Admin model and declares it's methods, communicating with the API</details>
+                            <details_es>Este script describe el modelo de admin y declara sus métodos, comunicandose con la API</details_es>
+                        </component>
+                        <component>
+                            <name>Task.js</name>
+                            <type>Script</type>
+                            <details>This script describes the Task model and declares it's methods, communicating with the API</details>
+                            <details_es>Este script describe el modelo de Tarea (Task) y declara sus métodos, comunicandose con la API</details_es>
+                        </component>
+                        <component>
+                            <name>User.js</name>
+                            <type>Script</type>
+                            <details>This script describes the User model and declares it's methods, communicating with the API</details>
+                            <details_es>Este script describe el modelo de Usuario (User) y declara sus métodos, comunicandose con la API</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>utils/</name>
+                    <type>Folder</type>
+                    <details>This folder contains the js functions utilities for registration and login</details>
+                    <details_es>Esta carpeta contiene las clases funciones de utilidad de js para registrarse e iniciar sesión</details_es>
+                    <contents>
+                        <component>
+                            <name>log_in.js</name>
+                            <type>Script</type>
+                            <details>This script handles the log in, creating the session and it's persistance, communicating with the API</details>
+                            <details_es>Este script maneja el inicio de sesión, creando la sesión y su persistencia, comunicandose con la API</details_es>
+                        </component>
+                        <component>
+                            <name>sign_up.js</name>
+                            <type>Script</type>
+                            <details>This script handles the sign up, creating the session and the user, communicating with the API</details>
+                            <details_es>Este script maneja el registro, creando la sesión y el usuario, comunicandose con la API</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>index.js</name>
+                    <type>Script</type>
+                    <details>This script handles the user index.html render, and it's functionality</details>
+                    <details_es>Este script maneja el render del index.html del usuario y su funcionalidad</details_es>
+                </component>
+                <component>
+                    <name>login.script.js</name>
+                    <type>Script</type>
+                    <details>This script handles the log in form and interface</details>
+                    <details_es>Este escript maneja el formulario de inicio de sesión y su interfaz</details_es>
+                </component>
+                <component>
+                    <name>signup.script.js</name>
+                    <type>Script</type>
+                    <details>This script handles the sign up form and interface</details>
+                    <details_es>Este escript maneja el formulario de registro y su interfaz</details_es>
+                </component>
+                <component>
+                    <name>logout.script.js</name>
+                    <type>Script</type>
+                    <details>This script handles the log out, deleting the session</details>
+                    <details_es>Este escript maneja el cerrado de sesión, eliminando la sesión</details_es>
+                </component>
+                <component>
+                    <name>script.js</name>
+                    <type>Script</type>
+                    <details>This script is the pathkeeper, preventing roles from accessing files over which they lack permissions</details>
+                    <details_es>Este script es un guardian de rutas, impidiendo que roles accedan a archivos sobre los que carecen permisos</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>This folder contains the styles files for the user side HTML</details>
+            <details_es>Esta carpeta contiene los archivos de estilos para los HTML del lado del usuario</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>CSS</type>
+                    <details>This file contains the styles classes used in the user side HTML</details>
+                    <details_es>Esta carpeta contiene las clases de estilos usadas en los HTML del lado del usuario</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>.gitignore</name>
+            <type>Text</type>
+            <details>This component specifies files and directories to be ignored by Git.</details>
+            <details_es>Este componente especifica archivos y directorios que deben ser ignorados por Git.</details_es>
+        </component>
+        <component>
+            <name>api.js</name>
+            <type>Script</type>
+            <details>This script handles all fetch to the JSON server</details>
+            <details_es>Este script maneja todos los fetch al JSON server</details_es>
+        </component>
+        <component>
+            <name>db.json</name>
+            <type>JSON</type>
+            <details>json-server database file for storing tasks and users.</details>
+            <details_es>Archivo de base de datos json-server para almacenar las tareas y usuarios.</details_es>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This file is the logged user dashboard and landing page, interface for task managing</details>
+            <details_es>Este archivo es el dashboard y pagina inicial de los usuarios con sesión, una interfaz para el manejo de tareas</details_es>
+        </component>
+        <component>
+            <name>log_in.html</name>
+            <type>HTML</type>
+            <details>Login page for user authentication.</details>
+            <details_es>Página de inicio de sesión para la autenticación de usuarios.</details_es>
+        </component>
+        <component>
+            <name>sign_up.html</name>
+            <type>HTML</type>
+            <details>Signup page for new user registration.</details>
+            <details_es>Página de registro para nuevos usuarios.</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+</module_3>

@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module_2>
+<!-- User stories -->
+<project id="us-1" category="Static Web Architecture" category_es="Esctructura Web Estática">   
+    <project_name>User Story 1</project_name>
+    <project_name_es>Historia de usuario 1</project_name_es>
+    <description>This project corresponds to the portfolio and mascotas page first version, using basic HTML and CSS to deploy a web page inside GitHub</description>
+    <description_es>Este proyecto corresponse a la primera versión del portafolio, usando HTML y CSS básicos para desplegar una página usando GitHub.</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/mascotas.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/d0b668bae4a5a1e6721943d590fd24be10dca960</url>
+    <url type="page-link">https://srlampi1001.github.io/PORTAFOLIO/subpages/mascotas.html</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">02/12/2025</date>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is the portfolio webpage.</details>
+            <details_es>Este componente es la página web del portafolio</details_es>
+        </component>
+        <component>
+            <name>historia_u_m2s1/</name>
+            <type>Folder</type>
+            <details>This component contains the mascotas.html first version</details>
+            <details_es>Este componente contiene la primera versión de mascotas</details_es>
+            <contents>
+                <component>
+                    <name>mascotas.html</name>
+                    <type>HTML</type>
+                    <details>This component is the mascotas webpage.</details>
+                    <details_es>Este componente es la página web de mascotas</details_es>
+                </component>
+                <component>
+                    <name>mascotas.css</name>
+                    <type>CSS</type>
+                    <details>This component contains the styles for the mascotas webpage.</details>
+                    <details_es>Este componente contiene los estilos para la página web de mascotas</details_es>
+                </component>
+                <component>
+                    <name>media/</name>
+                    <type>Folder</type>
+                    <details>This component contains the images used in the mascotas webpage.</details>
+                    <details_es>Este componente contiene las imágenes usadas en la página web de mascotas</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">dog.jpg</name>
+                            <name type="Image">front.jpg</name>
+                            <name type="Image">horse.jpg</name>
+                            <name type="Image">iguana.jpg</name>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project id="us-2" category="Responsive Web Design" category_es="Diseño Web Responsivo">
+    <project_name>User story 2</project_name>
+    <project_name_es>Historia de usuario 2</project_name_es>
+    <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
+    <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/h_u_2_m2.png</image>
+    </images>
+    <version>2.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/8568123fea4d401faaf0e9d5af1b6a491e1d7904</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">15/12/2025</date>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is the portfolio webpage.</details>
+            <details_es>Este componente es la página web del portafolio</details_es>
+        </component>
+        <component>
+            <name>historia_u_m2s1/</name>
+            <type>Folder</type>
+            <details>This component contains the mascotas.html</details>
+            <details_es>Este componente contiene mascotas.html</details_es>
+            <contents>
+                <component>
+                    <name>mascotas.html</name>
+                    <type>HTML</type>
+                    <details>This component is the mascotas webpage.</details>
+                    <details_es>Este componente es la página web de mascotas</details_es>
+                </component>
+                <component>
+                    <name>mascotas.css</name>
+                    <type>CSS</type>
+                    <details>This component contains the styles for the mascotas webpage.</details>
+                    <details_es>Este componente contiene los estilos para la página web de mascotas</details_es>
+                </component>
+                <component>
+                    <name>media/</name>
+                    <type>Folder</type>
+                    <details>This component contains the images used in the mascotas webpage.</details>
+                    <details_es>Este componente contiene las imágenes usadas en la página web de mascotas</details_es>
+                    <contents>
+                    dog.jpg, front.jpg, horse.jpg, iguana.jpg
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+                <name>media/images/</name>
+                <type>Folder</type>
+                <details>This folder contains the images used inside the PORTFOLIO, index.html</details>
+                <details_es>Esta carpeta contiene las imagenes usadas dentro del Portafolio, index.html</details_es>
+                <contents>
+                    <component type="collection">
+                        <name type="Image">example.png</name>
+                        <name type="Image">h_u_1_m1.png</name>
+                        <name type="Image">h_u_2_m1.png</name>
+                        <name type="Image">h_u_3_m1.png</name>
+                        <name type="Image">mascotas.png</name>
+                        <name type="Image">mini_proyectos_m1.png</name>
+                        <name type="Image">t_1.png</name>
+                        <name type="Image">t_2.png</name>
+                        <name type="Image">t_3.png</name>
+                    </component>
+                </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>This folder contains the css for index.html</details>
+            <details_es>Esta carpeta contiene el css para index.html</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>CSS</type>
+                    <details>This component contains all the classes and styles for index.html</details>
+                    <details_es>Este componente contiene todas las clases y estilos para index.html</details_es>
+                </component>
+                <component>
+                    <name>vars.css</name>
+                    <type>CSS</type>
+                    <details>This component stores the css variables like colors and icons links</details>
+                    <details_es>Este componente guarda las variables css como colores y los links de iconos</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>This folder contains the js scripts from the index.html</details>
+            <details_es>Esta carpeta contiene los scripts de javascript del index.html</details_es>
+            <contents>
+                <component>
+                    <name>main.js</name>
+                    <type>Script</type>
+                    <details>This component handles the index.html dynamism</details>
+                    <details_es>Este componente maneja el dinamismo de index.html</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project id="us-3" category="UI Components &amp; Styling" category_es="Componentes Interfaz y Estilado">
+    <project_name>User story 3</project_name>
+    <project_name_es>Historia de usuario 3</project_name_es>
+    <description>This project corresponds to the portfolio and mascotas page second version, with flex and grid layout designs</description>
+    <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/h_u_3_m2.png</image>
+    </images>
+    <version>2.5</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/PORTAFOLIO/tree/1bc5daf26b007e5b08db3d92e251d48743ee5109</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">06/01/2026</date>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is the portfolio webpage.</details>
+            <details_es>Este componente es la página web del portafolio</details_es>
+        </component>
+        <component>
+            <name>subpages/</name>
+            <type>Folder</type>
+            <details>This component contains the html archives other than index.html</details>
+            <details_es>Este componente contiene el html de los archivos html aparte de index.html</details_es>
+            <contents>
+                <component>
+                    <name>mascotas.html</name>
+                    <type>HTML</type>
+                    <details>This component is the mascotas webpage.</details>
+                    <details_es>Este componente es la página web de mascotas</details_es>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>This component contains the scripts for the subpages.</details>
+                    <details_es>Este componente contiene los script para las subpaginas</details_es>
+                    <contents>
+                        <component>
+                            <name>mascotasMain.js</name>
+                            <type>Script</type>
+                            <details>This component handles the mascotas.html dynamism</details>
+                            <details_es>Este componente maneja el dinamismo de mascotas.html</details_es>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+                <name>media/images/</name>
+                <type>Folder</type>
+                <details>This folder contains the folders for the images used inside the PORTFOLIO, index.html and the subpages</details>
+                <details_es>Esta carpeta contiene las carpetas para las imagenes usadas dentro del Portafolio, index.html y en las subpáginas</details_es>
+                <contents>
+                    <component>
+                        <name>icons/</name>
+                        <type>Folder</type>
+                        <details>This folder contains the images for icons</details>
+                        <details_es>Esta carpeta contiene las imagenes para iconos</details_es>
+                        <contents>
+                            front.png
+                        </contents>
+                    </component>
+                    <component>
+                        <name>ilustations/</name>
+                        <type>Folder</type>
+                        <details>This folder contains the images for ilustration purporses</details>
+                        <details_es>Esta carpeta contiene las imagenes para propótitos ilustrativos</details_es>
+                        <contents>
+                            dog.jpg, example.jpg, horse.jpg, iguana.jpg, yo_prof.jpg, yo_prof_recortada.jpg
+                        </contents>
+                    </component>
+                    <component>
+                        <name>screenshots/</name>
+                        <type>Folder</type>
+                        <details>This folder contains the screenshot images from the different projects</details>
+                        <details_es>Esta carpeta contiene las imagenes de capturas de pantalla de los proyectos</details_es>
+                        <contents>
+                            <component type="collection">
+                                <name type="Image">example.png</name>
+                                <name type="Image">h_u_1_m1.png</name>
+                                <name type="Image">h_u_2_m1.png</name>
+                                <name type="Image">h_u_3_m1.png</name>
+                                <name type="Image">mascotas.png</name>
+                                <name type="Image">mini_proyectos_m1.png</name>
+                                <name type="Image">t_1.png</name>
+                                <name type="Image">t_2.png</name>
+                                <name type="Image">t_3.png</name>
+                                <name type="Image">flashsports.jpg</name>
+                                <name type="Image">kepler_22b.png</name>
+                                <name type="Image">kfc.png</name>
+                                <name type="Image">p_d_m1.png</name>
+                                <name type="Image">t_3-5.png</name>
+                            </component>
+                        </contents>
+                    </component>
+                </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>This folder contains the css for all .html</details>
+            <details_es>Esta carpeta contiene el css para todos los .html</details_es>
+            <contents>
+                <component>
+                    <name>jsclasses.css</name>
+                    <type>CSS</type>
+                    <details>This component contains all the classes and styles for javascript use</details>
+                    <details_es>Este componente contiene todas las clases y estilos para uso de javscript</details_es>
+                </component>
+                <component>
+                    <name>vars.css</name>
+                    <type>CSS</type>
+                    <details>This component stores the css variables like colors and icons links</details>
+                    <details_es>Este componente guarda las variables css como colores y los links de iconos</details_es>
+                </component>
+                <component>
+                    <name>mediaquery.css</name>
+                    <type>CSS</type>
+                    <details>This component handles mediaquery for all html responsive design</details>
+                    <details_es>Este componente maneja mediaquery para todo el diseño responsivo de html</details_es>
+                </component>
+                <component>
+                    <name>styles.css</name>
+                    <type>CSS</type>
+                    <details>This comopnent handles the styles and classes for all html</details>
+                    <details_es>Este componente maneja los estilos y clases para todo el html</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>This folder contains the js scripts from the index.html</details>
+            <details_es>Esta carpeta contiene los scripts de javascript del index.html</details_es>
+            <contents>
+                <component>
+                    <name>main.js</name>
+                    <type>Script</type>
+                    <details>This component handles the index.html dynamism</details>
+                    <details_es>Este componente maneja el dinamismo de index.html</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<!-- Webpages -->
+<project id="f_n_f" category="Static Web Architecture" category_es="Esctructura Web Estática">
+    <project_name>form only css &amp; html</project_name>
+    <project_name_es>formulario solo css y html</project_name_es>
+    <description>This project is a simple form for log in, with no functionality, only for testing css and html abilites</description>
+    <description_es>Este proyecto es un simple formulario para inicio de sesión, sin funcionalidas, solo para poner a prueba habilidades con html y css</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/form_no_functionality.png</image>
+    </images>
+    <version>BETA 3.0</version>
+    <author type="organization">tren-estelar-riwi</author>
+    <colaborator role="Developer">Santiago Sánchez Ruiz</colaborator>
+    <url type="code-link">https://github.com/SrLampi1001/form_only_css_html</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">02/12/2025</date>
+    <components>
+        <component>
+            <name>login_form.html</name>
+            <type>HTML</type>
+            <details>This component is the form webpage.</details>
+            <details_es>Este componente es la página web del formulario</details_es>
+        </component>
+        <component>
+            <name>login.css</name>
+            <type>CSS</type>
+            <details>This component contains the styles for the form webpage.</details>
+            <details_es>Este componente contiene los estilos para la página web del formulario</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project id="k-22b" category="Frontend Layout &amp; UI" category_es="Diseño interfaz usuario y frontend">
+    <project_name>Kepler 22b</project_name>
+    <project_name_es>Kepler 22b</project_name_es>
+    <description>This project is a webpage dedicated to the lore of Kepler 22b, a fictional planet and it's history, world culture and living beigns, using javascript, css and HTML</description>
+    <description_es>Este proyecto corresponse a la segunda versión del portafolio y la página mascotas, usando flex y grid.</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/kepler_22b.png</image>
+    </images>
+    <version>1.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <author type="person">Juan Diego Mazo</author>
+    <author type="person">Juliana Sofia Valencia</author>
+    <url type="code-link">https://github.com/SrLampi1001/kepler_page</url>
+    <url type="page-link">https://srlampi1001.github.io/kepler_page/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">5/02/2026</date>
+    <components>
+        <component>
+            <name>multi/</name>
+            <type>Folder</type>
+            <details>This folder contains all the folders with their respective type of multimedia, including images, videos and audios</details>
+            <details_es>Esta carpeta contiene todas las carpetas con sus respectivos tipos de contenido multimedia, incluyendo imagenes, videos y audios</details_es>
+            <contents>
+                <component>
+                    <name>img/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all images used in the html archives</details>
+                    <details_es>Esta carpeta contiene todas las imagenes usadas en los archivos html</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">2.png</name>
+                            <name type="Image">logo-kepler.jpg</name>
+                            <name type="Image">reinoluz-auror.jpg</name>
+                            <name type="Image">reinoluz-cultura.jpg</name>
+                            <name type="Image">reinoluz-fotovores.jpg</name>
+                            <name type="Image">reinoluz-lumin.jpg</name>
+                            <name type="Image">reinoluz.jpg</name>
+                            <name type="Image">reinomedio-cultura.jpg</name>
+                            <name type="Image">reinomedio-equinox.jpg</name>
+                            <name type="Image">reinomedio-llimbofagos.jpg</name>
+                            <name type="Image">reinomedio-twilight.jpg</name>
+                            <name type="Image">reinomedio.png</name>
+                            <name type="Image">reinooscuro-cultura.png</name>
+                            <name type="Image">reinooscuro-ecosombras.png</name>
+                            <name type="Image">reinooscuro-geotermos.png</name>
+                            <name type="Image">reinooscuro.png</name>
+                            <name type="Image">reinooscuro-susurro.png</name>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>video/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the videos used in the html archives</details>
+                    <details_es>Esta carpeta contiene todos los videos usados en los archivos html</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Video">fondo.mp4</name>
+                            <name type="Video">intro.mp4</name>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>styles/</name>
+            <type>Folder</type>
+            <details>This folder contains the styles css archives for all the html archives</details>
+            <details_es>Esta carpeta contiene los archivos de estilos css para todos los archivos html</details_es>
+            <contents>
+                <component>
+                    <name>styles.css</name>
+                    <type>CSS</type>
+                    <details>This component handles the styles and classes specially made for all the html files</details>
+                    <details_es>Este componente maneja los estilos y clases especialmente hechas para todos los archivos html</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>index/</name>
+            <type>Folder</type>
+            <details>This folder contains all the html archives other than index.html</details>
+            <details_es>Esta carpeta contiene todos los archivos html aparte del index.html</details_es>
+            <contents>
+                <component>
+                    <name>cresendo.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relevant information from the cresendo zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona cresendo en kepler</details_es>
+                </component>
+                <component>
+                    <name>dartumbria.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relevant information from the dark zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona oscura en kepler</details_es>
+                </component>
+                <component>
+                    <name>sinteryum.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relevant information from the iluminated zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona iluminada en kepler</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component contains a resume of the culture and courts in kepler, is the landing page</details>
+            <details_es>Este componente contiene un resumen de la cultura y cortes en kepler, es la pagina de inicio</details_es>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project status="incomplete" id="flashsporsts" category="Frontend Layout &amp; UI" category_es="Diseño interfaz usuario y frontend">
+    <project_name>Flashsports</project_name>
+    <project_name_es>Flashsports</project_name_es>
+    <description>This project is a webpage simulating a landing page where a user can find and inscribe in sports events, and admin dashboard from a sports webpage where the information can be seen, only html and css.</description>
+    <description_es>Este proyecto es una pagina web simulando una página de inicio donde el usuario puede encontrar e inscribirse en eventos de deportes, y un panel de administrador donde la información puede ser vista</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/flashsports.png</image>
+    </images>
+    <version>BETA 3.0</version>
+    <author type="organization">tren-estelar-riwi</author>
+    <url type="code-link">https://github.com/tren-estellar-riwi/flashports</url>
+    <url type="page-link">https://tren-estellar-riwi.github.io/flashports/</url>
+    <url type="page-link" alternative="true">https://tren-estellar-riwi.github.io/flashports/pages/galery.html</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="application">Balsamiq</tech>
+    </techs>
+    <date format="dd/mm/yyyy">11/12/2025</date>
+    <components>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+        <component>
+            <name>css/</name>
+            <type>Folder</type>
+            <details>This folder contains all the css files for the different html files</details>
+            <details_es>Esta carpeta contiene todos los archivos css para los diferentes archivos html</details_es>
+            <contents>
+                <component>
+                    <name>bootstrap.min.css</name>
+                    <type>CSS</type>
+                    <details>This component contains all the styles and classes from the library bootstrap5</details>
+                    <details_es>Este componente contiene todos los estilos y clases de la libreria bootstrap5</details_es>
+                </component>
+                <component>
+                    <name>styles.css</name>
+                    <type>CSS</type>
+                    <details>This component contains all the styles and classes for all html</details>
+                    <details_es>Este componente contiene todos los estilos y clases para todos los HTML</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>js/</name>
+            <type>Folder</type>
+            <details>This folder contains all the javascript files for the different html files</details>
+            <details_es>Esta carpeta contiene todos los archivos de javascript para los diferentes archivos html</details_es>
+            <contents>
+                <component>
+                    <name>bootstrap.bundle.min.js</name>
+                    <type>Script</type>
+                    <details>This component contains all the scripts from the library bootstrap5</details>
+                    <details_es>Este componente contiene todos los scripts de la libreria bootstrap5</details_es>
+                </component>
+                <component status="empty">
+                    <name>main.js</name>
+                    <type>Script</type>
+                    <details>This component contains all the scripts for index.html</details>
+                    <details_es>Este componente contiene todos los script para index.html</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>media/</name>
+            <type>Folder</type>
+            <details>This folder contains all the multimedia folders used in the different html files</details>
+            <details_es>Esta carpeta contiene todas las carpetas multimedia usadas en los diferentes archivos html</details_es>
+            <contents>
+                <component>
+                    <name>images/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the images used in the different html files</details>
+                    <details_es>Esta carpeta contiene todas las imagenes usadas en los diferentes archivos html</details_es>
+                    <contents>
+                        <component type="collection">
+                            <name type="Image">banner.jpeg</name>
+                            <name type="Image">estadio-campin.jpeg</name>
+                            <name type="Image">estadio-hernan.jpeg</name>
+                            <name type="Image">estadio-palogrande.jpeg</name>
+                            <name type="Image">estadio-pascual.jpeg</name>
+                            <name type="Image">estadio.jpg</name>
+                            <name type="Image">general-satander.jpeg</name>
+                            <name type="Image">icon.ico</name>
+                            <name type="Image">icon.webp</name>
+                            <name type="Image">metropolitano.jpeg</name>
+                            <name type="Image">pascual.jpeg</name>
+                            <name type="Image">skate.jpg</name>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>video/</name>
+                    <type>Folder</type>
+                    <details>This folder contains all the videos used in the different html files</details>
+                    <details_es>Esta carpeta contiene todos los videos usados en los diferentes archivos html</details_es>
+                    <contents>
+                        skateboarding_example.mp4
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>pages/</name>
+            <type>Folder</type>
+            <details>This folder contaains all the HTML corresponding to the sub pages of flashsports but admin ones</details>
+            <details_es>Esta carpeta contiene todos los HTML correspondientes a las sub páginas de flashsports excepto las de admin</details_es>
+            <contents>
+                <component>
+                    <name>eventList.html</name>
+                    <type>HTML</type>
+                    <details>This component is the page to see all events from a given category or all.</details>
+                    <details_es>Este componente es la página para ver todos los eventos de una dada categoría o todas</details_es>
+                </component>
+                <component>
+                    <name>eventDetails.html</name>
+                    <type>HTML</type>
+                    <details>This component is the event details webpage.</details>
+                    <details_es>Este componente es la página web de detalles del evento</details_es>
+                    <alternatives>
+                        <name>eventComments.html</name>
+                        <name>eventsOrganizers.html</name>
+                    </alternatives>
+                </component>
+                <component>
+                    <name>galery.html</name>
+                    <type>HTML</type>
+                    <details>This component is the galery webpage.</details>
+                    <details_es>Este componente es la página web de galería</details_es>
+                </component>
+                <component>
+                    <name>profile.html</name>
+                    <type>HTML</type>
+                    <details>This component is the user profile information webpage.</details>
+                    <details_es>Este componente es el la página de información derl perfil de usuario</details_es>
+                </component>
+                <component>
+                    <name>sing_up.html</name>
+                    <type>HTML</type>
+                    <details>This component is the sign up webpage.</details>
+                    <details_es>Este componente es la página web de registro</details_es>
+                </component>
+                <component>
+                    <name>log_in.html</name>
+                    <type>HTML</type>
+                    <details>This component is the log in webpage.</details>
+                    <details_es>Este componente es la página web de inicio de sesión</details_es>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>admin/</name>
+            <type>Folder</type>
+            <details>This folder contains all the HTML corresponding to the admin pages of flashsports</details>
+            <details_es>Esta carpeta contiene todos los HTML correspondientes a las páginas de administrador de flashsports</details_es>
+            <contents>
+                <component>
+                    <name>dashboard.html</name>
+                    <type>HTML</type>
+                    <details>This is the admin dashboard webpage</details>
+                    <details_es>Esta es la página web del panel de administrador</details_es>
+                </component>
+                <component>
+                    <name>css/</name>
+                    <type>Folder</type>
+                    <details>This Folder contains the styles for the admin webpages</details>
+                    <details_es>Esta carpeta contiene los estilos para las páginas web de administrador</details_es>
+                    <contents>
+                        <component>
+                            <name>styles.css</name>
+                            <type>CSS</type>
+                            <details>This component contains all the styles and classes for the admin webpages</details>
+                            <details_es>Este componente contiene todos los estilos y clases para las páginas web de administrador</details_es>
+                        </component>
+                    </contents>
+                </component>
+                <component>
+                    <name>js/</name>
+                    <type>Folder</type>
+                    <details>This Folder contains the scripts for the admin webpages</details>
+                    <details_es>Esta carpeta contiene los scripts para las páginas web de administrador</details_es>
+                    <contents>
+                        <component status="empty">
+                            <name>main.js</name>
+                            <type>Script</type>
+                            <details>This component contains all the scripts for the admin webpages</details>
+                            <details_es>Este componente contiene todos los scripts para las páginas web de administrador</details_es>
+                        </component>
+                    </contents>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>Boceto_pagina.pdf</name>
+            <type>PDF</type>
+            <details>This component contains the initial design sketch for the webpage.</details>
+            <details_es>Este componente contiene el boceto de diseño inicial para la página web</details_es>
+        </component>
+    </components>
+</project>
+<!-- assesment test & mocks -->
+<project status="incomplete" id="m_as_t_m2" category="Responsive Web Design" category_es="Diseño Web Responsivo">
+    <project_name>Mock assesment test</project_name> <!-- Add: clear disclaimer states it’s for educational purposes and not affiliated with the original. -->
+    <project_name_es>Simulacro prueba de desempeño</project_name_es>
+    <description>This project is a mock assesment test for front end development, using html and css, focusing on copying responsive and design from Alkosto Hiperahorro webpage</description>
+    <description_es>Este proyecto es un simulacro de prueba de desempeño para desarrollo front end, usando html y css, enfocándose en copiar el diseño de la página Alkosto Hiperahorro</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/s_p_d_m2.png</image>
+        <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2_responsive.png</image> <!-- Future image -->
+    </images>
+    <version>0.0</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2/</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+    </techs>
+    <date format="dd/mm/yyyy">16/12/2025</date>
+    <components>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+<project status="incomplete" id="m_as_t_2_m2" category="Responsive Web Design" category_es="Diseño Web Responsivo">
+    <project_name>Mock assesment test 2</project_name>
+    <project_name_es>Simulacro prueba de desempeño 2</project_name_es>
+    <description>This project is a mock assesment for riwi module 2 assesment test, creating a simple webpage responsive design with HTML and CSS</description>
+    <description_es>Este proyecto es un simulacro de proyecto para el módulo 3, creando una simple aplicación de notas usando javascript, html y css</description_es>
+    <images>
+        <image type="thumbnail">/media/images/screenshots/module_2/s_p_d_m2-2.png</image>
+        <!-- <image type="screenshot">/media/images/screenshots/module_2/s_p_d_m2-2-responsive.png</image> --> <!-- Future Image -->
+    </images>
+    <version>0.2</version>
+    <author type="person">Santiago Sánchez Ruiz</author>
+    <url type="code-link">https://github.com/SrLampi1001/simulacro_prueba_desempeno_m2-2</url>
+    <techs>
+        <tech type="code-editor">Visual Studio Code</tech>
+        <tech type="application">Figma</tech>
+    </techs>
+    <date format="dd/mm/yyyy">17/12/2025</date>
+    <components>
+        <component>
+            <name>index.html</name>
+            <type>HTML</type>
+            <details>This component is the main webpage of the project.</details>
+            <details_es>Este componente es la página web principal del proyecto</details_es>
+        </component>
+        <component>
+            <name>styles/styles.css</name>
+            <type>CSS</type>
+            <details>This component contains all the styles and classes for the html webpage.</details>
+            <details_es>Este componente contiene todos los estilos y clases para la página web html</details_es>
+        </component>
+        <component>
+            <name>media/images/</name>
+            <type>Folder</type>
+            <details>This folder contains all the images used in the html webpage.</details>
+            <details_es>Esta carpeta contiene todas las imagenes usadas en la página web html</details_es>
+            <contents>
+                <component type="collection">
+                    <name type="Image">Design.png</name>
+                    <name type="Image">Ellipse 61.svg</name>
+                    <name type="Image">Group 109.png</name>
+                    <name type="Image">Play.png</name>
+                    <name type="Image">Union.svg</name>
+                    <name type="Image">Unsplash.svg</name>
+                    <name type="Image">activity 1.png</name>
+                    <name type="Image">bold-success.svg</name>
+                    <name type="Image">card1-img.png</name>
+                    <name type="Image">card2-img.png</name>
+                    <name type="Image">card3-img.png</name>
+                    <name type="Image">command 1.png</name>
+                    <name type="Image">credit-card.png</name>
+                    <name type="Image">five-stars.png</name>
+                    <name type="Image">four-stars.png</name>
+                    <name type="Image">grammarly.svg</name>
+                    <name type="Image">guy.png</name>
+                    <name type="Image">intercom.svg</name>
+                    <name type="Image">notion.svg</name>
+                    <name type="Image">pc.png</name>
+                    <name type="Image">pie-chart 1.png</name>
+                    <name type="Image">profile-photo.png</name>
+                    <name type="Image">succes.svg</name>
+                </component>
+            </contents>
+        </component>
+        <component>
+            <name>README.md</name>
+            <type>Markdown</type>
+            <details>This component contains instructions and information about the project.</details>
+            <details_es>Este componente contiene instrucciones e información acerca del proyecto</details_es>
+        </component>
+    </components>
+</project>
+</module_2>

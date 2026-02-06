@@ -42,23 +42,14 @@ Currently, there are only 2 modules done. This README and index.html will be upd
     - A webpage focused on imitating the normal Dashboard,landingpage and galery from a standar webpage (In progress)
 - Kepler 22-B:
     - A webpage focused on employing the basics of HTML and CSS, along with creativity, to create a Lore webpage from the history of an imaginary world inside the planet Kepler 22-B.  
-# Changes and Updates  
-## Next Changes:  
-- The styles.css, mediaquery.css and vars.css are to be changed and/or deleted. A new styling will be implemented, following a set styling method
-- An Admin dashboard will be created
-- The page will receive responsive with JS
-- New subpages for mascotas.html and index.html are expected to be created
-- Create a footer
-- Create a Logo
-- add videos into the page
-- Create JS basic funtions, create Jsclasses for JS use only
-## Working Changes
-- JS modularization
-- JS DOM modification functions
-    - More Content charge
-        - Scalar content charging -> two to three, three to four, etc (create bottom for hidding back)
-    - Diferent content switch
-    - Language change
-    - Dark/Light mode
-- styles.min.css creation
-## Update Changelog
+## Module 3:
+- User history 1:
+    - 
+- User history 2:
+    - 
+- User history 3:
+    - 
+- cars-crud:
+    - 
+- CrudVentory:
+    - 

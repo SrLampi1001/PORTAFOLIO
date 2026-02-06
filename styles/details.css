@@ -1,0 +1,91 @@
+:root {
+    --glitch-pink: #ff6bdf;
+    --glitch-blue: #5e5ce6;
+    --glitch-purple: #bf5af2;
+    --glitch-bg: #ffffff;
+}
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--glitch-bg);
+    color: #000;
+}
+/* Estilo de la imagen principal */
+.main-project-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #eee;
+}
+/* Miniaturas tipo shopping */
+.thumb-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+}
+.thumb-img:hover, .thumb-img.active {
+    border-color: var(--glitch-pink);
+    opacity: 0.8;
+}
+/* Tipografía y detalles */
+h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: -0.03em;
+    margin-bottom: 1rem;
+}
+.project-category {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--glitch-blue);
+    font-size: 0.8rem;
+}
+.author-badge {
+    background-color: #f0f0f0;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+/* Sección de Organización (Estructura de Carpetas) */
+.org-section {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px dashed #ccc;
+}
+.file-tree {
+    list-style: none;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.file-tree li::before {
+    content: "└─ ";
+    color: var(--glitch-purple);
+}
+/* Botones estilo Glitch */
+.btn-glitch {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 12px 30px;
+    border: none;
+    transition: 0.3s;
+}
+.btn-glitch:hover {
+    background-color: var(--glitch-purple);
+    color: white;
+    transform: translateY(-2px);
+}
+.w-2rem{
+    width: 2rem;
+}
+[data-structure]{
+    cursor: pointer;
+}
