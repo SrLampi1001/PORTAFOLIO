@@ -83,3 +83,9 @@ h1 {
     color: white;
     transform: translateY(-2px);
 }
+.w-2rem{
+    width: 2rem;
+}
+[data-structure]{
+    cursor: pointer;
+}
