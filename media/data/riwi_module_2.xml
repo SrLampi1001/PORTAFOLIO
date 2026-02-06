@@ -378,7 +378,7 @@
     <images>
         <image type="thumbnail">/media/images/screenshots/module_2/kepler_22b.png</image>
     </images>
-    <version>BETA 1.0</version>
+    <version>1.0</version>
     <author type="person">Santiago Sánchez Ruiz</author>
     <author type="person">Juan Diego Mazo</author>
     <author type="person">Juliana Sofia Valencia</author>
@@ -390,52 +390,47 @@
     <date format="dd/mm/yyyy">5/02/2026</date>
     <components>
         <component>
-            <name>multimedia/</name>
+            <name>multi/</name>
             <type>Folder</type>
             <details>This folder contains all the folders with their respective type of multimedia, including images, videos and audios</details>
             <details_es>Esta carpeta contiene todas las carpetas con sus respectivos tipos de contenido multimedia, incluyendo imagenes, videos y audios</details_es>
             <contents>
                 <component>
-                    <name>audios/</name>
-                    <type>Folder</type>
-                    <details>This folder contains all the mp3 and audio type of archives</details>
-                    <details_es>Esta carpeta contiene todos los mp3 y tipos de archivo de audio</details_es>
-                    <contents>
-                        <component>
-                            <name>underwater_ambience.mp3</name>
-                            <type>Audio</type>
-                            <details>This component is an underwater ambience souds audio, used for testing</details>
-                            <details_es>Este componente es un audio de sonido ambiental en agua, usado para tests</details_es>
-                        </component>
-                    </contents>
-                </component>
-                <component>
-                    <name>images/</name>
+                    <name>img/</name>
                     <type>Folder</type>
                     <details>This folder contains all images used in the html archives</details>
                     <details_es>Esta carpeta contiene todas las imagenes usadas en los archivos html</details_es>
                     <contents>
                         <component type="collection">
-                            <name type="Image">kepler_22b.jpg</name>
-                            <name type="Image">1.jpg</name>
-                            <name type="Image">ChatGPT Image 4 dic 2025.jpg</name>
-                            <name type="Image">16_28_23.png</name>
-                            <name type="Image">img-example.jpg</name>
-                            <name type="Image">kepler.jpg</name>
-                            <name type="Image">kepler_22b.jpg</name>
+                            <name type="Image">2.png</name>
+                            <name type="Image">logo-kepler.jpg</name>
+                            <name type="Image">reinoluz-auror.jpg</name>
+                            <name type="Image">reinoluz-cultura.jpg</name>
+                            <name type="Image">reinoluz-fotovores.jpg</name>
+                            <name type="Image">reinoluz-lumin.jpg</name>
+                            <name type="Image">reinoluz.jpg</name>
+                            <name type="Image">reinomedio-cultura.jpg</name>
+                            <name type="Image">reinomedio-equinox.jpg</name>
+                            <name type="Image">reinomedio-llimbofagos.jpg</name>
+                            <name type="Image">reinomedio-twilight.jpg</name>
+                            <name type="Image">reinomedio.png</name>
+                            <name type="Image">reinooscuro-cultura.png</name>
+                            <name type="Image">reinooscuro-ecosombras.png</name>
+                            <name type="Image">reinooscuro-geotermos.png</name>
+                            <name type="Image">reinooscuro.png</name>
+                            <name type="Image">reinooscuro-susurro.png</name>
                         </component>
                     </contents>
                 </component>
                 <component>
-                    <name>videos/</name>
+                    <name>video/</name>
                     <type>Folder</type>
                     <details>This folder contains all the videos used in the html archives</details>
                     <details_es>Esta carpeta contiene todos los videos usados en los archivos html</details_es>
                     <contents>
                         <component type="collection">
-                            <name type="Video">215697_small.mp4</name>
-                            <name type="Video">kepler_rotating.webm</name>
-                            <name type="Video">vxxdy-tcyx8.mp4</name>
+                            <name type="Video">fondo.mp4</name>
+                            <name type="Video">intro.mp4</name>
                         </component>
                     </contents>
                 </component>
@@ -448,62 +443,36 @@
             <details_es>Esta carpeta contiene los archivos de estilos css para todos los archivos html</details_es>
             <contents>
                 <component>
-                    <name>authors.css</name>
+                    <name>styles.css</name>
                     <type>CSS</type>
-                    <details>This component handles the styles and classes specially made for the authors.html archive</details>
-                    <details_es>Este componente maneja los estilos y clases especialmente hechas para el archivo authors.html</details_es>
-                </component>
-                <component>
-                    <name>courts.css</name>
-                    <type>CSS</type>
-                    <details>This component handles all the styles and classes specially made for the court html archives, like limbo-court.html</details>
-                    <details_es>Este componente maneja todos los estilos y clases hechas especialmente para los html de las cortes, como limbo-court.html</details_es>
-                </component>
-                <component>
-                    <name>index.css</name>
-                    <type>CSS</type>
-                    <details>This component handles all the styles and classes especially made for the index.html</details>
-                    <details_es>Este componenete maneja todos los estilos y clases hechas especialmente para el index.html</details_es>
+                    <details>This component handles the styles and classes specially made for all the html files</details>
+                    <details_es>Este componente maneja los estilos y clases especialmente hechas para todos los archivos html</details_es>
                 </component>
             </contents>
         </component>
         <component>
-            <name>subpages/</name>
+            <name>index/</name>
             <type>Folder</type>
             <details>This folder contains all the html archives other than index.html</details>
             <details_es>Esta carpeta contiene todos los archivos html aparte del index.html</details_es>
             <contents>
                 <component>
-                    <name>lore-fragments/</name>
-                    <type>Folder</type>
-                    <details>This folder is meant to contain all the html elements with information regarding lore fragments from kepler</details>
-                    <details_es>Esta carpeta esta hecha para contener todos los elementos con información acerca de fragmentos de lore de kepler</details_es>
-                    <contents>
-                        <component>
-                            <name>authors.html</name>
-                            <type>HTML</type>
-                            <details>This component is a page dedicated to the lore in the form of authors excerpts</details>
-                            <details_es>Este componente es una pagina dedicada al lore en la forma de extractos de autores</details_es>
-                        </component>
-                    </contents>
+                    <name>cresendo.html</name>
+                    <type>HTML</type>
+                    <details>This component contains all the relevant information from the cresendo zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona cresendo en kepler</details_es>
                 </component>
                 <component>
-                    <name>limbo-court.html</name>
+                    <name>dartumbria.html</name>
                     <type>HTML</type>
-                    <details>This component contains all the relevant information from the limbo court in kepler</details>
-                    <details_es>Este componente contiene toda la información relevante de la corte del limbo en kepler</details_es>
+                    <details>This component contains all the relevant information from the dark zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona oscura en kepler</details_es>
                 </component>
                 <component>
-                    <name>shadow-court.html</name>
+                    <name>sinteryum.html</name>
                     <type>HTML</type>
-                    <details>This component contains all the relevant information from the shadow court in kepler</details>
-                    <details_es>Este componente contiene toda la información relevante de la corte de la sombra en kepler</details_es>
-                </component>
-                <component>
-                    <name>solar-court.html</name>
-                    <type>HTML</type>
-                    <details>This component contains all the relvant informaton from the solar court in kepler</details>
-                    <details_es>Este componente contiene toda la información relevante de la corte solar en kepler</details_es>
+                    <details>This component contains all the relevant information from the iluminated zone in kepler</details>
+                    <details_es>Este componente contiene toda la información relevante de la zona iluminada en kepler</details_es>
                 </component>
             </contents>
         </component>
