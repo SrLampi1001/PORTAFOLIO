@@ -1,4 +1,4 @@
-import XMLconverter from "../../models/XMLconverter.js";
+import XMLconverter from "../../js/models/XMLconverter.js";
 const params = new URLSearchParams(window.location.search)
 const id = params.has('id') ? params.get('id') : null //gets the project id
 const xml = params.has('xml') ? params.get('xml') : "not-found.xml" //gets the xml archive from the project
