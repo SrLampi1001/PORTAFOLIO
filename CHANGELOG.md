@@ -9,13 +9,18 @@ and this project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-### Added
+### To add
 - Admin dashboard
 - Responsive with JS
 - New subpages for mascotas.html and index.html
 - Footer
 - Logo
 - Videos
+- Feature: xml to json 
+    - indexer.js
+    - organize by cateogories
+    - searchbar based on MongoDB queries
+    - use Regex for partial matches (pyton -> python)
 
 ### Changed
 - The styles.css, mediaquery.css and vars.css are to be changed and/or deleted. A new styling will be implemented, following a set styling method
