@@ -1,55 +1,48 @@
-# PORTFOLIO  
+---
 Author: Santiago Sánchez Ruiz
-## Description:  
-This is a summary of the projects present inside the index.html page.
-The projects correspond only to the ones being made in the Riwi company, they are separated by the module, being a total of 4 modules.
-Currently, there are only 2 modules done. This README and index.html will be updating as my progress in Riwi advances
-# proyects: 
-## Module 1:
-- User history 1:  
-    - A simple python program for storing a product, and making calcules
-- User history 2:
-    - A simple python program using while to define in memory various products and making simple calcules
-- User history 3:
-    - A simple python program, for storing in memory and csv archives products and making simple calcules
-- Python mini proyects: 
-    - 10 simple python projects focused on simple task, currently only 3 of the 10 are made (In progress)
-- Homework 1:
-    - 18 simple python exercises focused on the most basic python functionalities, like loops
-- Homework 2:
-    - A simple program for registration, update and deletion of products
-- Pandas mini project
-    - A simple python exercise with the Pandas library for storing information, made along with Nicolas (In progress)
-- Module 1 test simulacrum
-    - A simulacrum from the module 1 final test, focused on POO python for csv storing and manipulation, simulating a borrowing system (In progress)
-- Module 1 final test
-    - The final test for python, a program focused on python functions simluating a book buying system  
-
-## Module 2:
-- User history 1:
-    - A simple html and css web page, mascotas.html, along with this same porfolio
-- Homework 1:
-    - A HTML and css web page with the solar system information, using css animations
-- User histoy 2:
-    - An styles update to the PORTFOLIO
-- User history 3:
-    - JS included to PORTFOLIO, along with responsive and mediaquery styles for both PORTFOLIO and mascotas.html
-- Module 2 test:
-    - A responsive webpage, following a given design to imitate. 
-- Module 2 simulacrum test: 
-    - Two responsive webpages, Following a given design to imitate (In progress)
-- Flashsports:
-    - A webpage focused on imitating the normal Dashboard,landingpage and galery from a standar webpage (In progress)
-- Kepler 22-B:
-    - A webpage focused on employing the basics of HTML and CSS, along with creativity, to create a Lore webpage from the history of an imaginary world inside the planet Kepler 22-B.  
-## Module 3:
-- User history 1:
-    - 
-- User history 2:
-    - 
-- User history 3:
-    - 
-- cars-crud:
-    - 
-- CrudVentory:
-    - 
+---
+# PORTFOLIO  
+This project is my PORTFOLIO, where I share all my projects, specially the public ones, with a description and full on detail on the code and files.  
+This PORTFOLIO comes in complement with my [DOCUMENTATION page](https://srlampidocs.web.app/) where I share not the code practices, but the Instalation and utilities from the relevant projects.  
+## Tech
+This project doesn't have any backend currently.  
+- JavaScript
+- CSS (Bootstrap5)
+- HTML
+## Project Structure
+```
+PORTAFOLIO/
+├─ js/
+│  ├─ models/
+│  │  └─ XMLconverter.js
+│  └─ main.js
+│
+├─ media/
+│  ├─ data/                 #.xml or .json files for data (the projects)
+│  │
+│  └─ images/
+│     ├─ icons/
+│     ├─ ilustrations/
+│     └─ screenshots/
+│
+├─ styles/                  # Styles
+│
+├─ subpages/                #Contains all pages but main
+│  ├─ js/                   #Script unique for each .html
+│  │  ├─ details.js
+│  │  ├─ mascotasMain.js
+│  │  ├─ module_1.js
+│  │  ├─ module_2.js
+│  │  └─ module_3.js
+│  │
+│  ├─ details.html
+│  ├─ mascotas.html
+│  ├─ module_1.html
+│  ├─ module_2.html
+│  └─ module_3.html
+│
+├─ .gitignore
+├─ CHANGELOG.md
+├─ index.html
+└─ README.md
+```

@@ -1,4 +1,4 @@
-# 📄 Changelog
+# 📄 Change log
 
 All notable changes to this project will be documented in this file.
 
@@ -18,7 +18,7 @@ and this project follows [Semantic Versioning](https://semver.org/).
 - Videos
 - Feature: xml to json 
     - indexer.js
-    - organize by cateogories
+    - organize by categories
     - searchbar based on MongoDB queries
     - use Regex for partial matches (pyton -> python)
 
@@ -26,8 +26,8 @@ and this project follows [Semantic Versioning](https://semver.org/).
 - The styles.css, mediaquery.css and vars.css are to be changed and/or deleted. A new styling will be implemented, following a set styling method
 - JS DOM modification functions
     - More Content charge
-        - Scalar content charging -> two to three, three to four, etc (create bottom for hidding back)
-    - Diferent content switch
+        - Scalar content charging → two to three, three to four, etc. (create bottom for hiding back)
+    - Different content switch
     - Language change
     - Dark/Light mode
 - styles.min.css creation
@@ -45,7 +45,7 @@ and this project follows [Semantic Versioning](https://semver.org/).
     - Now mascotas.html exists within subpages
 
 ### Fixed
-- Readme including CHANGELOG.md
+- README including CHANGELOG.md
 
 ---
 
