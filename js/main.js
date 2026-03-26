@@ -1,25 +1,55 @@
-const body = document.querySelector("body");
-const maxThree = body.querySelectorAll(".max-three-elements"); /* Get all elements with 3 max elements for display */
-const maxFour = body.querySelectorAll(".max-four-elements");
+const DATA_PATH = './media/data/projects.json';
 
-function ShowHiddenContent(max_elements, classToAdapt, element){
-    const showMoreButton = document.createElement("button"); showMoreButton.classList.add("btn-calm"); showMoreButton.textContent = "Ver Más";
-    element.insertBefore(showMoreButton, element.children[max_elements]) /* The 3 element will be a function parameter */
-    showMoreButton.addEventListener("click", (e)=>{
-        e.target.parentElement.classList.toggle(classToAdapt); /* The class to be changed will be other function parameter */
-        if (e.target.textContent == "Ocultar"){
-            e.target.parentElement.insertBefore(e.target, e.target.parentElement.children[max_elements])
-            e.target.textContent = "Ver Más";
-        } else{
-            e.target.parentElement.append(e.target);
-            e.target.textContent = "Ocultar";
-        }
+let projectIndex = null;
+let currentLang = 'en';
+
+async function initPortfolio() {
+    try {
+        const projects = await GetterService.getProjects(DATA_PATH);
+        projectIndex = IndexerService.buildIndex(projects);
+        renderProjects(projects);
+        initSearch();
+    } catch (error) {
+        console.error('Failed to initialize portfolio:', error);
+        showErrorMessage();
     }
-)
 }
-for (const element of maxThree) {
-    ShowHiddenContent(3, "max-three-elements", element)
+
+function renderProjects(projects, lang = currentLang) {
+    const container = document.querySelector('#projects-container');
+    if (!container) return;
+    
+    if (projects.length === 0) {
+        container.innerHTML = '<p class="text-muted">No projects found.</p>';
+        return;
+    }
+    
+    CardController.renderCards(projects, '#projects-container', lang);
 }
-for (const elem of maxFour) {
-    ShowHiddenContent(4, "max-four-elements", elem)
+
+function initSearch() {
+    const searchInput = document.querySelector('#search-input');
+    if (!searchInput) return;
+    
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value;
+        const results = SearchService.search(projectIndex.all, query, currentLang);
+        renderProjects(results);
+    });
 }
+
+function showErrorMessage() {
+    const container = document.querySelector('#projects-container');
+    if (container) {
+        container.innerHTML = '<p class="text-danger">Failed to load projects. Please try again later.</p>';
+    }
+}
+
+function changeLanguage(lang) {
+    currentLang = lang;
+    if (projectIndex) {
+        renderProjects(projectIndex.all);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initPortfolio);

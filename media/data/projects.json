@@ -1,0 +1,63 @@
+[
+  {
+    "id": "us-1",
+    "status": "complete",
+    "category": "CLI Application",
+    "category_es": "Aplicación ILC",
+    "project_name": "User story 1",
+    "project_name_es": "Historia de usuario 1",
+    "description": "This project is a simple Python program created to test the most basic conditional and loop knowledge, using user input.",
+    "description_es": "Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles y condicionales, usando user input.",
+    "thumbnail": "/media/images/screenshots/module_1/h_u_1_m1.png",
+    "version": "1.0",
+    "authors": ["Santiago Sánchez Ruiz"],
+    "code_url": "https://github.com/SrLampi1001/historia_usuario_1",
+    "techs": [
+      { "type": "code-editor", "name": "Terminal" },
+      { "type": "language", "name": "Python" },
+      { "type": "application", "name": "Draw.io" }
+    ],
+    "date": "14/11/2025",
+    "components": [
+      {
+        "name": "Inventory.py",
+        "type": "Script",
+        "details": "This component handles data processing.",
+        "details_es": "Este componente maneja el procesamiento de datos"
+      },
+      {
+        "name": "diagrama.png",
+        "type": "Image",
+        "details": "This component shows the basic work flow",
+        "details_es": "Este componente muestra el flujo de trabajo del programa"
+      }
+    ]
+  },
+  {
+    "id": "us-2",
+    "status": "complete",
+    "category": "CLI Application",
+    "category_es": "Aplicación ILC",
+    "project_name": "User story 2",
+    "project_name_es": "Historia de usuario 2",
+    "description": "This project is a simple Python program created to test the most basic conditional, functions and loop knowledge, using user input.",
+    "description_es": "Este proyecto es un simple programa de Python creado para testear el conocimiento más básico de bucles, funciones y condicionales, usando user input.",
+    "thumbnail": "/media/images/screenshots/module_1/h_u_2_m1.png",
+    "version": "1.0",
+    "authors": ["Santiago Sánchez Ruiz"],
+    "code_url": "https://github.com/SrLampi1001/historia_usuario_2",
+    "techs": [
+      { "type": "code-editor", "name": "Terminal" },
+      { "type": "language", "name": "Python" }
+    ],
+    "date": "14/11/2025",
+    "components": [
+      {
+        "name": "historia_usuario_2.py",
+        "type": "Script",
+        "details": "This component handles data processing.",
+        "details_es": "Este componente maneja el procesamiento de datos"
+      }
+    ]
+  }
+]
